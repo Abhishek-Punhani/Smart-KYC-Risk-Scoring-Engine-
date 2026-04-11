@@ -1,5 +1,5 @@
 <script>
-  import { onMount, onDestroy } from "svelte";
+  import { onMount, onDestroy, tick } from "svelte";
   import {
     getHealth, startRun, getRun, getDashboard, scoreCustomer
   } from "./lib/api.js";
@@ -60,6 +60,10 @@
         if (run?.status === "completed") {
           clearInterval(pollTimer);
           dash = await getDashboard(runId);
+          // Wait for Svelte to render {#if dash} canvases into the DOM,
+          // then wait for Chart.js CDN script to be available.
+          await tick();
+          await waitForChartJS();
           drawAllCharts();
         } else if (run?.status === "failed") {
           clearInterval(pollTimer);
@@ -67,6 +71,14 @@
         }
       } catch { clearInterval(pollTimer); }
     }, 2000);
+  }
+
+  // ── Wait for Chart.js CDN ─────────────────────────────────────
+  function waitForChartJS() {
+    return new Promise((resolve) => {
+      const check = () => (window.Chart ? resolve() : setTimeout(check, 80));
+      check();
+    });
   }
 
   // ── Chart rendering (Chart.js via CDN) ───────────────────────
@@ -192,11 +204,7 @@
     }, { ...baseOpts(null), indexAxis: "y" });
   }
 
-  // wait for Chart.js CDN to load before drawing
-  $: if (dash && typeof window !== "undefined") {
-    const wait = () => window.Chart ? drawAllCharts() : setTimeout(wait, 100);
-    wait();
-  }
+
 
   // ── Customer table ───────────────────────────────────────────
   $: customers = (dash?.customers || []).filter(c => {
