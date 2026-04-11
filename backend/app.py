@@ -18,6 +18,13 @@ def create_app() -> Flask:
 
     manager = JobManager(base_dir=runs_dir)
 
+    @app.after_request
+    def cors(response: Any) -> Any:
+        response.headers["Access-Control-Allow-Origin"] = "*"
+        response.headers["Access-Control-Allow-Headers"] = "Content-Type"
+        response.headers["Access-Control-Allow-Methods"] = "GET,POST,OPTIONS"
+        return response
+
     @app.get("/api/health")
     def health() -> Any:
         return jsonify({"status": "ok", "service": "kyc-backend"})
@@ -57,6 +64,23 @@ def create_app() -> Flask:
             return jsonify({"error": "Run not found"}), 404
         return jsonify(
             {"run_id": run_id, "status": run["status"], "summary": run.get("summary")}
+        )
+
+    @app.get("/api/runs/<run_id>/dashboard")
+    def get_dashboard(run_id: str) -> Any:
+        run = manager.get(run_id)
+        if run is None:
+            return jsonify({"error": "Run not found"}), 404
+        if run["status"] != "completed":
+            return jsonify({"error": "Run not completed yet", "status": run["status"]}), 202
+        run_dir = Path(run["run_dir"])
+        dashboard_file = run_dir / "dashboard.json"
+        if not dashboard_file.exists():
+            return jsonify({"error": "Dashboard data not found"}), 404
+        return app.response_class(
+            response=dashboard_file.read_text(),
+            status=200,
+            mimetype="application/json",
         )
 
     @app.get("/api/runs/<run_id>/artifacts")

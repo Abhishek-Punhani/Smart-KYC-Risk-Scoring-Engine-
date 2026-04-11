@@ -898,6 +898,117 @@ def run_pipeline(
         out_path=dashboard_png,
     )
 
+    # ── Feature importance (SHAP-safe for all model types) ───
+    import shap as _shap
+    import json as _json
+    from sklearn.metrics import confusion_matrix as _sklearn_cm
+
+    fi_scores: list[float]
+    try:
+        if hasattr(best_model, "feature_importances_"):
+            _explainer = _shap.TreeExplainer(best_model)
+            _sv = _explainer.shap_values(X_scaled)
+            _shap_high = _sv[high_idx] if isinstance(_sv, list) else _sv
+            fi_scores = np.abs(_shap_high).mean(axis=0).tolist()
+        elif hasattr(best_model, "coef_"):
+            _c = np.abs(best_model.coef_)
+            fi_scores = (_c.mean(axis=0) if _c.ndim > 1 else np.ravel(_c)).tolist()
+        elif hasattr(best_model, "coefs_"):
+            fi_scores = np.abs(best_model.coefs_[0]).mean(axis=1).tolist()
+        else:
+            fi_scores = [0.0] * len(ML_FEATURES)
+    except Exception:
+        fi_scores = (
+            best_model.feature_importances_.tolist()
+            if hasattr(best_model, "feature_importances_")
+            else [0.0] * len(ML_FEATURES)
+        )
+
+    feature_importance = sorted(
+        [{"feature": f, "importance": round(float(v), 6)} for f, v in zip(ML_FEATURES, fi_scores)],
+        key=lambda x: x["importance"],
+        reverse=True,
+    )
+
+    # ── Threshold curve ───────────────────────────────────────
+    threshold_curve: list[dict] = []
+    if hasattr(best_model, "predict_proba"):
+        _pt = best_model.predict_proba(X_test)
+        for _t in np.arange(0.05, 0.91, 0.02):
+            _yp = _apply_high_threshold(_pt, float(_t), high_idx)
+            threshold_curve.append({
+                "threshold": round(float(_t), 2),
+                "recall": round(float(recall_score(y_test, _yp, labels=[high_idx], average="macro", zero_division=0)), 4),
+                "precision": round(float(precision_score(y_test, _yp, labels=[high_idx], average="macro", zero_division=0)), 4),
+            })
+
+    # ── Filters by tier ───────────────────────────────────────
+    _filter_cols = ["F1_list_match", "F2_behaviour", "F3_suspicious", "F4_aml_noise", "F5_identity"]
+    filter_scores_by_tier: dict[str, list] = {}
+    for _tier in ["LOW", "MEDIUM", "HIGH"]:
+        _mask = df["risk_tier_final"] == _tier
+        filter_scores_by_tier[_tier] = [round(float(v), 2) for v in df[_mask][_filter_cols].mean().tolist()]
+
+    # ── Score histogram ───────────────────────────────────────
+    _bins = list(range(0, 105, 5))
+    score_histogram: dict[str, list] = {}
+    for _tier in ["LOW", "MEDIUM", "HIGH"]:
+        _counts, _ = np.histogram(df[df["risk_tier_final"] == _tier]["risk_score"], bins=_bins)
+        score_histogram[_tier] = [{"x": _bins[i], "count": int(_counts[i])} for i in range(len(_counts))]
+
+    # ── Occupation avg risk ───────────────────────────────────
+    _occ = df.groupby("occupation")["risk_score"].mean().sort_values(ascending=True)
+    occupation_risk = [{"occupation": str(k), "avg_risk": round(float(v), 2)} for k, v in _occ.items()]
+
+    # ── Confusion matrix ──────────────────────────────────────
+    _cm_arr = _sklearn_cm(y_test, y_pred_test_final).tolist()
+
+    # ── Customer records (first 300, all needed cols) ────────
+    _cust_cols = [c for c in ["customer_id", "risk_tier", "risk_score", "decision", "top_risk_factors",
+                               "sanctions_flag", "pep_flag", "fraud_history_flag", "adverse_media_flag",
+                               "structuring_flag", "country_risk", "document_status"] if c in output_df.columns]
+    customers = output_df[_cust_cols].head(300).to_dict(orient="records")
+
+    # ── Build + save dashboard.json ───────────────────────────
+    dashboard_data = {
+        "kpis": {
+            "total": int(len(df)),
+            "approve": int((df["decision"] == "APPROVE").sum()),
+            "manual_review": int((df["decision"] == "MANUAL_REVIEW").sum()),
+            "edd": int((df["decision"] == "EDD").sum()),
+            "reject": int((df["decision"] == "REJECT").sum()),
+            "sanctions_hits": int(df["sanctions_flag"].sum()),
+            "pep_customers": int(df["pep_flag"].sum()),
+            "structuring_alerts": int(df["structuring_flag"].sum()),
+            "best_model": best_model_name,
+            "threshold": float(best_thresh),
+            "roc_auc": float(roc_auc) if not np.isnan(roc_auc) else None,
+            "cv_f1_macro": round(float(cv_results[best_model_name]["f1_mean"]), 4),
+        },
+        "tier_distribution": df["risk_tier_final"].value_counts().to_dict(),
+        "decision_distribution": df["decision"].value_counts().to_dict(),
+        "score_histogram": score_histogram,
+        "model_comparison": [
+            {
+                "name": n,
+                "f1_mean": round(cv_results[n]["f1_mean"], 4),
+                "f1_std": round(cv_results[n]["f1_std"], 4),
+                "recall_mean": round(cv_results[n]["recall_mean"], 4),
+                "is_best": n == best_model_name,
+            }
+            for n in cv_results
+        ],
+        "filter_scores": filter_scores_by_tier,
+        "filter_labels": ["F1 Watchlist", "F2 Behaviour", "F3 Suspicious", "F4 AML Noise", "F5 Identity"],
+        "feature_importance": feature_importance,
+        "threshold_curve": threshold_curve,
+        "selected_threshold": float(best_thresh),
+        "occupation_risk": occupation_risk,
+        "confusion_matrix": {"labels": list(le.classes_), "matrix": _cm_arr},
+        "customers": customers,
+    }
+    (out_dir / "dashboard.json").write_text(_json.dumps(dashboard_data, allow_nan=False))
+
     return {
         "dataset_rows": int(len(df)),
         "best_model": best_model_name,
@@ -941,8 +1052,10 @@ def run_pipeline(
             "output_csv": output_csv.name,
             "validation_csv": validation_csv.name,
             "dashboard_png": dashboard_png.name,
+            "dashboard_json": "dashboard.json",
         },
     }
+
 
 
 def score_single_customer(payload: dict[str, Any]) -> dict[str, Any]:

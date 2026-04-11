@@ -1,36 +1,26 @@
-export async function getHealth() {
-  const res = await fetch("/api/health");
-  if (!res.ok) throw new Error("Health check failed");
+const BASE = "/api";
+
+async function _get(url) {
+  const res = await fetch(BASE + url);
+  if (!res.ok) throw new Error((await res.json().catch(() => ({}))).error || `HTTP ${res.status}`);
   return res.json();
 }
 
-export async function startRun(config = {}) {
-  const res = await fetch("/api/runs", {
+async function _post(url, body) {
+  const res = await fetch(BASE + url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ config }),
+    body: JSON.stringify(body),
   });
-  if (!res.ok) {
-    const err = await res.json().catch(() => ({}));
-    throw new Error(err.error || "Failed to start run");
-  }
+  if (!res.ok) throw new Error((await res.json().catch(() => ({}))).error || `HTTP ${res.status}`);
   return res.json();
 }
 
-export async function getRun(runId) {
-  const res = await fetch(`/api/runs/${runId}`);
-  if (!res.ok) throw new Error("Failed to fetch run");
-  return res.json();
-}
-
-export async function getRunSummary(runId) {
-  const res = await fetch(`/api/runs/${runId}/summary`);
-  if (!res.ok) throw new Error("Failed to fetch summary");
-  return res.json();
-}
-
-export async function getArtifacts(runId) {
-  const res = await fetch(`/api/runs/${runId}/artifacts`);
-  if (!res.ok) throw new Error("Failed to fetch artifacts");
-  return res.json();
-}
+export const getHealth = () => _get("/health");
+export const listRuns = () => _get("/runs");
+export const getRun = (id) => _get(`/runs/${id}`);
+export const getRunSummary = (id) => _get(`/runs/${id}/summary`);
+export const getArtifacts = (id) => _get(`/runs/${id}/artifacts`);
+export const getDashboard = (id) => _get(`/runs/${id}/dashboard`);
+export const startRun = (config = {}) => _post("/runs", { config });
+export const scoreCustomer = (payload) => _post("/score", payload);
