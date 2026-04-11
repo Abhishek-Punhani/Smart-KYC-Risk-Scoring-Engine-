@@ -1,0 +1,1001 @@
+customer_id,age,country_risk,occupation,annual_income,account_type,document_status,address_verified,pep_flag,sanctions_flag,adverse_media_flag,customer_tenure_years,digital_risk_score,fraud_history_flag,monthly_txn_count
+C5000,45,High,Salaried,2687167,Current,Complete,Yes,No,No,No,1,31,1,442
+C5001,62,Low,Self Employed,3572495,Corporate,Complete,Yes,No,No,No,9,22,0,401
+C5002,46,High,Salaried,4553633,Savings,Partial,Yes,No,No,No,0,47,0,270
+C5003,23,High,Business,2982877,Savings,Partial,No,No,No,No,3,41,0,267
+C5004,59,Medium,Salaried,1719924,Current,Complete,No,No,No,No,15,72,0,289
+C5005,60,Low,Salaried,2086942,Savings,Partial,Yes,No,No,No,4,49,0,50
+C5006,19,Low,Self Employed,4406314,Savings,Complete,Yes,No,No,No,1,66,1,69
+C5007,56,Medium,Business,4737841,Current,Complete,Yes,No,No,No,13,74,1,457
+C5008,59,Medium,Self Employed,3120656,NRI,Complete,No,No,No,No,14,26,1,378
+C5009,70,Low,Self Employed,1360026,Current,Partial,Yes,No,No,No,2,65,1,324
+C5010,52,High,Salaried,3469376,Savings,Partial,Yes,Yes,No,No,15,10,0,209
+C5011,56,High,Salaried,940641,Savings,Complete,Yes,No,No,No,8,62,0,217
+C5012,65,Low,Self Employed,1449684,Current,Complete,Yes,No,No,No,6,75,0,35
+C5013,75,Medium,Salaried,3289353,Corporate,Complete,No,No,No,No,15,29,1,241
+C5014,60,Medium,Salaried,811725,Savings,Complete,Yes,No,No,No,3,80,1,247
+C5015,61,High,Student,3275205,Savings,Partial,Yes,No,No,No,13,63,1,482
+C5016,25,High,Self Employed,4119004,Current,Partial,Yes,No,No,No,8,5,0,444
+C5017,24,Low,Cash Business,862439,Savings,Complete,Yes,No,No,No,12,92,0,427
+C5018,65,Medium,Salaried,4267015,Savings,Complete,Yes,No,No,No,5,15,0,443
+C5019,69,High,Self Employed,938287,NRI,Missing,Yes,Yes,No,No,2,61,0,190
+C5020,52,Medium,Salaried,3553504,Current,Partial,Yes,No,Yes,No,10,79,0,315
+C5021,42,Medium,Salaried,4719459,Savings,Complete,No,No,No,No,4,28,1,250
+C5022,55,High,Salaried,2844080,Savings,Complete,Yes,No,No,No,8,68,0,483
+C5023,33,High,Business,2061614,Corporate,Complete,Yes,No,No,No,12,93,1,209
+C5024,64,Low,Self Employed,1523877,Savings,Complete,No,No,No,No,4,95,0,238
+C5025,54,Low,Business,806502,Savings,Complete,Yes,No,No,No,6,64,1,14
+C5026,46,High,Cash Business,4152971,Current,Complete,Yes,No,No,No,4,34,0,25
+C5027,20,Low,Self Employed,627364,Current,Complete,Yes,No,No,No,6,22,0,120
+C5028,23,Low,Cash Business,343884,Savings,Complete,Yes,No,No,No,3,70,1,189
+C5029,49,Medium,Self Employed,1049674,Savings,Missing,No,No,No,No,0,40,1,254
+C5030,33,Low,Cash Business,2997179,Savings,Complete,Yes,No,No,No,11,25,0,289
+C5031,33,Low,Business,2522647,NRI,Complete,Yes,No,No,No,3,26,1,466
+C5032,54,High,Cash Business,255505,Current,Missing,Yes,No,No,No,8,67,0,181
+C5033,52,Low,Salaried,4225114,Current,Partial,Yes,No,No,No,8,70,1,116
+C5034,75,Medium,Self Employed,2695275,Savings,Complete,Yes,No,Yes,No,2,0,1,124
+C5035,70,Low,Student,4686782,Corporate,Complete,Yes,No,No,No,3,51,0,288
+C5036,24,Low,Student,2186392,Savings,Missing,Yes,No,No,No,12,22,0,389
+C5037,35,Medium,Salaried,1930266,Savings,Complete,Yes,No,No,No,5,17,0,423
+C5038,69,Low,Salaried,2972512,Savings,Partial,Yes,Yes,No,No,13,51,1,126
+C5039,43,Medium,Self Employed,718158,Savings,Partial,Yes,No,No,No,15,14,0,498
+C5040,62,Medium,Salaried,2648912,NRI,Complete,Yes,No,No,No,7,57,1,422
+C5041,72,Medium,Self Employed,1250552,Savings,Complete,Yes,No,No,No,11,26,1,490
+C5042,44,Low,Salaried,3960905,Savings,Missing,No,No,No,No,5,15,1,14
+C5043,66,High,Salaried,2895407,Corporate,Complete,Yes,No,No,No,5,85,1,462
+C5044,52,High,Student,4228512,Savings,Complete,Yes,Yes,No,No,0,76,1,287
+C5045,39,Medium,Business,4357721,Current,Complete,Yes,No,Yes,No,5,5,0,480
+C5046,37,Low,Business,3247704,NRI,Partial,No,No,No,No,2,63,0,365
+C5047,52,High,Self Employed,366281,Savings,Complete,Yes,No,No,No,6,18,0,416
+C5048,62,Low,Business,3082957,NRI,Complete,No,No,Yes,No,11,70,1,83
+C5049,64,Low,Business,2323049,Savings,Complete,Yes,No,No,No,11,90,0,48
+C5050,65,Low,Self Employed,250370,Current,Complete,Yes,No,No,No,2,65,0,126
+C5051,28,High,Student,2198265,Savings,Partial,No,No,No,No,7,28,0,441
+C5052,71,Medium,Business,3935784,Savings,Complete,Yes,No,No,No,1,49,0,397
+C5053,26,Medium,Salaried,966402,NRI,Partial,Yes,No,No,No,6,50,1,219
+C5054,41,Low,Cash Business,3995815,Current,Partial,No,No,No,Yes,11,1,1,449
+C5055,53,High,Salaried,3113264,Current,Complete,Yes,No,No,No,1,50,0,246
+C5056,36,Low,Salaried,4081514,Corporate,Partial,Yes,No,No,No,11,87,1,213
+C5057,45,Low,Salaried,2124400,Savings,Partial,Yes,No,No,No,3,74,1,329
+C5058,45,Low,Business,2139433,Current,Complete,Yes,No,No,No,4,55,1,50
+C5059,36,Medium,Cash Business,1837311,Savings,Complete,Yes,No,No,No,3,94,1,129
+C5060,65,High,Student,1102407,Savings,Partial,Yes,No,No,No,13,91,1,42
+C5061,23,High,Student,3385264,Savings,Partial,Yes,No,No,No,15,99,1,91
+C5062,62,Medium,Salaried,2892735,NRI,Partial,Yes,No,No,No,14,70,0,2
+C5063,63,Low,Self Employed,1880459,Savings,Complete,Yes,No,No,Yes,10,65,0,141
+C5064,65,Medium,Student,2854775,Current,Complete,No,No,No,No,5,91,0,359
+C5065,59,Low,Business,2135795,Savings,Complete,Yes,No,No,No,1,83,0,373
+C5066,25,Low,Cash Business,3755750,Corporate,Complete,Yes,No,No,Yes,6,3,1,291
+C5067,48,Medium,Business,1134627,Corporate,Missing,Yes,No,No,No,9,88,0,473
+C5068,71,Low,Self Employed,4589927,Savings,Complete,Yes,No,No,No,4,21,0,304
+C5069,69,Medium,Self Employed,3570556,Savings,Complete,Yes,No,No,No,8,0,1,311
+C5070,47,Medium,Student,1340845,Current,Complete,Yes,No,No,No,6,28,1,310
+C5071,35,Low,Student,533379,NRI,Complete,No,No,No,No,7,31,1,177
+C5072,25,Low,Cash Business,859495,Savings,Complete,Yes,No,No,No,0,9,1,368
+C5073,46,Medium,Business,2230137,Current,Complete,Yes,No,No,No,12,84,0,222
+C5074,59,Medium,Salaried,1381060,Current,Complete,Yes,No,No,No,13,65,1,61
+C5075,45,Low,Cash Business,2415762,Savings,Complete,No,No,No,No,13,54,0,367
+C5076,37,Low,Cash Business,316379,Savings,Partial,Yes,No,No,No,11,61,0,494
+C5077,54,Low,Salaried,259071,NRI,Complete,Yes,Yes,No,No,15,7,0,347
+C5078,25,Low,Self Employed,601938,Corporate,Complete,No,Yes,No,No,11,93,0,443
+C5079,29,High,Self Employed,2483430,Savings,Complete,Yes,No,No,No,7,14,0,245
+C5080,63,High,Student,4381128,Current,Complete,Yes,No,No,No,11,17,1,210
+C5081,75,High,Business,4442063,Savings,Complete,Yes,No,No,No,6,77,1,401
+C5082,69,Medium,Cash Business,2449838,Savings,Complete,Yes,No,No,No,5,29,1,283
+C5083,61,High,Business,222351,Current,Complete,Yes,No,No,No,4,21,0,118
+C5084,40,Low,Salaried,2031580,Savings,Complete,No,No,No,No,15,26,0,9
+C5085,40,Low,Business,755017,Corporate,Missing,Yes,No,No,No,2,99,0,316
+C5086,20,High,Cash Business,2825743,Corporate,Complete,Yes,No,No,No,0,68,1,426
+C5087,28,Low,Student,4470136,Current,Partial,Yes,No,No,No,13,14,0,348
+C5088,70,High,Business,1383709,Current,Partial,Yes,No,No,Yes,5,32,0,240
+C5089,65,High,Self Employed,1839257,Savings,Missing,No,No,No,No,0,1,1,335
+C5090,47,High,Student,1362794,Savings,Complete,No,No,No,No,1,62,1,386
+C5091,33,High,Business,2863434,Savings,Complete,Yes,No,No,No,12,91,0,324
+C5092,26,Medium,Student,3678166,Savings,Missing,Yes,No,No,Yes,7,96,0,494
+C5093,42,Low,Salaried,1220533,NRI,Complete,Yes,Yes,No,No,4,61,0,309
+C5094,47,High,Self Employed,3726990,NRI,Complete,No,No,No,No,5,24,0,353
+C5095,31,Low,Salaried,4387704,Corporate,Partial,Yes,No,No,No,5,7,0,232
+C5096,48,High,Salaried,4981117,Savings,Missing,No,No,No,No,14,85,1,393
+C5097,18,High,Salaried,4345778,Savings,Complete,Yes,No,No,No,15,98,1,366
+C5098,63,Low,Salaried,3779117,Current,Complete,Yes,No,No,Yes,13,54,1,255
+C5099,54,Medium,Cash Business,2790593,Corporate,Complete,Yes,No,No,No,3,8,1,29
+C5100,18,High,Self Employed,3555862,Savings,Partial,No,No,No,No,2,84,0,253
+C5101,25,Medium,Self Employed,4322427,Savings,Complete,Yes,Yes,No,No,1,39,1,140
+C5102,50,Medium,Salaried,4355760,NRI,Complete,Yes,No,No,No,12,54,1,314
+C5103,19,Low,Business,3461169,Corporate,Partial,Yes,No,No,No,11,52,1,315
+C5104,50,High,Cash Business,3332111,Savings,Partial,Yes,No,No,No,7,65,0,304
+C5105,20,High,Salaried,2508794,Savings,Complete,No,No,No,No,13,98,1,234
+C5106,50,Medium,Business,593128,NRI,Complete,Yes,No,No,No,10,21,0,20
+C5107,38,High,Business,869064,NRI,Complete,Yes,No,No,No,2,4,1,438
+C5108,70,Medium,Salaried,4327384,Corporate,Complete,Yes,No,No,No,2,49,1,39
+C5109,47,Low,Student,1824261,Savings,Complete,Yes,No,No,No,13,49,1,282
+C5110,52,High,Self Employed,3177221,Savings,Complete,Yes,No,No,No,7,14,0,415
+C5111,30,Medium,Self Employed,1886990,Savings,Partial,Yes,No,No,No,6,97,0,123
+C5112,59,Low,Self Employed,2161295,Current,Complete,Yes,No,No,No,15,88,0,320
+C5113,74,Medium,Salaried,504999,Savings,Complete,No,No,No,No,5,7,1,34
+C5114,25,Medium,Student,4316880,Corporate,Partial,Yes,No,No,No,15,21,1,199
+C5115,70,Low,Salaried,1413815,Current,Complete,Yes,No,No,No,9,79,1,223
+C5116,66,High,Business,1492818,Current,Complete,Yes,No,No,No,14,56,0,495
+C5117,37,Medium,Business,2275061,Corporate,Complete,No,No,No,Yes,14,31,0,277
+C5118,41,High,Business,3134748,Savings,Complete,No,No,No,No,14,2,0,62
+C5119,30,High,Salaried,4039040,Savings,Partial,Yes,No,No,No,5,76,0,339
+C5120,34,High,Cash Business,4015759,Savings,Complete,Yes,No,No,No,15,46,0,309
+C5121,30,Medium,Self Employed,3653716,Savings,Complete,No,No,No,No,7,11,0,258
+C5122,23,Low,Self Employed,1580194,Corporate,Partial,No,No,No,No,10,55,1,386
+C5123,68,Medium,Student,2302380,Savings,Complete,Yes,No,No,No,8,81,0,451
+C5124,55,High,Salaried,448578,Current,Complete,Yes,No,No,No,12,49,0,93
+C5125,57,High,Business,1260991,Savings,Missing,Yes,No,No,No,2,56,1,91
+C5126,67,Medium,Salaried,3422036,Savings,Complete,Yes,No,No,No,15,91,1,443
+C5127,69,Low,Self Employed,366952,Corporate,Partial,Yes,No,No,No,2,81,1,243
+C5128,69,Low,Self Employed,3674386,NRI,Complete,No,No,No,No,9,26,0,239
+C5129,50,Medium,Self Employed,3122762,Savings,Complete,Yes,No,No,No,2,14,1,145
+C5130,65,Low,Cash Business,1903581,Savings,Partial,Yes,Yes,No,No,5,4,1,444
+C5131,41,Medium,Self Employed,1111297,Savings,Complete,Yes,No,No,No,3,52,1,120
+C5132,34,Low,Business,3794550,Savings,Complete,No,No,No,No,5,22,0,32
+C5133,57,Low,Business,2161397,Savings,Complete,Yes,No,No,No,5,95,0,243
+C5134,61,Low,Cash Business,4489987,Savings,Complete,Yes,No,No,No,9,36,0,493
+C5135,35,Low,Salaried,3484873,Savings,Complete,Yes,No,No,No,11,34,1,60
+C5136,42,Low,Salaried,4289718,Savings,Complete,Yes,No,No,No,5,53,1,378
+C5137,62,Low,Student,4913673,Savings,Partial,No,No,No,No,7,24,1,67
+C5138,31,High,Salaried,1570912,Savings,Complete,Yes,No,No,No,7,51,0,276
+C5139,20,Low,Business,2494389,Savings,Complete,Yes,No,No,No,13,91,0,28
+C5140,75,Low,Self Employed,3612083,Current,Complete,Yes,Yes,No,No,8,96,1,70
+C5141,65,Low,Salaried,4765144,Current,Missing,Yes,No,No,No,1,16,0,422
+C5142,62,High,Student,3347022,Savings,Complete,Yes,No,No,No,2,98,1,379
+C5143,19,High,Student,2219658,Savings,Complete,Yes,No,No,No,9,38,0,46
+C5144,50,Low,Salaried,3756375,Current,Complete,Yes,No,Yes,No,13,73,1,82
+C5145,34,Low,Business,3422395,Corporate,Partial,Yes,No,No,No,10,16,0,463
+C5146,43,Low,Student,1929482,Savings,Complete,Yes,No,No,No,14,40,0,421
+C5147,25,Medium,Business,1338510,Current,Complete,Yes,No,No,No,4,56,1,454
+C5148,61,Low,Self Employed,1333868,Savings,Partial,Yes,No,No,No,2,58,1,220
+C5149,47,Low,Cash Business,4207714,Current,Complete,No,No,No,Yes,0,32,0,162
+C5150,51,Low,Salaried,4991936,Savings,Complete,No,No,No,No,6,62,0,12
+C5151,68,Medium,Student,2325507,NRI,Complete,Yes,Yes,No,No,1,12,1,300
+C5152,32,Low,Salaried,354202,Savings,Complete,Yes,No,No,No,12,9,0,80
+C5153,46,Low,Business,4488786,Corporate,Complete,No,No,No,No,5,94,0,63
+C5154,24,High,Student,4450470,NRI,Complete,Yes,No,No,Yes,2,36,0,461
+C5155,52,Low,Student,1252782,Savings,Complete,Yes,Yes,No,No,2,1,0,378
+C5156,36,Low,Salaried,1555651,Savings,Complete,Yes,No,No,No,11,100,1,268
+C5157,19,Medium,Student,2246942,Current,Partial,Yes,No,No,No,3,33,0,141
+C5158,52,Medium,Student,881015,Savings,Missing,Yes,No,No,No,7,0,1,66
+C5159,54,High,Cash Business,1426324,Current,Complete,Yes,No,No,No,2,11,0,110
+C5160,37,Medium,Self Employed,1393613,Corporate,Complete,Yes,No,No,No,13,13,0,24
+C5161,72,Medium,Business,2408289,Savings,Partial,Yes,No,No,No,6,88,1,91
+C5162,52,Low,Business,2950227,Corporate,Complete,Yes,No,No,No,4,14,0,343
+C5163,57,High,Business,1705984,Savings,Complete,No,No,No,No,1,0,1,78
+C5164,20,Medium,Cash Business,4088110,Savings,Complete,Yes,No,No,No,5,77,0,227
+C5165,24,Low,Student,1834253,Savings,Partial,Yes,No,No,No,5,30,0,40
+C5166,48,Medium,Cash Business,2914114,NRI,Complete,Yes,No,No,No,15,88,1,63
+C5167,65,Low,Salaried,206351,Current,Complete,Yes,No,No,Yes,11,34,1,46
+C5168,61,Medium,Student,2596330,Current,Complete,Yes,No,No,No,0,85,1,114
+C5169,55,Low,Self Employed,2958793,Savings,Complete,No,No,No,No,12,68,1,303
+C5170,72,High,Business,691846,Corporate,Complete,Yes,No,No,No,14,50,0,278
+C5171,27,Low,Salaried,1453271,Current,Partial,Yes,No,No,No,5,12,0,117
+C5172,45,Low,Salaried,3297803,Corporate,Complete,Yes,No,No,No,8,97,1,217
+C5173,25,Low,Salaried,4773073,Corporate,Partial,Yes,No,No,No,7,76,0,370
+C5174,36,Low,Self Employed,4495480,Current,Partial,Yes,No,No,No,7,2,0,496
+C5175,49,Medium,Self Employed,974963,Savings,Complete,No,No,No,No,3,71,0,151
+C5176,36,Medium,Business,2092044,Savings,Complete,Yes,No,No,No,12,37,1,483
+C5177,44,Low,Salaried,2271775,Savings,Complete,Yes,No,No,No,0,77,0,31
+C5178,22,Medium,Salaried,4886687,Savings,Complete,No,No,No,No,0,45,0,287
+C5179,23,Low,Salaried,4751964,Current,Complete,Yes,No,No,No,12,80,1,135
+C5180,75,Medium,Salaried,4983227,Savings,Partial,Yes,No,No,No,10,4,1,53
+C5181,67,High,Cash Business,2006215,Savings,Complete,Yes,No,No,No,14,22,0,312
+C5182,60,Medium,Business,1812555,Savings,Complete,Yes,No,No,No,5,41,0,160
+C5183,50,High,Cash Business,858840,Corporate,Complete,Yes,No,No,No,13,56,0,99
+C5184,44,Low,Student,4508102,Current,Complete,Yes,No,No,No,3,76,1,371
+C5185,49,Medium,Business,536628,Current,Partial,Yes,No,No,No,11,45,1,271
+C5186,23,Low,Student,3590891,Savings,Complete,Yes,No,No,No,13,25,1,40
+C5187,19,High,Self Employed,433771,Corporate,Complete,Yes,No,No,No,13,14,1,84
+C5188,57,Medium,Self Employed,3701400,Savings,Partial,Yes,No,No,No,3,27,1,47
+C5189,49,Medium,Business,4662450,Savings,Complete,Yes,No,No,No,5,17,0,442
+C5190,26,Medium,Salaried,1248146,Corporate,Complete,Yes,No,No,No,5,12,1,64
+C5191,73,Low,Student,4225748,Corporate,Complete,Yes,No,No,Yes,1,94,0,351
+C5192,71,Low,Self Employed,4449715,Savings,Complete,Yes,Yes,No,No,2,41,0,161
+C5193,55,Medium,Self Employed,3503862,Savings,Partial,Yes,No,No,No,10,48,0,312
+C5194,68,Low,Student,4456097,Corporate,Partial,Yes,No,No,No,2,46,1,101
+C5195,18,Medium,Student,3026232,Savings,Complete,Yes,No,No,Yes,13,58,1,374
+C5196,63,Medium,Salaried,3485843,Current,Complete,No,No,No,No,9,35,0,456
+C5197,33,Low,Salaried,3875742,Savings,Partial,Yes,No,No,No,7,56,0,154
+C5198,50,Medium,Salaried,2280360,Current,Complete,Yes,No,No,No,7,72,0,74
+C5199,62,Low,Salaried,4075536,Corporate,Complete,Yes,No,No,No,10,97,1,129
+C5200,23,Low,Self Employed,3721793,NRI,Complete,Yes,No,No,No,9,27,1,69
+C5201,37,Low,Self Employed,3955674,Current,Complete,Yes,No,No,No,10,58,0,386
+C5202,57,Medium,Salaried,1026874,Savings,Complete,No,No,No,No,7,45,0,419
+C5203,57,High,Business,4731638,Savings,Complete,No,No,Yes,No,3,4,1,139
+C5204,51,High,Business,4701498,Savings,Complete,Yes,No,No,No,7,51,1,381
+C5205,24,Medium,Self Employed,1447976,Corporate,Partial,Yes,No,No,Yes,3,38,0,450
+C5206,31,Medium,Salaried,422995,NRI,Complete,No,No,No,No,2,42,1,319
+C5207,35,Medium,Business,1682527,Current,Missing,No,No,No,Yes,8,14,1,179
+C5208,70,Low,Salaried,1785711,Current,Complete,Yes,No,No,Yes,8,85,1,30
+C5209,31,Low,Salaried,2335053,Savings,Complete,Yes,No,No,No,9,57,0,397
+C5210,74,Medium,Salaried,3184276,Corporate,Partial,Yes,No,No,No,14,29,1,446
+C5211,64,Medium,Self Employed,2785719,Current,Complete,Yes,No,Yes,No,15,59,0,312
+C5212,30,Medium,Salaried,1882487,Savings,Partial,Yes,No,No,No,6,83,0,292
+C5213,44,Medium,Student,2146139,Savings,Complete,Yes,No,No,No,1,7,0,197
+C5214,59,High,Salaried,3956505,Current,Partial,Yes,No,No,No,4,22,1,470
+C5215,18,High,Salaried,1963810,Savings,Complete,Yes,No,No,No,11,36,0,213
+C5216,56,High,Student,1915696,NRI,Complete,Yes,No,No,No,13,93,1,22
+C5217,74,Medium,Salaried,918440,Savings,Complete,Yes,No,No,No,11,98,0,296
+C5218,69,High,Cash Business,3072864,NRI,Missing,Yes,No,No,No,11,58,0,345
+C5219,58,Low,Cash Business,3090519,NRI,Complete,Yes,No,No,No,9,79,1,239
+C5220,27,Low,Self Employed,4061061,Current,Partial,Yes,No,No,No,1,48,0,494
+C5221,28,High,Salaried,2759123,Savings,Complete,Yes,No,Yes,No,4,18,1,435
+C5222,18,Medium,Salaried,2469986,NRI,Complete,Yes,No,No,No,4,96,1,317
+C5223,54,Medium,Cash Business,259832,Current,Missing,Yes,No,No,No,4,11,0,433
+C5224,36,High,Self Employed,4975962,NRI,Complete,Yes,No,No,No,10,34,0,191
+C5225,58,High,Cash Business,2618873,NRI,Complete,No,No,No,No,8,43,0,40
+C5226,73,Low,Cash Business,464608,Savings,Complete,Yes,No,No,No,8,12,1,238
+C5227,52,Medium,Salaried,489195,Savings,Complete,Yes,No,No,No,0,46,0,432
+C5228,34,Low,Student,3287846,Savings,Complete,Yes,No,No,No,8,40,1,40
+C5229,45,Low,Business,724341,Savings,Partial,Yes,No,No,Yes,11,49,0,320
+C5230,25,Low,Student,1820226,NRI,Complete,No,No,No,No,8,0,1,151
+C5231,63,High,Self Employed,947889,Savings,Complete,Yes,No,No,No,7,88,1,255
+C5232,62,Low,Student,1578923,Savings,Complete,Yes,No,No,No,2,54,0,42
+C5233,66,Low,Self Employed,2794951,Savings,Complete,No,No,No,No,5,26,1,110
+C5234,48,High,Business,746920,Current,Complete,Yes,No,No,No,6,81,1,374
+C5235,24,Low,Student,4683495,NRI,Partial,Yes,No,No,Yes,15,74,1,215
+C5236,34,Low,Salaried,2721147,Corporate,Complete,Yes,No,No,No,3,32,0,469
+C5237,74,Low,Self Employed,1694371,Current,Complete,Yes,No,No,No,12,72,1,154
+C5238,54,Medium,Salaried,4515799,Corporate,Complete,Yes,No,No,No,2,94,0,52
+C5239,36,Low,Salaried,796337,Current,Complete,Yes,No,No,No,13,63,0,362
+C5240,67,Low,Student,2492793,Corporate,Complete,Yes,No,No,No,15,29,0,184
+C5241,21,Low,Self Employed,3870178,Current,Partial,Yes,No,No,No,15,21,1,434
+C5242,58,High,Student,4545056,Current,Complete,Yes,No,No,No,15,84,0,439
+C5243,70,Medium,Cash Business,4049667,NRI,Complete,No,No,No,No,9,98,1,163
+C5244,31,Low,Salaried,702563,Current,Missing,Yes,No,No,No,2,30,1,333
+C5245,48,Low,Self Employed,510777,Current,Complete,Yes,No,No,No,12,85,0,296
+C5246,69,Low,Business,4439781,Savings,Complete,Yes,No,No,No,4,27,1,292
+C5247,71,High,Business,2463185,Savings,Partial,No,No,No,No,3,0,1,459
+C5248,36,Low,Business,859469,Savings,Complete,Yes,No,No,No,5,55,1,450
+C5249,70,Medium,Business,547418,Current,Complete,No,No,No,No,13,46,1,341
+C5250,26,Medium,Business,2223408,Savings,Complete,Yes,No,No,No,14,8,0,59
+C5251,33,Low,Salaried,4739879,Savings,Complete,Yes,No,No,No,11,12,1,329
+C5252,52,Low,Student,4757033,Current,Complete,Yes,No,No,No,4,30,1,383
+C5253,71,Medium,Business,2216310,Current,Missing,Yes,No,No,No,12,33,1,268
+C5254,19,Medium,Business,3744362,Corporate,Complete,Yes,No,No,No,3,6,1,27
+C5255,66,High,Self Employed,4405807,Current,Missing,No,No,No,No,12,99,0,216
+C5256,43,High,Salaried,3912095,Savings,Complete,Yes,No,No,No,6,20,1,344
+C5257,60,Medium,Business,3963080,Savings,Partial,No,Yes,No,No,13,15,0,349
+C5258,48,Medium,Salaried,1053574,Current,Complete,Yes,No,No,No,12,0,1,451
+C5259,36,Low,Salaried,3302336,Corporate,Complete,Yes,Yes,No,No,2,8,0,370
+C5260,69,Low,Salaried,1259616,Savings,Missing,No,No,No,No,15,17,0,171
+C5261,57,High,Student,3757432,Savings,Complete,No,No,No,No,3,70,0,124
+C5262,42,High,Business,4700342,Savings,Complete,Yes,No,No,No,1,58,1,185
+C5263,58,Low,Cash Business,3452381,Savings,Complete,Yes,No,No,No,11,2,0,212
+C5264,69,Low,Business,1167784,Savings,Complete,No,No,No,No,2,90,1,213
+C5265,32,Low,Salaried,4120300,Savings,Missing,Yes,No,No,No,15,42,1,447
+C5266,60,Medium,Business,2157940,Current,Complete,Yes,No,No,No,12,98,1,206
+C5267,58,Low,Salaried,2287993,Current,Complete,No,No,No,No,7,93,1,90
+C5268,64,Low,Salaried,811016,Savings,Complete,No,No,No,No,12,35,1,346
+C5269,65,Medium,Self Employed,602532,Savings,Partial,No,No,No,No,9,23,0,110
+C5270,30,Low,Self Employed,2968986,Savings,Complete,Yes,No,No,No,13,92,0,252
+C5271,39,Medium,Self Employed,572272,Savings,Complete,Yes,No,No,No,12,10,0,174
+C5272,27,Low,Business,1974997,Corporate,Missing,No,No,No,No,2,76,1,345
+C5273,26,Medium,Self Employed,2178294,Savings,Missing,Yes,No,No,No,9,35,1,465
+C5274,32,Low,Salaried,2631442,Savings,Partial,No,No,No,No,7,71,0,221
+C5275,19,Low,Self Employed,3000118,Savings,Complete,Yes,No,No,No,15,69,1,465
+C5276,73,Low,Salaried,2589050,Savings,Partial,Yes,No,No,No,8,84,1,139
+C5277,64,Low,Salaried,3622817,Savings,Partial,Yes,No,No,Yes,11,25,1,268
+C5278,72,Low,Business,3740918,Savings,Partial,Yes,No,No,No,2,92,0,205
+C5279,72,High,Business,2323059,Savings,Missing,Yes,No,No,No,0,92,0,384
+C5280,64,High,Self Employed,962313,Savings,Complete,No,No,No,No,9,23,1,86
+C5281,34,Low,Cash Business,3996919,Savings,Missing,Yes,No,No,No,0,87,1,484
+C5282,65,Low,Student,4385681,NRI,Complete,No,No,No,No,1,63,1,274
+C5283,49,Low,Salaried,3828916,Savings,Complete,No,No,No,No,14,39,1,232
+C5284,66,High,Business,3390432,Current,Complete,Yes,No,No,No,11,80,1,154
+C5285,32,Low,Cash Business,971327,Savings,Complete,Yes,No,No,No,3,34,0,274
+C5286,47,Low,Cash Business,4574808,Current,Complete,Yes,Yes,No,No,6,38,1,264
+C5287,49,Medium,Student,3511828,Savings,Partial,No,No,No,No,13,77,1,13
+C5288,66,Low,Self Employed,4838193,Current,Complete,Yes,No,No,No,1,73,1,465
+C5289,23,Low,Salaried,3955592,Savings,Complete,Yes,No,No,No,9,96,0,86
+C5290,59,Medium,Salaried,865883,Current,Complete,No,No,No,Yes,1,70,1,154
+C5291,66,High,Salaried,4650384,Current,Complete,Yes,No,Yes,No,3,42,1,440
+C5292,60,Low,Self Employed,1075794,Savings,Complete,Yes,No,No,No,9,19,1,455
+C5293,35,Medium,Self Employed,3506479,Savings,Complete,Yes,No,No,No,6,19,1,275
+C5294,75,Low,Salaried,879154,Current,Complete,No,No,No,No,4,6,0,216
+C5295,27,Low,Salaried,4164800,Savings,Complete,Yes,No,Yes,Yes,4,53,0,385
+C5296,57,Medium,Cash Business,1877631,Savings,Partial,Yes,No,No,No,6,18,0,331
+C5297,29,Low,Salaried,1504596,Savings,Missing,Yes,No,No,No,13,36,1,226
+C5298,60,High,Business,3507891,Corporate,Complete,Yes,No,No,No,1,57,0,38
+C5299,24,Low,Self Employed,3986811,Savings,Complete,Yes,No,No,No,2,1,0,98
+C5300,38,Low,Salaried,592546,Savings,Complete,Yes,No,No,No,2,71,0,52
+C5301,62,High,Cash Business,2056182,Current,Complete,Yes,No,No,No,15,52,0,369
+C5302,57,High,Self Employed,2345109,Current,Partial,No,No,No,No,9,73,1,244
+C5303,22,High,Business,1550954,Savings,Complete,Yes,Yes,Yes,Yes,11,81,0,500
+C5304,37,Medium,Salaried,258648,Savings,Missing,Yes,No,No,No,4,94,0,286
+C5305,66,Medium,Cash Business,2440676,Savings,Complete,Yes,No,No,No,14,97,0,368
+C5306,66,Low,Salaried,2714070,Current,Complete,Yes,No,No,No,3,96,0,436
+C5307,63,Low,Business,3689121,Savings,Complete,Yes,No,No,No,6,68,1,202
+C5308,52,Low,Self Employed,1572612,Savings,Complete,Yes,No,No,No,1,46,1,249
+C5309,68,Low,Self Employed,1847469,Savings,Complete,No,No,No,No,5,44,0,125
+C5310,56,Low,Cash Business,423427,Savings,Complete,Yes,No,No,Yes,4,45,1,324
+C5311,35,Low,Business,2935303,Savings,Complete,Yes,Yes,No,No,8,65,0,465
+C5312,18,Low,Cash Business,3613957,Current,Partial,No,No,No,No,13,67,0,469
+C5313,71,Low,Self Employed,1516642,Savings,Complete,Yes,No,No,No,12,23,0,70
+C5314,35,Medium,Salaried,2878970,Savings,Complete,No,No,No,No,4,18,1,45
+C5315,60,Medium,Salaried,636479,NRI,Complete,Yes,No,No,No,5,30,1,339
+C5316,32,Low,Salaried,1663785,Current,Complete,Yes,No,No,No,14,5,0,239
+C5317,34,Low,Business,978267,Savings,Partial,Yes,No,No,No,8,20,1,72
+C5318,27,Low,Salaried,4453922,Current,Complete,Yes,No,No,No,4,43,1,277
+C5319,63,Medium,Salaried,980421,Savings,Complete,Yes,No,No,No,10,7,0,274
+C5320,72,Low,Salaried,590900,Corporate,Complete,No,No,No,No,15,58,0,12
+C5321,47,High,Self Employed,3303695,Current,Complete,Yes,No,No,No,7,58,1,443
+C5322,69,Low,Self Employed,272219,Current,Partial,Yes,No,No,No,7,88,1,308
+C5323,55,Low,Student,4990618,Current,Complete,Yes,No,No,No,0,59,1,5
+C5324,55,Low,Self Employed,4585265,Savings,Complete,Yes,No,No,No,15,64,1,332
+C5325,71,High,Self Employed,4197560,Corporate,Partial,Yes,No,No,No,14,67,1,115
+C5326,68,Medium,Salaried,3962046,Current,Complete,Yes,No,No,No,15,93,1,45
+C5327,50,Medium,Self Employed,2399194,Current,Complete,Yes,Yes,No,No,0,35,1,464
+C5328,36,High,Salaried,3338083,Savings,Complete,Yes,No,No,No,12,62,0,137
+C5329,32,Low,Salaried,1808370,Corporate,Missing,Yes,No,No,Yes,0,59,1,386
+C5330,35,High,Salaried,3542387,Current,Complete,Yes,No,No,No,0,74,1,230
+C5331,33,Low,Student,285398,NRI,Complete,Yes,No,No,No,4,79,1,64
+C5332,60,High,Cash Business,3643121,Savings,Complete,No,No,No,No,4,79,0,465
+C5333,63,Medium,Cash Business,2913050,Current,Partial,No,Yes,No,No,7,84,0,438
+C5334,64,Low,Business,1064994,Savings,Partial,No,No,No,No,13,29,1,111
+C5335,68,Medium,Cash Business,1659490,Savings,Complete,Yes,No,No,No,9,27,0,435
+C5336,20,Low,Salaried,4557545,Corporate,Partial,Yes,No,No,No,2,90,0,208
+C5337,53,High,Student,1673967,Savings,Complete,No,No,No,Yes,0,53,0,229
+C5338,41,Low,Salaried,3130608,Savings,Complete,Yes,No,No,No,10,60,1,86
+C5339,50,High,Salaried,1514146,NRI,Complete,Yes,No,No,No,9,3,0,308
+C5340,72,High,Salaried,4059676,Savings,Complete,Yes,No,No,Yes,15,92,0,423
+C5341,74,Low,Salaried,1632184,Savings,Complete,Yes,No,No,Yes,4,63,1,361
+C5342,70,Low,Salaried,4269430,Corporate,Complete,Yes,No,No,No,15,30,0,137
+C5343,72,Low,Salaried,3099022,Savings,Complete,Yes,No,No,No,1,86,1,7
+C5344,49,Medium,Student,2858366,Savings,Complete,Yes,No,No,No,0,66,1,346
+C5345,51,Low,Cash Business,3531456,Savings,Partial,Yes,No,No,No,13,70,0,17
+C5346,26,Low,Self Employed,4003794,Savings,Complete,Yes,No,No,No,2,10,0,380
+C5347,28,Low,Salaried,698495,NRI,Partial,No,No,No,No,9,65,0,343
+C5348,36,Low,Business,4331503,Savings,Complete,Yes,No,No,No,10,65,0,33
+C5349,69,Low,Salaried,4871652,NRI,Complete,Yes,No,No,No,13,24,1,44
+C5350,41,Medium,Self Employed,3583781,Savings,Missing,No,No,No,No,1,22,0,318
+C5351,20,Low,Business,4710340,Savings,Missing,Yes,No,No,No,10,3,1,156
+C5352,47,Low,Business,4126045,Current,Missing,No,No,No,No,4,64,1,466
+C5353,20,Medium,Salaried,4772442,Corporate,Complete,Yes,No,No,No,2,35,1,358
+C5354,61,Low,Business,3644245,Savings,Complete,Yes,No,No,No,9,50,0,258
+C5355,63,Low,Salaried,2633379,Current,Complete,Yes,No,No,Yes,7,9,1,118
+C5356,67,Medium,Salaried,3923073,Current,Partial,Yes,No,No,No,14,53,1,201
+C5357,58,High,Salaried,4458913,Current,Complete,Yes,No,No,No,8,27,0,487
+C5358,60,Low,Salaried,238507,NRI,Complete,No,No,No,No,5,45,1,83
+C5359,59,Low,Salaried,2862658,Current,Complete,No,No,No,No,5,96,0,203
+C5360,55,Low,Self Employed,4456477,Savings,Missing,No,No,No,No,10,30,1,434
+C5361,66,Low,Salaried,1244562,Savings,Partial,Yes,No,No,No,6,65,0,59
+C5362,60,Low,Salaried,4419886,Savings,Partial,Yes,Yes,No,No,7,8,0,154
+C5363,57,Low,Self Employed,4722022,NRI,Complete,Yes,No,No,No,1,22,0,3
+C5364,45,Low,Student,2176155,Savings,Complete,Yes,No,No,No,2,85,0,35
+C5365,29,Medium,Business,1931725,Current,Complete,Yes,No,No,No,1,94,1,22
+C5366,61,High,Student,1654051,Corporate,Complete,Yes,No,No,No,11,88,1,431
+C5367,20,High,Self Employed,3056104,Corporate,Complete,Yes,No,No,No,11,30,0,165
+C5368,58,High,Student,3355621,Savings,Missing,No,No,No,No,0,46,1,304
+C5369,60,Medium,Cash Business,265308,Savings,Complete,Yes,No,No,No,2,20,0,231
+C5370,59,High,Self Employed,1403127,NRI,Partial,Yes,Yes,No,No,14,71,0,77
+C5371,42,Medium,Business,4220153,Current,Partial,No,No,No,No,1,87,1,433
+C5372,54,High,Student,1835942,Savings,Partial,Yes,No,No,No,8,17,0,379
+C5373,35,Low,Business,1667724,Savings,Partial,Yes,No,No,No,0,74,1,222
+C5374,69,Low,Self Employed,4913148,NRI,Partial,Yes,No,No,No,4,38,1,314
+C5375,59,Low,Salaried,1598748,Savings,Missing,Yes,No,No,No,7,36,1,23
+C5376,41,Low,Cash Business,1313750,Savings,Complete,No,No,No,Yes,5,9,1,77
+C5377,19,Low,Salaried,737340,NRI,Partial,Yes,Yes,No,No,15,85,1,385
+C5378,42,Low,Salaried,4026323,Current,Partial,Yes,No,No,No,15,39,1,383
+C5379,19,Low,Self Employed,518354,Savings,Complete,Yes,No,No,No,1,55,0,159
+C5380,33,Low,Business,3338555,Corporate,Partial,Yes,No,No,No,1,15,1,224
+C5381,35,Low,Business,2653109,Savings,Missing,No,No,No,No,11,87,0,299
+C5382,28,Medium,Salaried,1366337,Savings,Partial,Yes,No,No,No,7,57,1,409
+C5383,38,High,Cash Business,285852,NRI,Partial,Yes,Yes,No,No,9,86,1,94
+C5384,26,High,Business,2206209,Corporate,Complete,No,No,No,Yes,5,76,0,93
+C5385,33,High,Cash Business,3308355,Savings,Complete,No,No,No,No,14,50,1,130
+C5386,75,Low,Salaried,412337,Savings,Partial,Yes,No,No,No,9,64,1,50
+C5387,61,Medium,Business,3139047,Savings,Complete,Yes,No,No,No,11,33,0,264
+C5388,45,Low,Salaried,593981,Savings,Complete,Yes,No,No,No,7,43,1,497
+C5389,66,Low,Self Employed,3857851,Current,Complete,Yes,No,Yes,No,8,91,0,185
+C5390,72,Medium,Salaried,248139,Savings,Complete,Yes,No,No,No,13,48,1,382
+C5391,32,Medium,Self Employed,1410440,Current,Complete,No,No,No,No,6,31,1,475
+C5392,39,Medium,Self Employed,3937684,Current,Complete,Yes,Yes,No,No,4,20,1,301
+C5393,40,Low,Student,1915764,Savings,Partial,Yes,No,No,No,13,75,1,400
+C5394,21,Medium,Self Employed,2357519,Savings,Partial,Yes,No,No,No,4,88,1,189
+C5395,61,Medium,Business,4290998,Current,Complete,No,No,No,No,3,66,0,483
+C5396,62,Low,Cash Business,1889222,Savings,Complete,Yes,No,No,Yes,9,91,1,116
+C5397,51,Medium,Self Employed,4529036,NRI,Complete,No,No,No,No,11,16,0,312
+C5398,66,Low,Business,3313272,Corporate,Missing,Yes,No,No,No,0,100,1,54
+C5399,65,Low,Self Employed,4450458,Savings,Missing,Yes,No,No,No,13,5,1,105
+C5400,22,Low,Cash Business,340147,Savings,Complete,Yes,No,No,Yes,7,11,1,409
+C5401,19,Low,Business,2739212,Corporate,Partial,Yes,No,No,No,8,63,1,312
+C5402,19,Low,Cash Business,869470,Current,Complete,Yes,No,No,Yes,5,41,1,264
+C5403,42,Low,Salaried,4171156,Corporate,Complete,Yes,No,No,Yes,6,87,0,470
+C5404,64,Low,Business,2304141,NRI,Complete,Yes,No,No,No,2,47,1,171
+C5405,39,Low,Salaried,1346830,Savings,Complete,Yes,No,No,No,3,28,0,89
+C5406,60,Low,Salaried,612255,Savings,Complete,No,No,No,No,7,33,1,167
+C5407,33,Medium,Cash Business,2959054,Corporate,Partial,Yes,No,No,No,1,62,0,296
+C5408,53,Low,Business,1536584,Savings,Partial,Yes,No,No,No,12,98,1,468
+C5409,72,High,Cash Business,546880,Current,Complete,Yes,No,No,No,9,75,1,262
+C5410,61,Low,Business,386129,Savings,Partial,Yes,No,No,No,6,18,0,291
+C5411,40,Low,Self Employed,1712540,NRI,Partial,Yes,No,No,No,8,14,1,354
+C5412,65,Low,Self Employed,4947867,Savings,Complete,Yes,No,No,Yes,0,4,1,267
+C5413,68,High,Self Employed,1532502,Corporate,Complete,Yes,No,No,No,11,33,1,381
+C5414,27,High,Salaried,432750,Savings,Complete,Yes,Yes,Yes,No,11,32,1,175
+C5415,42,High,Self Employed,2898606,Savings,Complete,Yes,No,No,No,13,10,1,281
+C5416,67,Low,Salaried,1232439,NRI,Complete,Yes,No,No,No,7,34,1,201
+C5417,37,Low,Salaried,1143320,Savings,Complete,Yes,Yes,No,No,3,5,0,477
+C5418,20,Medium,Salaried,1032986,Corporate,Complete,No,No,No,No,5,33,1,346
+C5419,38,Low,Salaried,2567323,Current,Missing,Yes,No,No,Yes,10,74,0,401
+C5420,29,Medium,Business,468412,Savings,Partial,Yes,No,No,No,12,94,1,391
+C5421,60,Low,Self Employed,2703642,Savings,Complete,Yes,No,No,Yes,11,74,1,456
+C5422,59,Medium,Cash Business,527926,Savings,Complete,Yes,No,No,No,11,69,0,443
+C5423,33,Low,Student,3171617,Current,Complete,Yes,No,No,No,3,78,0,292
+C5424,24,Low,Salaried,2022429,NRI,Complete,Yes,No,No,Yes,13,40,1,123
+C5425,25,Medium,Salaried,1677740,Savings,Partial,Yes,No,No,No,4,80,1,265
+C5426,45,High,Salaried,1606440,Savings,Complete,No,No,No,No,5,15,1,163
+C5427,52,High,Cash Business,3024764,Corporate,Complete,Yes,No,No,No,11,58,1,90
+C5428,62,High,Business,459632,Current,Complete,Yes,No,No,No,13,99,1,5
+C5429,38,Low,Student,1746089,Current,Partial,Yes,No,No,No,15,93,1,343
+C5430,51,High,Salaried,4556049,Savings,Missing,Yes,No,No,Yes,5,6,0,440
+C5431,42,Low,Salaried,946889,NRI,Missing,Yes,No,No,No,15,24,0,435
+C5432,57,Low,Business,2107689,Current,Complete,Yes,No,No,No,4,96,1,158
+C5433,48,Low,Self Employed,4765706,Savings,Partial,Yes,No,No,No,11,80,1,367
+C5434,60,Low,Self Employed,442682,NRI,Partial,Yes,No,No,No,15,96,1,290
+C5435,69,Low,Business,993279,Current,Partial,No,No,No,No,9,96,0,268
+C5436,18,Low,Student,3811922,NRI,Partial,Yes,No,No,No,1,55,0,460
+C5437,23,Low,Self Employed,1753892,NRI,Partial,Yes,No,No,No,4,4,1,410
+C5438,23,Low,Student,4684350,Current,Complete,Yes,No,No,No,10,75,1,50
+C5439,67,Low,Student,2751337,Corporate,Partial,No,No,No,Yes,14,91,1,344
+C5440,55,Low,Salaried,4122413,NRI,Complete,Yes,No,No,No,10,99,0,228
+C5441,64,High,Salaried,1457493,Corporate,Complete,Yes,No,No,No,15,40,1,147
+C5442,59,Medium,Cash Business,997481,Corporate,Complete,Yes,No,No,No,15,13,1,36
+C5443,64,Low,Salaried,2898339,Corporate,Complete,No,No,No,No,3,76,1,378
+C5444,36,Medium,Student,4325443,NRI,Complete,Yes,No,No,No,11,39,0,20
+C5445,56,Low,Business,471600,Savings,Missing,Yes,Yes,No,No,0,99,0,4
+C5446,73,Medium,Student,4271736,Savings,Complete,Yes,No,No,No,15,61,0,308
+C5447,38,Low,Business,4584866,NRI,Partial,Yes,No,No,No,15,43,1,334
+C5448,64,Low,Student,2164225,Corporate,Complete,Yes,No,No,No,9,8,1,381
+C5449,72,Low,Cash Business,3648595,Savings,Complete,Yes,No,No,No,8,63,1,199
+C5450,19,Low,Salaried,4246947,Savings,Partial,Yes,No,No,No,0,17,0,216
+C5451,40,Medium,Cash Business,715904,Current,Complete,Yes,No,No,Yes,13,75,0,404
+C5452,63,High,Salaried,1275276,NRI,Partial,No,No,No,Yes,15,82,1,482
+C5453,54,Low,Salaried,3505901,Corporate,Complete,No,No,No,No,10,61,0,123
+C5454,69,High,Cash Business,2048480,NRI,Complete,Yes,Yes,No,No,2,87,0,499
+C5455,68,Low,Salaried,2256828,Current,Complete,Yes,No,No,No,6,50,0,140
+C5456,56,Medium,Cash Business,3283813,Savings,Complete,Yes,No,No,No,7,69,0,280
+C5457,71,Medium,Salaried,296985,Corporate,Partial,Yes,No,No,No,2,95,0,338
+C5458,20,High,Cash Business,2234704,Savings,Complete,No,No,No,No,7,88,0,9
+C5459,53,Low,Cash Business,2323648,Corporate,Complete,Yes,No,No,No,10,7,1,281
+C5460,68,Low,Business,2857292,Current,Complete,Yes,No,No,No,6,42,0,397
+C5461,32,Medium,Self Employed,1477598,Corporate,Complete,No,No,No,No,10,34,1,276
+C5462,36,Medium,Salaried,1479586,Current,Complete,Yes,No,No,No,15,68,0,73
+C5463,43,Medium,Salaried,3783346,Savings,Partial,Yes,Yes,No,Yes,15,45,1,332
+C5464,44,Low,Business,931078,Savings,Complete,No,No,No,No,14,18,1,265
+C5465,36,Low,Self Employed,2099301,Corporate,Partial,No,No,No,No,9,26,0,37
+C5466,45,Low,Salaried,3114528,Savings,Complete,Yes,No,No,No,5,50,0,105
+C5467,27,High,Salaried,3803155,Current,Complete,Yes,Yes,No,No,3,57,0,384
+C5468,57,Low,Student,2885301,Savings,Complete,Yes,No,No,No,15,13,1,279
+C5469,64,Low,Business,548839,Current,Complete,No,No,No,No,1,48,1,489
+C5470,23,Medium,Self Employed,360394,Savings,Partial,Yes,No,No,No,7,22,1,205
+C5471,40,Low,Salaried,1113000,Current,Complete,No,No,No,Yes,15,63,0,167
+C5472,57,Medium,Salaried,787013,Savings,Complete,Yes,No,No,No,8,5,0,39
+C5473,37,Medium,Business,766398,Savings,Complete,Yes,No,No,No,2,10,1,220
+C5474,24,Medium,Student,1836866,Savings,Complete,Yes,No,No,No,3,60,0,43
+C5475,55,Medium,Salaried,1766067,Savings,Partial,Yes,No,No,No,9,14,0,219
+C5476,19,Medium,Self Employed,1449974,Savings,Complete,Yes,No,No,No,0,97,1,365
+C5477,43,High,Salaried,822617,Corporate,Complete,No,Yes,No,No,3,87,1,47
+C5478,36,High,Salaried,4618066,Savings,Complete,No,No,No,No,9,33,0,338
+C5479,30,Medium,Cash Business,2043159,Savings,Complete,Yes,No,No,No,7,22,0,169
+C5480,39,Low,Business,337615,Corporate,Complete,Yes,No,No,No,6,90,1,284
+C5481,37,Low,Salaried,1860328,Current,Complete,No,No,No,No,3,52,1,72
+C5482,45,Low,Self Employed,3484911,NRI,Complete,Yes,Yes,No,No,11,19,1,436
+C5483,62,Low,Student,2319541,Current,Complete,No,No,No,No,6,14,0,152
+C5484,19,Low,Cash Business,571481,Corporate,Complete,No,No,No,No,14,60,0,386
+C5485,57,Low,Self Employed,4965056,Current,Complete,Yes,No,No,No,12,59,0,76
+C5486,58,Medium,Cash Business,1891810,Current,Complete,Yes,No,Yes,No,5,91,0,33
+C5487,41,Medium,Business,1662353,Corporate,Partial,Yes,No,No,No,1,7,0,353
+C5488,20,Low,Cash Business,3287067,Corporate,Partial,Yes,No,No,No,15,45,1,362
+C5489,20,Medium,Business,3473426,Savings,Complete,Yes,No,No,No,3,88,0,267
+C5490,28,Low,Salaried,4841737,NRI,Complete,No,No,No,No,9,90,1,5
+C5491,55,High,Salaried,3979677,Current,Missing,No,No,No,No,1,90,1,83
+C5492,59,Low,Business,4205248,Savings,Missing,Yes,No,No,Yes,13,40,0,377
+C5493,58,High,Salaried,1756955,Current,Partial,Yes,No,No,Yes,0,23,1,350
+C5494,71,Low,Business,1944095,Savings,Complete,No,No,No,No,9,27,0,23
+C5495,49,Low,Business,2200273,Savings,Complete,Yes,No,No,No,11,25,1,347
+C5496,49,Low,Student,1472197,Savings,Partial,No,No,No,No,3,48,1,178
+C5497,42,High,Student,910612,Savings,Partial,Yes,No,No,No,5,13,0,424
+C5498,64,Medium,Business,1475655,Corporate,Partial,Yes,No,No,No,0,71,0,25
+C5499,62,Low,Cash Business,3204965,Savings,Missing,Yes,No,Yes,No,9,21,0,390
+C5500,39,Medium,Self Employed,360515,Current,Complete,Yes,No,No,No,13,90,0,398
+C5501,51,Medium,Business,4373962,Current,Complete,Yes,No,No,No,5,85,0,145
+C5502,45,High,Cash Business,2553214,Savings,Complete,No,No,No,No,8,75,0,191
+C5503,62,Low,Salaried,4040011,Savings,Complete,Yes,No,No,No,7,76,1,162
+C5504,44,Low,Self Employed,874262,Savings,Complete,Yes,No,No,No,12,67,0,400
+C5505,56,Low,Self Employed,4575033,Current,Partial,Yes,No,No,No,6,25,0,122
+C5506,44,High,Student,1621789,Savings,Complete,No,No,No,Yes,8,22,0,38
+C5507,20,Low,Salaried,2763824,Corporate,Complete,Yes,No,No,No,8,81,0,250
+C5508,34,Low,Salaried,1403484,Savings,Complete,Yes,No,No,Yes,11,60,1,227
+C5509,47,Low,Salaried,3496310,Current,Complete,Yes,No,No,No,8,83,0,27
+C5510,49,Low,Self Employed,1152285,Current,Complete,Yes,No,No,No,2,81,0,480
+C5511,35,Low,Business,3424829,Current,Complete,Yes,No,No,Yes,10,25,1,183
+C5512,58,Low,Business,4478653,Savings,Complete,Yes,No,No,No,11,99,1,108
+C5513,56,Low,Salaried,2480654,NRI,Complete,Yes,No,No,No,12,32,1,188
+C5514,37,Low,Self Employed,3626805,Savings,Complete,Yes,No,No,No,13,68,0,386
+C5515,68,Low,Salaried,335287,Current,Complete,Yes,No,No,No,9,62,1,71
+C5516,32,Low,Student,1426958,Current,Complete,No,No,No,No,12,42,0,234
+C5517,63,High,Self Employed,1288781,Corporate,Missing,Yes,No,No,No,14,22,1,329
+C5518,28,Low,Business,2871652,Current,Complete,Yes,No,No,No,5,79,0,335
+C5519,71,Medium,Student,3115978,Savings,Partial,Yes,No,No,No,8,39,1,162
+C5520,61,Medium,Business,1449607,Corporate,Partial,Yes,No,No,No,11,62,0,147
+C5521,36,Medium,Self Employed,2822292,Savings,Complete,Yes,No,No,No,4,45,1,17
+C5522,58,Medium,Salaried,2222474,Current,Complete,No,No,No,No,7,96,0,334
+C5523,58,Medium,Salaried,234224,Savings,Complete,Yes,No,No,No,7,62,1,186
+C5524,61,High,Business,2712756,Savings,Complete,Yes,No,No,No,6,69,0,479
+C5525,75,Medium,Cash Business,1708299,Savings,Complete,Yes,No,No,No,7,24,0,266
+C5526,45,High,Salaried,2263456,Corporate,Complete,Yes,No,No,No,8,100,1,309
+C5527,62,Medium,Student,2942980,Corporate,Missing,No,No,No,No,8,79,0,370
+C5528,41,Medium,Cash Business,1253178,Savings,Complete,Yes,Yes,No,Yes,1,89,0,344
+C5529,37,Medium,Cash Business,2179613,NRI,Complete,Yes,No,No,No,9,6,0,356
+C5530,36,Low,Business,4554896,Corporate,Complete,Yes,No,No,No,6,37,1,361
+C5531,64,High,Business,1860706,Savings,Complete,Yes,No,No,Yes,1,58,1,28
+C5532,48,Low,Business,525016,NRI,Missing,Yes,Yes,No,No,2,0,0,205
+C5533,71,Medium,Cash Business,870486,Current,Complete,Yes,No,No,No,1,2,0,488
+C5534,40,Low,Cash Business,469280,Savings,Complete,Yes,No,No,No,14,61,1,236
+C5535,36,Low,Business,1812294,Current,Complete,Yes,No,No,No,3,95,1,374
+C5536,27,Low,Cash Business,3368613,Savings,Complete,No,No,No,Yes,3,47,1,182
+C5537,46,Low,Student,287296,Savings,Partial,Yes,No,No,No,11,77,0,200
+C5538,39,Low,Self Employed,331110,Savings,Complete,No,No,No,No,10,93,1,217
+C5539,58,High,Business,3768353,Current,Complete,No,No,No,No,12,71,1,437
+C5540,70,Low,Student,3762388,Current,Complete,Yes,No,No,No,3,33,1,439
+C5541,54,Low,Student,3932041,Savings,Missing,Yes,Yes,No,No,2,87,0,200
+C5542,68,Low,Cash Business,4514524,Savings,Complete,Yes,No,No,Yes,3,72,0,59
+C5543,57,Medium,Salaried,3026942,Savings,Complete,No,No,No,No,14,8,1,136
+C5544,57,Low,Salaried,2289113,Savings,Missing,Yes,No,No,No,8,28,1,149
+C5545,65,High,Self Employed,2643663,Savings,Complete,Yes,No,No,No,9,33,1,131
+C5546,73,Low,Self Employed,3472489,Current,Partial,Yes,No,No,No,10,27,1,226
+C5547,26,Medium,Student,2526317,Savings,Complete,Yes,No,No,No,0,73,1,154
+C5548,51,High,Salaried,3962032,Current,Complete,No,No,No,Yes,0,3,0,419
+C5549,70,High,Salaried,1451234,Savings,Complete,Yes,No,No,No,7,48,0,397
+C5550,65,Low,Salaried,2147882,Savings,Complete,Yes,No,No,No,12,40,0,398
+C5551,64,Low,Salaried,1010507,Savings,Complete,Yes,No,No,No,7,79,0,204
+C5552,31,Medium,Student,3264931,Savings,Partial,Yes,No,No,No,9,64,1,251
+C5553,65,Medium,Business,925945,NRI,Complete,Yes,No,No,No,0,9,0,238
+C5554,55,Medium,Cash Business,2436160,Savings,Complete,Yes,No,No,No,10,88,0,145
+C5555,67,Low,Business,3639261,Current,Partial,Yes,Yes,No,No,2,44,1,402
+C5556,65,Medium,Salaried,3296419,Current,Partial,Yes,No,No,No,0,5,0,214
+C5557,49,Low,Salaried,614423,Current,Complete,Yes,No,No,Yes,11,65,0,234
+C5558,18,Low,Salaried,2785798,Corporate,Complete,Yes,No,No,Yes,13,48,1,377
+C5559,26,Low,Student,1962504,Corporate,Complete,Yes,No,No,No,11,34,0,279
+C5560,39,Low,Salaried,3007467,Current,Complete,Yes,No,No,No,14,92,0,279
+C5561,62,High,Business,3305302,Current,Partial,Yes,No,No,Yes,7,76,1,434
+C5562,36,Low,Self Employed,3698307,Savings,Complete,No,Yes,No,No,3,68,0,129
+C5563,28,Medium,Self Employed,4382602,Current,Partial,No,No,No,No,13,8,1,472
+C5564,32,Low,Business,1922104,NRI,Complete,Yes,No,No,No,9,9,1,263
+C5565,48,Low,Self Employed,4467478,Savings,Complete,No,No,No,No,3,12,1,315
+C5566,29,Medium,Cash Business,1495733,Savings,Partial,Yes,No,No,No,6,78,1,244
+C5567,19,High,Business,1067827,Savings,Complete,Yes,No,No,No,15,19,0,91
+C5568,58,Low,Salaried,1593593,Corporate,Complete,Yes,No,No,No,2,1,0,50
+C5569,66,Low,Salaried,1731753,Corporate,Partial,Yes,No,No,No,0,27,1,342
+C5570,44,Medium,Business,3427146,Corporate,Complete,Yes,No,No,No,10,27,1,62
+C5571,47,High,Salaried,4376797,Savings,Complete,No,Yes,No,No,0,78,1,93
+C5572,28,High,Business,427271,Savings,Partial,Yes,No,No,No,0,57,1,439
+C5573,66,Low,Self Employed,1764917,Savings,Complete,No,No,No,No,12,17,1,196
+C5574,69,High,Cash Business,1880973,Savings,Complete,Yes,Yes,No,No,3,47,1,242
+C5575,75,Low,Self Employed,1387730,Savings,Partial,Yes,No,No,No,3,24,1,192
+C5576,43,High,Cash Business,3886292,Corporate,Complete,Yes,No,No,No,3,87,0,460
+C5577,73,Low,Cash Business,4518181,Savings,Complete,Yes,No,No,No,7,7,1,270
+C5578,68,Low,Business,1713394,Current,Complete,Yes,No,No,No,6,84,0,460
+C5579,74,High,Business,1040547,Savings,Partial,Yes,No,No,No,7,78,0,359
+C5580,44,High,Business,3432277,NRI,Complete,No,No,No,No,6,82,0,25
+C5581,63,Medium,Salaried,4842450,Savings,Complete,Yes,No,No,No,13,94,1,251
+C5582,41,Low,Student,4133287,Savings,Complete,Yes,No,No,No,8,39,0,20
+C5583,74,Low,Salaried,1217092,Savings,Complete,Yes,No,No,No,4,63,1,335
+C5584,33,Medium,Self Employed,1627527,Corporate,Missing,Yes,No,No,No,2,2,0,156
+C5585,73,Low,Salaried,2340486,Current,Partial,Yes,No,No,No,10,92,1,15
+C5586,19,High,Business,391439,Savings,Complete,No,No,No,No,10,88,1,82
+C5587,39,Medium,Self Employed,3498444,Current,Complete,Yes,No,No,No,13,77,1,320
+C5588,54,Low,Self Employed,4941669,Savings,Partial,Yes,No,No,Yes,13,25,0,470
+C5589,31,Medium,Self Employed,3125125,Current,Complete,Yes,No,No,No,7,56,1,54
+C5590,39,High,Salaried,4105131,Savings,Complete,Yes,No,No,No,9,61,1,139
+C5591,59,Low,Self Employed,793424,Savings,Complete,Yes,No,No,Yes,10,2,0,259
+C5592,69,High,Salaried,967219,Savings,Partial,Yes,No,No,No,9,9,1,64
+C5593,34,High,Business,1472802,Savings,Complete,No,No,No,No,14,40,1,228
+C5594,18,High,Salaried,4624819,Current,Complete,Yes,No,No,No,10,14,1,56
+C5595,52,Medium,Salaried,4570149,Current,Partial,Yes,No,No,No,13,19,1,87
+C5596,18,Low,Business,423949,Savings,Missing,Yes,No,No,No,4,50,1,135
+C5597,32,Medium,Self Employed,1314229,NRI,Complete,Yes,No,No,No,8,87,0,56
+C5598,54,Medium,Self Employed,4066247,Savings,Complete,Yes,No,No,No,2,99,1,329
+C5599,48,High,Self Employed,4602746,Current,Complete,Yes,No,No,No,8,82,0,382
+C5600,54,Low,Salaried,1395184,Savings,Partial,Yes,No,No,No,11,59,0,482
+C5601,21,Medium,Business,2642902,Savings,Complete,Yes,No,No,No,9,100,1,408
+C5602,40,Medium,Business,4809655,NRI,Complete,Yes,No,No,No,8,92,0,315
+C5603,37,High,Business,2858007,Savings,Partial,Yes,No,No,No,5,72,0,202
+C5604,21,Medium,Business,4816119,Savings,Complete,Yes,No,No,No,10,36,0,296
+C5605,48,Low,Business,1213323,Savings,Partial,Yes,No,No,No,12,66,1,324
+C5606,32,Low,Cash Business,4454493,Savings,Missing,Yes,No,No,No,15,66,0,209
+C5607,57,Low,Cash Business,4240645,Savings,Complete,No,No,No,No,4,39,1,72
+C5608,57,High,Salaried,2541737,Current,Complete,Yes,Yes,No,No,5,75,0,471
+C5609,31,Low,Business,2504286,Corporate,Complete,Yes,No,No,No,14,34,0,107
+C5610,56,Low,Cash Business,2131045,Corporate,Missing,No,No,No,No,8,0,1,283
+C5611,40,Low,Salaried,3993972,Corporate,Partial,Yes,No,No,No,4,86,1,31
+C5612,41,Low,Self Employed,1181941,Corporate,Partial,Yes,No,No,No,4,56,0,372
+C5613,37,Medium,Self Employed,581688,Savings,Complete,Yes,No,No,No,5,42,0,32
+C5614,41,High,Self Employed,4237302,Savings,Complete,Yes,No,No,No,2,56,0,194
+C5615,63,Medium,Cash Business,2337946,Corporate,Partial,No,No,No,No,3,0,0,169
+C5616,43,High,Salaried,3104135,Current,Missing,Yes,No,No,Yes,4,31,0,431
+C5617,34,Medium,Student,2615155,Current,Complete,Yes,No,No,Yes,4,29,1,198
+C5618,69,Low,Salaried,3187727,Corporate,Partial,Yes,No,No,No,13,0,0,244
+C5619,51,Low,Cash Business,1353881,Current,Complete,Yes,No,Yes,No,8,0,0,48
+C5620,57,Medium,Self Employed,4563133,Savings,Partial,Yes,No,No,No,11,36,1,27
+C5621,67,High,Salaried,4614412,Corporate,Complete,Yes,No,No,No,2,14,0,134
+C5622,29,High,Business,3953928,Current,Complete,No,No,No,No,6,60,1,387
+C5623,72,Medium,Salaried,488556,NRI,Partial,Yes,No,No,No,12,11,0,194
+C5624,61,Low,Business,1429247,NRI,Complete,Yes,No,No,No,5,89,1,385
+C5625,57,High,Business,3002684,Current,Complete,Yes,No,No,No,5,98,1,8
+C5626,40,Low,Business,4184094,Savings,Partial,Yes,No,No,No,1,28,0,403
+C5627,40,High,Cash Business,613347,Savings,Complete,Yes,No,No,No,0,70,1,225
+C5628,54,Low,Cash Business,2199207,NRI,Complete,Yes,Yes,No,No,2,70,0,496
+C5629,23,Low,Salaried,1038646,Current,Partial,Yes,No,No,No,10,78,0,404
+C5630,24,Low,Business,870689,Savings,Complete,No,No,No,No,12,23,1,64
+C5631,43,Medium,Salaried,3230433,Corporate,Complete,Yes,No,No,No,6,78,1,218
+C5632,22,Low,Salaried,1945813,Savings,Partial,Yes,No,No,No,10,79,0,119
+C5633,46,Low,Cash Business,1318207,Savings,Complete,Yes,No,No,No,2,94,1,282
+C5634,48,Low,Salaried,948721,NRI,Partial,Yes,No,No,Yes,6,36,1,468
+C5635,21,Low,Self Employed,2202365,Current,Complete,Yes,No,No,Yes,9,56,0,39
+C5636,21,High,Salaried,2016867,Savings,Complete,Yes,No,No,No,14,62,1,184
+C5637,33,High,Student,3356673,Savings,Complete,Yes,No,No,No,8,91,0,8
+C5638,25,Medium,Cash Business,3348779,Current,Complete,Yes,No,No,No,8,13,1,9
+C5639,31,Low,Student,4561522,Savings,Complete,No,No,No,No,1,75,0,82
+C5640,25,High,Business,1263615,Corporate,Complete,Yes,No,No,Yes,7,72,0,181
+C5641,36,Medium,Salaried,1541760,Corporate,Complete,No,No,No,No,7,36,0,313
+C5642,39,Low,Student,4272510,Corporate,Complete,Yes,No,No,No,12,62,0,118
+C5643,43,Low,Salaried,4554365,Corporate,Complete,Yes,No,No,No,6,72,0,110
+C5644,72,Low,Self Employed,922533,Corporate,Complete,Yes,No,Yes,No,12,8,1,390
+C5645,49,Low,Salaried,4871321,Current,Complete,Yes,No,No,No,15,20,0,274
+C5646,35,Medium,Salaried,870608,Savings,Complete,No,No,No,No,15,47,0,43
+C5647,67,Low,Self Employed,4504395,Current,Complete,Yes,No,No,No,8,6,1,447
+C5648,33,High,Self Employed,982909,Corporate,Complete,Yes,No,No,No,13,34,1,456
+C5649,42,Medium,Cash Business,1395210,Savings,Partial,No,No,No,No,13,94,0,372
+C5650,22,Low,Self Employed,2445297,Savings,Complete,Yes,No,No,No,15,34,0,432
+C5651,53,Medium,Salaried,4946482,Savings,Complete,Yes,No,No,No,6,59,0,357
+C5652,55,Medium,Student,2507681,NRI,Complete,Yes,No,No,No,14,15,0,380
+C5653,46,Low,Business,2281716,Savings,Complete,No,No,No,No,3,39,1,290
+C5654,18,Low,Salaried,4370060,Savings,Partial,Yes,No,No,No,0,2,0,62
+C5655,41,Low,Salaried,2712066,Savings,Missing,No,No,No,No,15,87,0,446
+C5656,64,Low,Salaried,361852,Savings,Partial,Yes,No,No,No,10,20,0,408
+C5657,35,Low,Self Employed,1560552,Current,Partial,No,No,No,No,13,10,1,493
+C5658,33,High,Business,1423002,Current,Complete,Yes,No,No,No,3,85,1,293
+C5659,47,Medium,Self Employed,2699576,Savings,Complete,No,Yes,No,No,11,22,1,112
+C5660,73,Low,Business,667540,Savings,Partial,No,No,Yes,No,14,31,1,225
+C5661,73,High,Self Employed,2737640,Current,Partial,Yes,No,No,No,8,45,0,398
+C5662,39,Low,Cash Business,4474162,Savings,Partial,Yes,No,No,No,10,85,1,83
+C5663,70,Medium,Salaried,2498582,NRI,Partial,Yes,No,No,No,5,29,0,84
+C5664,44,Low,Salaried,4489579,Current,Missing,Yes,No,No,Yes,11,46,0,186
+C5665,54,Medium,Student,1669586,Savings,Missing,Yes,No,No,No,5,13,1,22
+C5666,68,High,Self Employed,3854142,Current,Complete,Yes,No,No,No,11,29,0,409
+C5667,53,Medium,Business,4190240,Corporate,Partial,No,No,No,No,9,47,1,232
+C5668,30,Low,Salaried,2423636,NRI,Complete,Yes,No,No,Yes,1,60,1,391
+C5669,47,Low,Salaried,3926798,Savings,Complete,Yes,No,No,No,12,38,0,228
+C5670,30,Low,Self Employed,3629439,Savings,Partial,Yes,No,No,No,8,49,1,41
+C5671,44,Low,Student,2029131,Current,Complete,No,No,No,No,6,89,1,286
+C5672,70,Low,Self Employed,3781367,Savings,Complete,Yes,No,No,Yes,0,44,1,422
+C5673,46,Low,Self Employed,686354,Corporate,Partial,Yes,No,No,Yes,5,34,0,388
+C5674,33,Medium,Salaried,4350994,Savings,Complete,Yes,No,No,No,1,48,1,344
+C5675,62,High,Salaried,3909229,Savings,Complete,Yes,No,No,No,2,95,1,50
+C5676,39,Medium,Cash Business,1300653,Corporate,Missing,No,No,No,No,5,15,1,222
+C5677,23,Low,Business,1126318,NRI,Complete,Yes,Yes,No,No,0,78,0,143
+C5678,52,Medium,Student,765582,Current,Complete,Yes,No,No,No,6,5,1,364
+C5679,68,High,Salaried,4616906,Corporate,Complete,Yes,No,No,No,15,49,1,71
+C5680,68,Low,Self Employed,606038,Savings,Complete,Yes,No,No,No,14,97,1,410
+C5681,71,High,Salaried,703817,Current,Complete,Yes,No,No,No,10,37,0,143
+C5682,47,High,Student,2714424,Corporate,Complete,Yes,No,No,No,3,54,1,471
+C5683,55,Low,Student,4877701,Savings,Complete,Yes,No,No,No,4,70,0,275
+C5684,18,Low,Student,1807229,Corporate,Complete,Yes,No,Yes,No,15,73,0,305
+C5685,48,Medium,Student,2159773,Current,Complete,Yes,No,No,No,11,15,1,17
+C5686,74,Low,Business,4163039,NRI,Complete,No,No,No,Yes,4,39,0,382
+C5687,20,Medium,Student,3511569,Current,Complete,Yes,No,No,No,10,40,0,95
+C5688,68,Low,Business,1209269,Savings,Complete,Yes,No,No,No,5,4,1,356
+C5689,42,High,Student,4880230,Savings,Partial,Yes,No,No,No,13,73,1,42
+C5690,50,Low,Self Employed,3493328,Savings,Complete,No,No,No,No,1,30,1,8
+C5691,22,High,Salaried,4442272,Savings,Complete,Yes,No,No,No,14,100,1,309
+C5692,54,Low,Self Employed,2193586,Savings,Complete,Yes,No,No,No,1,84,0,328
+C5693,35,Low,Self Employed,286792,Savings,Partial,No,No,No,No,3,47,1,429
+C5694,35,Low,Salaried,1652716,Current,Complete,Yes,No,No,No,2,5,0,337
+C5695,68,High,Salaried,2757892,Savings,Complete,No,No,No,Yes,7,29,0,477
+C5696,51,Medium,Business,3782826,Savings,Complete,Yes,No,No,No,3,30,0,303
+C5697,40,Medium,Business,1917129,Current,Complete,Yes,No,No,No,2,49,0,110
+C5698,38,Low,Salaried,2641418,Savings,Missing,Yes,No,No,No,6,9,1,478
+C5699,59,Medium,Self Employed,1470361,Savings,Complete,Yes,No,No,No,3,22,0,445
+C5700,55,Low,Business,392724,Savings,Complete,Yes,No,No,No,14,84,1,290
+C5701,42,Low,Self Employed,964712,Savings,Complete,Yes,No,No,No,3,43,0,390
+C5702,70,Low,Salaried,3972124,Corporate,Complete,Yes,Yes,No,No,13,45,1,157
+C5703,70,Medium,Cash Business,2312651,Corporate,Complete,Yes,No,No,No,1,81,1,254
+C5704,61,Medium,Student,414481,Savings,Partial,Yes,No,No,Yes,14,73,0,419
+C5705,26,Medium,Self Employed,3762707,Savings,Complete,Yes,No,No,No,4,81,0,56
+C5706,38,High,Business,3510454,Savings,Missing,Yes,No,No,No,9,37,0,425
+C5707,41,Low,Salaried,4654678,Savings,Complete,Yes,No,No,No,13,45,0,421
+C5708,54,Medium,Business,1112972,Savings,Partial,No,No,No,No,7,40,1,464
+C5709,54,High,Student,586624,Savings,Complete,Yes,No,No,No,7,36,0,53
+C5710,37,Medium,Salaried,438868,Corporate,Complete,Yes,No,No,Yes,5,43,0,212
+C5711,50,Low,Salaried,4482760,Corporate,Partial,Yes,No,No,No,10,10,0,39
+C5712,51,Medium,Business,2476382,Savings,Partial,Yes,No,Yes,No,0,70,1,257
+C5713,33,High,Student,3466199,Savings,Complete,Yes,No,No,No,8,11,1,471
+C5714,31,Low,Salaried,2420185,NRI,Complete,Yes,No,No,Yes,13,90,1,431
+C5715,37,High,Student,2339587,Corporate,Missing,Yes,Yes,No,No,14,66,1,293
+C5716,74,Low,Student,2498999,Savings,Partial,Yes,No,No,No,10,22,1,385
+C5717,31,Medium,Self Employed,2611467,Savings,Complete,Yes,No,No,Yes,11,22,0,327
+C5718,31,Low,Business,1071980,Savings,Complete,Yes,No,No,No,15,93,0,65
+C5719,36,Low,Business,3898343,NRI,Partial,No,No,No,No,5,66,0,428
+C5720,29,Low,Student,1106438,Savings,Complete,Yes,No,No,No,1,84,1,82
+C5721,68,Medium,Cash Business,4879252,Savings,Complete,No,No,No,Yes,4,77,1,233
+C5722,29,Medium,Student,4875411,Current,Complete,No,No,No,No,10,88,0,418
+C5723,66,Low,Salaried,2951881,Savings,Partial,Yes,No,No,No,14,40,1,490
+C5724,30,Low,Salaried,1338762,Savings,Partial,Yes,No,No,No,8,27,0,105
+C5725,58,Low,Student,2448825,NRI,Partial,Yes,No,No,Yes,2,3,0,300
+C5726,49,Low,Self Employed,3794577,Current,Complete,Yes,No,No,No,10,89,1,38
+C5727,33,High,Salaried,1244503,Savings,Complete,Yes,No,No,Yes,14,85,1,344
+C5728,64,Medium,Business,3306874,Savings,Missing,Yes,No,No,No,9,5,1,103
+C5729,70,Medium,Self Employed,3265386,Savings,Complete,Yes,No,No,No,7,100,1,178
+C5730,67,High,Student,4247127,Savings,Complete,No,No,No,No,13,65,1,252
+C5731,73,Low,Business,613073,NRI,Partial,Yes,No,No,No,5,92,0,406
+C5732,24,Medium,Cash Business,1796520,Current,Complete,Yes,Yes,No,No,4,86,0,427
+C5733,48,High,Self Employed,2767647,Savings,Complete,Yes,No,No,No,9,99,0,163
+C5734,39,Low,Cash Business,4424273,Corporate,Complete,No,No,No,No,2,71,0,464
+C5735,51,Low,Cash Business,3012001,Current,Complete,Yes,No,No,No,3,71,0,221
+C5736,60,Low,Self Employed,1749000,Current,Complete,No,No,No,No,6,32,1,258
+C5737,29,Low,Student,2242395,Current,Complete,No,No,No,No,0,5,1,270
+C5738,19,High,Student,3331489,Savings,Complete,Yes,No,No,No,4,18,1,400
+C5739,41,High,Salaried,4628631,Current,Complete,Yes,No,No,Yes,14,63,0,97
+C5740,75,High,Self Employed,4677353,Savings,Missing,Yes,No,No,No,8,22,1,104
+C5741,50,Low,Student,4159743,Savings,Missing,No,No,No,No,8,62,1,145
+C5742,30,Low,Self Employed,2660268,Savings,Complete,Yes,No,No,Yes,12,16,1,238
+C5743,24,Medium,Self Employed,1233871,Savings,Partial,Yes,No,No,No,2,37,1,30
+C5744,72,Low,Salaried,2895360,Savings,Partial,Yes,No,No,No,5,26,1,392
+C5745,40,Medium,Salaried,3889004,Current,Partial,Yes,No,No,Yes,11,99,0,401
+C5746,53,Low,Business,1780914,Savings,Complete,No,No,No,No,8,15,0,367
+C5747,32,Low,Student,3128933,Corporate,Complete,Yes,No,No,No,9,42,0,74
+C5748,48,Low,Business,999230,Savings,Complete,Yes,Yes,No,No,4,0,1,303
+C5749,63,Low,Business,4841779,Savings,Partial,Yes,No,No,No,3,98,1,382
+C5750,35,Low,Salaried,2783152,Current,Complete,Yes,No,No,No,13,23,1,118
+C5751,67,Low,Student,2686390,Savings,Partial,Yes,No,No,No,5,32,1,82
+C5752,40,Low,Cash Business,1590143,Savings,Complete,Yes,No,No,No,0,25,0,309
+C5753,36,Medium,Student,3895675,Current,Partial,Yes,No,No,No,0,90,0,293
+C5754,53,Medium,Salaried,3642847,Savings,Complete,Yes,No,No,No,5,74,1,175
+C5755,41,Low,Self Employed,3129070,Corporate,Complete,Yes,No,No,No,3,28,1,218
+C5756,20,Low,Salaried,4982164,Corporate,Complete,Yes,No,No,Yes,2,47,1,377
+C5757,26,Low,Business,4750251,Current,Partial,No,No,No,No,2,1,1,403
+C5758,46,Low,Student,1948118,Current,Partial,No,No,No,Yes,12,27,0,308
+C5759,35,Low,Self Employed,2620142,Savings,Partial,No,No,No,Yes,10,75,0,107
+C5760,57,High,Cash Business,2427672,Current,Complete,Yes,No,No,No,5,13,0,400
+C5761,62,Low,Cash Business,4214091,Savings,Complete,No,No,No,No,11,0,0,178
+C5762,42,Low,Self Employed,2174253,NRI,Partial,No,Yes,No,No,0,11,1,308
+C5763,34,Low,Self Employed,545694,Savings,Complete,Yes,No,No,Yes,1,82,0,96
+C5764,25,Low,Cash Business,3749627,NRI,Complete,Yes,No,No,No,6,88,0,228
+C5765,24,Medium,Salaried,701711,Current,Partial,Yes,No,No,No,7,45,0,237
+C5766,39,Low,Cash Business,3892242,Savings,Complete,Yes,Yes,No,No,4,43,1,20
+C5767,42,Low,Business,4241666,Current,Complete,Yes,No,No,No,9,9,0,159
+C5768,51,Medium,Business,2170953,Savings,Partial,Yes,Yes,No,No,6,24,1,18
+C5769,43,Low,Salaried,1917681,Savings,Complete,Yes,Yes,No,No,14,57,1,190
+C5770,57,Low,Self Employed,1644834,Current,Complete,Yes,No,No,No,5,72,1,332
+C5771,74,Low,Self Employed,3394078,Savings,Partial,No,No,No,Yes,10,66,0,179
+C5772,65,Low,Cash Business,3084732,Corporate,Partial,Yes,No,No,No,3,24,1,43
+C5773,52,Medium,Student,4057059,Current,Partial,No,No,No,No,4,11,0,180
+C5774,54,High,Salaried,2236520,Savings,Complete,Yes,No,No,Yes,6,2,1,416
+C5775,41,Medium,Salaried,4130863,Savings,Partial,No,No,No,Yes,12,36,0,155
+C5776,48,Low,Cash Business,930788,Corporate,Missing,Yes,No,No,No,3,63,1,98
+C5777,33,Medium,Business,4284212,Savings,Complete,Yes,No,No,No,1,53,0,469
+C5778,50,Medium,Self Employed,3968415,Savings,Partial,Yes,Yes,No,No,12,51,0,280
+C5779,31,High,Student,796108,NRI,Partial,Yes,No,No,No,3,80,0,461
+C5780,64,Medium,Business,4899906,Current,Partial,No,No,No,No,8,84,0,54
+C5781,38,Low,Salaried,4527901,Savings,Partial,Yes,No,No,No,6,22,1,395
+C5782,61,Low,Student,946361,Current,Missing,No,No,No,No,11,43,1,419
+C5783,74,High,Salaried,4229898,Savings,Complete,Yes,No,No,No,14,68,1,96
+C5784,25,Low,Self Employed,2213591,Current,Complete,Yes,No,No,No,14,61,1,33
+C5785,64,High,Cash Business,1983550,Savings,Partial,Yes,No,No,No,7,61,1,346
+C5786,50,Medium,Business,204398,Corporate,Complete,Yes,No,No,No,6,53,1,134
+C5787,74,High,Cash Business,1783026,Corporate,Complete,Yes,No,No,Yes,11,80,1,167
+C5788,41,Medium,Cash Business,4328149,Savings,Complete,No,No,No,No,4,100,0,348
+C5789,62,High,Salaried,1676423,Current,Missing,No,No,No,No,4,62,0,469
+C5790,66,Medium,Business,3550717,Savings,Missing,Yes,No,No,No,5,80,1,241
+C5791,37,Low,Salaried,4907446,Savings,Partial,Yes,No,No,No,14,12,1,361
+C5792,55,Low,Self Employed,1751749,Savings,Complete,No,No,No,No,8,55,0,353
+C5793,27,Low,Student,2783757,NRI,Missing,No,No,No,No,1,73,1,216
+C5794,31,Low,Business,2392447,Current,Missing,Yes,No,No,No,15,31,0,38
+C5795,65,High,Self Employed,4583659,Savings,Complete,Yes,No,No,Yes,13,48,1,410
+C5796,22,Medium,Business,2883656,Savings,Missing,Yes,No,No,No,7,27,1,108
+C5797,44,Medium,Self Employed,952750,Corporate,Complete,Yes,No,No,No,2,95,1,469
+C5798,50,Medium,Salaried,434955,Savings,Complete,Yes,No,No,No,13,34,1,233
+C5799,72,Medium,Cash Business,3753631,Current,Complete,Yes,No,No,No,9,18,0,495
+C5800,48,Medium,Business,4195508,Current,Complete,No,No,No,No,6,83,1,341
+C5801,52,High,Business,1270591,Current,Partial,Yes,No,No,No,0,17,1,69
+C5802,44,Medium,Student,2497891,NRI,Complete,Yes,No,No,Yes,0,92,0,228
+C5803,68,Low,Cash Business,4165961,Corporate,Partial,No,No,No,No,5,8,0,21
+C5804,57,High,Cash Business,2575762,Current,Partial,Yes,No,No,No,13,22,0,144
+C5805,21,High,Salaried,454122,Savings,Complete,No,No,No,No,1,87,0,41
+C5806,74,High,Self Employed,2486393,Savings,Complete,Yes,No,No,No,10,31,1,58
+C5807,31,Low,Cash Business,4563222,Savings,Complete,Yes,No,No,No,9,20,0,243
+C5808,57,Low,Salaried,1111991,Corporate,Complete,No,No,No,No,0,62,0,341
+C5809,62,Medium,Business,2657357,Current,Partial,Yes,No,No,No,8,66,1,366
+C5810,62,Low,Business,2330122,Current,Partial,Yes,No,No,No,4,32,0,303
+C5811,38,Medium,Salaried,2715787,Current,Complete,Yes,No,No,No,9,78,0,111
+C5812,74,Low,Salaried,412753,Savings,Complete,Yes,No,No,No,2,53,1,312
+C5813,63,Medium,Salaried,2982548,Corporate,Partial,No,No,No,No,5,25,0,486
+C5814,74,Medium,Student,3998428,Current,Complete,Yes,No,No,Yes,0,93,0,218
+C5815,70,Low,Salaried,1942488,Current,Complete,Yes,Yes,No,No,11,32,1,463
+C5816,54,High,Cash Business,2865359,Corporate,Complete,No,No,No,No,7,92,0,319
+C5817,70,Low,Business,2075764,Current,Complete,Yes,No,No,No,1,85,1,31
+C5818,56,Low,Student,3152102,Savings,Missing,Yes,No,No,No,15,87,1,85
+C5819,33,Low,Business,460793,Corporate,Partial,Yes,No,No,No,3,14,0,313
+C5820,49,Low,Student,3851665,Current,Complete,Yes,No,No,No,6,56,1,16
+C5821,29,Low,Student,4631847,Current,Missing,Yes,No,No,No,15,66,0,48
+C5822,23,Low,Salaried,1768097,Corporate,Partial,Yes,No,No,No,0,36,1,11
+C5823,39,Medium,Salaried,2730208,Savings,Complete,Yes,No,No,No,13,3,1,474
+C5824,26,Low,Business,2371621,Savings,Complete,Yes,No,No,No,12,14,0,236
+C5825,28,Low,Business,2198284,NRI,Complete,No,No,No,No,1,69,1,394
+C5826,63,Low,Self Employed,2582482,Savings,Missing,Yes,No,No,No,12,1,1,121
+C5827,45,Medium,Salaried,740214,Current,Complete,Yes,No,No,No,9,62,0,81
+C5828,30,Low,Business,638039,Savings,Complete,Yes,No,No,Yes,12,65,0,313
+C5829,61,Low,Cash Business,4379240,NRI,Complete,Yes,No,No,No,12,32,0,249
+C5830,56,High,Student,4506128,Current,Complete,Yes,No,No,No,4,52,1,414
+C5831,42,Medium,Salaried,3104579,Current,Missing,No,No,No,Yes,4,80,1,320
+C5832,68,High,Cash Business,779264,Savings,Complete,Yes,No,No,Yes,5,27,0,242
+C5833,26,Low,Student,3644742,Current,Complete,Yes,No,No,No,2,36,0,265
+C5834,50,Medium,Business,1969199,Corporate,Complete,Yes,Yes,No,No,1,10,1,476
+C5835,64,Low,Self Employed,897836,Corporate,Complete,Yes,No,No,No,9,30,1,394
+C5836,54,High,Salaried,4627012,Savings,Complete,No,No,No,No,10,15,0,288
+C5837,33,Medium,Salaried,4983362,Savings,Complete,Yes,No,No,No,12,57,1,345
+C5838,39,High,Salaried,3271733,Current,Partial,Yes,No,No,No,6,100,0,272
+C5839,27,High,Salaried,2501433,Current,Partial,Yes,No,No,No,15,80,0,455
+C5840,65,Low,Business,1090276,Savings,Complete,No,No,No,No,10,76,1,334
+C5841,62,High,Business,4055428,Corporate,Complete,Yes,No,No,No,5,37,1,209
+C5842,67,Medium,Self Employed,2827036,Current,Complete,Yes,Yes,No,No,14,18,0,97
+C5843,58,Low,Salaried,3252484,Corporate,Complete,Yes,No,No,No,15,26,0,74
+C5844,62,High,Business,2856147,Savings,Partial,Yes,Yes,No,No,0,96,1,216
+C5845,39,Low,Student,3969352,Savings,Partial,Yes,No,No,No,3,35,0,359
+C5846,50,Low,Cash Business,317062,Corporate,Missing,Yes,No,No,No,6,37,0,167
+C5847,60,High,Salaried,2058099,Corporate,Partial,Yes,No,No,No,12,35,0,325
+C5848,19,Medium,Salaried,4024133,Corporate,Complete,Yes,Yes,No,No,3,73,0,231
+C5849,32,Low,Business,2426023,Savings,Complete,Yes,No,No,No,0,92,1,227
+C5850,56,Low,Student,4301872,Current,Partial,No,No,No,No,10,44,1,259
+C5851,30,High,Self Employed,1941208,Current,Complete,Yes,No,No,No,7,41,0,108
+C5852,20,Medium,Student,4618028,Corporate,Partial,Yes,No,No,No,12,52,1,490
+C5853,43,Low,Salaried,3592500,Savings,Complete,No,No,No,No,9,51,1,221
+C5854,66,Low,Salaried,3412703,NRI,Complete,Yes,Yes,No,No,12,91,1,438
+C5855,47,High,Business,4988581,Savings,Complete,Yes,No,No,No,1,28,1,351
+C5856,45,Low,Student,3259176,Savings,Complete,Yes,No,Yes,No,8,56,1,430
+C5857,34,Low,Salaried,1353242,Savings,Missing,Yes,Yes,No,No,13,89,1,414
+C5858,45,Low,Student,1305978,Savings,Complete,No,No,No,Yes,11,12,1,259
+C5859,21,Medium,Salaried,2143259,Savings,Complete,Yes,No,No,No,14,60,0,437
+C5860,70,Low,Self Employed,3571329,Savings,Complete,No,Yes,No,No,9,87,1,279
+C5861,44,High,Salaried,2050402,Savings,Complete,Yes,Yes,No,No,11,40,0,475
+C5862,42,Low,Student,3867793,Savings,Complete,No,No,No,No,3,27,0,418
+C5863,39,Low,Cash Business,2006816,Savings,Partial,Yes,No,No,No,6,88,0,280
+C5864,64,High,Cash Business,738415,Savings,Complete,No,No,No,No,9,7,1,88
+C5865,25,Low,Salaried,531092,Savings,Partial,Yes,No,No,No,6,23,1,125
+C5866,50,Low,Salaried,1163756,Savings,Missing,No,No,No,No,12,11,1,353
+C5867,61,Medium,Self Employed,2273005,NRI,Complete,Yes,No,No,No,12,14,0,202
+C5868,42,Low,Self Employed,2967938,NRI,Complete,Yes,No,No,No,3,11,0,436
+C5869,23,Low,Cash Business,2794204,Savings,Complete,Yes,No,No,No,1,59,0,84
+C5870,36,High,Business,2954971,Savings,Complete,Yes,No,No,No,0,34,1,276
+C5871,41,Medium,Salaried,2376182,Savings,Partial,Yes,No,No,No,4,57,0,160
+C5872,34,Low,Student,983780,Savings,Complete,Yes,No,No,No,8,55,1,81
+C5873,73,Medium,Self Employed,201043,Savings,Complete,No,No,No,No,11,59,0,380
+C5874,46,Medium,Self Employed,852701,Corporate,Missing,Yes,No,No,No,4,91,1,183
+C5875,21,Medium,Student,4469031,Corporate,Complete,No,No,No,Yes,12,7,1,47
+C5876,20,Low,Student,1649171,Savings,Complete,Yes,No,No,No,2,11,1,221
+C5877,58,Medium,Self Employed,4581125,Current,Missing,Yes,No,No,No,3,11,0,207
+C5878,67,Low,Salaried,2633069,NRI,Partial,Yes,No,No,No,4,65,0,268
+C5879,21,Medium,Salaried,4209915,Savings,Complete,Yes,No,No,No,10,49,1,301
+C5880,42,Low,Salaried,2731614,Savings,Complete,Yes,No,No,No,2,88,1,234
+C5881,61,Low,Self Employed,4886665,Corporate,Complete,Yes,No,No,No,8,2,1,156
+C5882,63,Medium,Self Employed,931391,Savings,Complete,Yes,Yes,No,No,10,45,0,23
+C5883,50,Low,Salaried,4624041,Corporate,Complete,Yes,No,No,No,15,50,0,198
+C5884,20,High,Self Employed,2123698,NRI,Partial,Yes,No,No,No,13,18,1,66
+C5885,39,Medium,Salaried,4625751,Savings,Partial,No,No,No,No,11,24,0,141
+C5886,20,Low,Salaried,1733380,Corporate,Complete,Yes,No,No,No,10,63,0,131
+C5887,53,Low,Salaried,3835424,NRI,Complete,Yes,No,Yes,No,5,57,1,306
+C5888,30,Low,Salaried,4689403,Savings,Partial,No,Yes,No,No,2,52,0,154
+C5889,36,Low,Salaried,1198764,Savings,Complete,No,No,No,No,3,31,1,338
+C5890,41,Low,Business,2643558,Savings,Partial,Yes,Yes,No,No,14,86,1,79
+C5891,65,Low,Self Employed,1631282,Savings,Complete,No,No,No,No,1,12,0,123
+C5892,44,Low,Salaried,662276,Corporate,Missing,No,No,No,No,11,86,1,288
+C5893,25,Medium,Cash Business,678508,Savings,Complete,No,No,No,No,1,34,1,497
+C5894,34,Low,Business,3236746,Corporate,Complete,Yes,No,No,No,12,19,0,46
+C5895,48,Low,Self Employed,2846802,Savings,Complete,Yes,No,No,No,13,72,1,306
+C5896,64,High,Business,446857,Corporate,Partial,Yes,Yes,No,No,15,41,1,238
+C5897,71,Low,Salaried,515288,Savings,Partial,Yes,No,Yes,No,1,58,1,231
+C5898,37,Low,Self Employed,3581001,Savings,Complete,Yes,No,No,No,4,77,0,448
+C5899,35,Medium,Self Employed,706407,Current,Complete,No,No,No,No,5,33,1,232
+C5900,37,High,Cash Business,3234929,Savings,Partial,Yes,No,No,No,15,80,0,16
+C5901,33,Low,Business,3732869,Savings,Complete,Yes,No,No,No,9,77,1,218
+C5902,57,Low,Salaried,4683181,NRI,Partial,Yes,No,No,No,14,20,0,172
+C5903,18,Medium,Business,1318966,Savings,Complete,Yes,No,No,No,7,9,0,215
+C5904,67,Medium,Student,3230527,Savings,Complete,No,No,No,Yes,10,52,0,172
+C5905,27,High,Cash Business,3926047,Savings,Complete,Yes,No,No,No,13,60,1,191
+C5906,50,High,Salaried,704851,Savings,Partial,Yes,No,No,No,1,66,1,136
+C5907,31,Medium,Business,1917416,Savings,Partial,Yes,No,No,Yes,15,15,0,125
+C5908,40,Low,Self Employed,500488,Savings,Complete,Yes,No,No,No,6,54,0,424
+C5909,39,Medium,Cash Business,1384912,Savings,Partial,Yes,Yes,No,Yes,3,51,0,380
+C5910,60,Low,Student,2752527,Savings,Complete,Yes,No,No,No,8,64,0,395
+C5911,39,Medium,Student,1934662,NRI,Complete,Yes,No,No,No,0,26,1,498
+C5912,66,Low,Business,3265459,Corporate,Partial,Yes,No,No,No,2,38,0,155
+C5913,18,Low,Cash Business,425162,Corporate,Partial,Yes,Yes,No,No,4,29,0,487
+C5914,41,Low,Student,3968016,Savings,Partial,Yes,Yes,No,No,10,90,1,53
+C5915,36,High,Business,3194255,Corporate,Partial,Yes,No,No,No,1,21,0,61
+C5916,50,Medium,Cash Business,3131392,Current,Complete,Yes,No,No,No,1,42,0,500
+C5917,40,Medium,Student,4151346,Savings,Partial,Yes,No,No,No,5,11,0,431
+C5918,40,Low,Salaried,960012,Savings,Complete,Yes,No,No,No,6,46,1,200
+C5919,26,Low,Salaried,4237538,Current,Complete,Yes,Yes,No,No,15,84,1,311
+C5920,74,Low,Salaried,691322,Current,Complete,Yes,Yes,No,No,12,70,0,334
+C5921,45,Low,Self Employed,1794602,Savings,Complete,No,No,No,No,5,92,0,253
+C5922,67,Low,Business,4736121,NRI,Partial,Yes,No,No,Yes,10,37,1,480
+C5923,55,Low,Salaried,4398419,Corporate,Partial,Yes,No,No,No,10,29,1,367
+C5924,25,Low,Self Employed,840115,Savings,Complete,No,No,Yes,No,0,97,1,282
+C5925,68,Medium,Business,1232559,Savings,Partial,No,No,No,No,5,75,0,185
+C5926,29,Low,Salaried,2002809,Savings,Complete,Yes,No,No,No,2,28,1,43
+C5927,34,Medium,Business,958999,Current,Partial,No,Yes,No,No,2,43,1,370
+C5928,61,High,Salaried,275897,Savings,Partial,Yes,No,No,No,15,10,1,2
+C5929,34,High,Salaried,3337543,Current,Complete,No,No,No,No,14,74,0,325
+C5930,64,Medium,Salaried,289688,Savings,Missing,Yes,No,No,No,8,61,1,167
+C5931,57,High,Self Employed,514627,Savings,Complete,Yes,No,No,No,14,90,1,401
+C5932,40,Medium,Student,1954041,Current,Partial,Yes,No,No,No,10,30,1,220
+C5933,62,Low,Cash Business,3208469,Savings,Missing,Yes,No,No,Yes,9,87,0,449
+C5934,58,Medium,Self Employed,3944132,Savings,Missing,Yes,No,No,No,4,85,0,96
+C5935,41,Medium,Salaried,827741,Savings,Complete,No,No,No,Yes,5,22,0,348
+C5936,62,Low,Self Employed,1606135,Savings,Missing,Yes,No,No,No,4,13,1,276
+C5937,49,Low,Business,3346971,Current,Complete,Yes,No,No,Yes,7,83,1,62
+C5938,36,Low,Self Employed,2034921,Current,Complete,Yes,No,No,No,10,79,1,113
+C5939,56,High,Salaried,2528123,NRI,Partial,Yes,No,No,Yes,5,51,1,292
+C5940,43,Medium,Cash Business,2752122,Savings,Missing,Yes,No,No,No,8,49,1,83
+C5941,73,Medium,Student,1405165,Corporate,Complete,Yes,No,No,No,9,24,0,468
+C5942,34,High,Student,996033,Current,Partial,Yes,No,No,No,3,87,1,326
+C5943,23,Medium,Self Employed,552932,NRI,Complete,Yes,No,No,No,14,84,0,192
+C5944,64,Medium,Business,3338891,Corporate,Complete,Yes,No,No,No,14,72,1,307
+C5945,33,Medium,Student,4236974,Corporate,Complete,Yes,No,No,No,9,54,1,117
+C5946,20,High,Salaried,1127948,Savings,Missing,Yes,No,No,No,15,91,1,35
+C5947,57,Medium,Cash Business,448568,Current,Complete,No,No,No,No,9,46,0,145
+C5948,23,Low,Salaried,1474541,Current,Complete,Yes,No,No,No,5,38,0,344
+C5949,36,High,Cash Business,481936,Savings,Missing,Yes,No,No,No,13,21,1,478
+C5950,30,Medium,Salaried,2992445,Savings,Complete,No,No,No,No,14,80,0,260
+C5951,53,Medium,Business,4241541,Savings,Partial,Yes,No,No,No,4,52,0,361
+C5952,21,High,Salaried,3989068,Savings,Partial,No,No,No,No,5,47,0,439
+C5953,46,Low,Salaried,2511398,Current,Complete,Yes,No,No,No,13,9,0,227
+C5954,64,Low,Cash Business,3880594,Savings,Complete,Yes,No,No,No,0,82,1,179
+C5955,49,Medium,Cash Business,1495981,NRI,Missing,Yes,No,No,Yes,11,80,0,479
+C5956,47,Medium,Student,3163185,Savings,Complete,Yes,No,No,Yes,10,63,1,75
+C5957,69,Low,Self Employed,4495451,Current,Complete,Yes,No,No,No,4,12,0,157
+C5958,50,Medium,Salaried,3731027,Savings,Partial,Yes,No,No,No,6,6,1,302
+C5959,48,Low,Business,3183445,Corporate,Complete,Yes,No,No,No,2,24,0,111
+C5960,60,Medium,Cash Business,2227601,Corporate,Complete,Yes,No,No,No,4,33,0,490
+C5961,20,High,Salaried,3211710,Current,Partial,Yes,No,No,No,0,69,0,346
+C5962,34,High,Business,3630256,Current,Complete,Yes,No,No,No,6,28,0,348
+C5963,57,Low,Salaried,534199,Corporate,Complete,No,No,No,No,3,69,0,361
+C5964,74,Medium,Business,3155754,NRI,Partial,Yes,No,No,No,3,5,1,279
+C5965,64,Medium,Business,4450644,Savings,Complete,Yes,Yes,No,No,3,49,1,367
+C5966,44,Medium,Business,4254545,Corporate,Complete,No,No,No,No,8,32,1,256
+C5967,21,Low,Self Employed,4031311,Savings,Complete,No,No,No,No,13,74,1,428
+C5968,32,Low,Salaried,2783908,Corporate,Missing,No,No,No,Yes,5,53,0,292
+C5969,32,Low,Student,4885330,Savings,Complete,Yes,No,No,No,10,57,0,88
+C5970,41,Low,Business,4211744,Current,Complete,Yes,No,No,No,15,80,1,244
+C5971,31,High,Cash Business,3852606,Savings,Partial,Yes,No,No,No,2,96,1,362
+C5972,24,Low,Self Employed,3826795,Savings,Complete,Yes,No,No,No,8,97,0,212
+C5973,71,Low,Salaried,971562,Savings,Complete,No,No,No,Yes,0,11,1,190
+C5974,70,Low,Self Employed,2213118,Current,Complete,Yes,No,No,No,13,97,1,498
+C5975,52,High,Business,4999839,NRI,Partial,No,No,No,Yes,3,3,1,119
+C5976,44,High,Self Employed,1893168,Savings,Complete,Yes,No,No,No,7,72,1,80
+C5977,69,Medium,Salaried,2073879,Savings,Partial,Yes,No,No,No,11,84,1,346
+C5978,62,High,Student,946332,Corporate,Partial,Yes,No,No,No,12,31,1,370
+C5979,21,Medium,Salaried,3377186,Current,Missing,Yes,No,No,No,8,55,1,45
+C5980,63,Medium,Business,1757937,Savings,Complete,Yes,No,No,No,10,17,1,330
+C5981,41,High,Salaried,4303980,Savings,Complete,Yes,No,No,No,5,51,0,163
+C5982,27,Medium,Business,1610258,Current,Complete,Yes,Yes,No,No,7,55,1,473
+C5983,37,Low,Student,601378,Savings,Complete,Yes,No,No,No,6,88,1,448
+C5984,37,Medium,Business,1737691,Savings,Complete,Yes,No,No,No,0,52,0,182
+C5985,74,Medium,Business,2159981,Corporate,Missing,Yes,Yes,No,No,3,71,0,450
+C5986,67,High,Student,3439101,Current,Partial,No,No,No,Yes,11,68,1,122
+C5987,73,High,Business,4362915,NRI,Complete,No,No,No,No,10,98,0,124
+C5988,47,High,Business,2424268,Savings,Missing,Yes,No,No,No,14,32,1,63
+C5989,73,Low,Business,3543913,Corporate,Partial,Yes,No,No,Yes,1,11,1,440
+C5990,35,Medium,Student,958052,NRI,Missing,Yes,No,No,No,4,76,1,193
+C5991,38,Medium,Student,3592976,Savings,Complete,Yes,No,No,No,6,62,0,424
+C5992,58,High,Business,3580495,Current,Complete,No,No,No,No,10,39,0,231
+C5993,57,Low,Business,4108479,Savings,Complete,Yes,No,No,No,14,88,1,373
+C5994,20,Low,Cash Business,777746,Savings,Complete,Yes,No,No,No,11,28,1,426
+C5995,65,Medium,Salaried,2950851,NRI,Partial,Yes,No,No,No,6,49,1,330
+C5996,75,Medium,Self Employed,1443149,Current,Complete,Yes,No,No,No,0,98,0,311
+C5997,28,Medium,Cash Business,958872,Current,Partial,Yes,No,No,No,10,39,1,1
+C5998,54,Low,Salaried,357302,Current,Partial,No,No,No,Yes,4,63,1,499
+C5999,52,Low,Student,1585000,Current,Complete,No,No,No,No,2,44,0,174
