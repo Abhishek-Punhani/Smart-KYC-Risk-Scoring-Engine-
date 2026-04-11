@@ -9,6 +9,7 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.ensemble import (
@@ -297,6 +298,351 @@ def _build_models() -> dict[str, Any]:
     }
 
 
+def _feature_importance_df(model: Any) -> pd.DataFrame:
+    if hasattr(model, "feature_importances_"):
+        vals = np.asarray(model.feature_importances_)
+    elif hasattr(model, "coef_"):
+        vals = np.abs(np.asarray(model.coef_)).mean(axis=0)
+    else:
+        vals = np.zeros(len(ML_FEATURES), dtype=float)
+
+    return (
+        pd.DataFrame({"feature": ML_FEATURES, "mean_shap": vals})
+        .sort_values("mean_shap", ascending=False)
+        .reset_index(drop=True)
+    )
+
+
+def _render_dashboard(
+    df: pd.DataFrame,
+    cv_results: dict[str, dict[str, Any]],
+    best_model_name: str,
+    best_model: Any,
+    y_test: np.ndarray,
+    X_test: np.ndarray,
+    y_pred_test_final: np.ndarray,
+    le: LabelEncoder,
+    high_idx: int,
+    best_thresh: float,
+    roc_auc: float,
+    out_path: Path,
+) -> None:
+    palette = {"LOW": "#2ecc71", "MEDIUM": "#f39c12", "HIGH": "#e74c3c"}
+    dec_palette = {
+        "APPROVE": "#2ecc71",
+        "MANUAL_REVIEW": "#f39c12",
+        "EDD": "#e67e22",
+        "REJECT": "#e74c3c",
+    }
+    filters = [
+        "F1_list_match",
+        "F2_behaviour",
+        "F3_suspicious",
+        "F4_aml_noise",
+        "F5_identity",
+    ]
+
+    shap_df = _feature_importance_df(best_model)
+
+    fig = plt.figure(figsize=(24, 30))
+    fig.patch.set_facecolor("#0f1117")
+
+    def sax(ax: Any, title: str) -> Any:
+        ax.set_facecolor("#1a1d27")
+        ax.set_title(title, color="white", fontsize=12, fontweight="bold", pad=10)
+        ax.tick_params(colors="#aaaaaa", labelsize=9)
+        for sp in ax.spines.values():
+            sp.set_edgecolor("#333344")
+        return ax
+
+    # 1. Risk tier pie
+    ax1 = sax(fig.add_subplot(4, 3, 1), "Risk Tier Distribution")
+    tc = df["risk_tier_final"].value_counts()
+    ax1.pie(
+        tc.values,
+        labels=tc.index,
+        colors=[palette.get(t, "#888") for t in tc.index],
+        autopct="%1.1f%%",
+        startangle=140,
+        textprops={"color": "white", "fontsize": 11},
+    )
+
+    # 2. Decision bar
+    ax2 = sax(fig.add_subplot(4, 3, 2), "Onboarding Decisions")
+    dc = df["decision"].value_counts()
+    bars = ax2.bar(
+        dc.index, dc.values, color=[dec_palette.get(d, "#888") for d in dc.index]
+    )
+    for b, v in zip(bars, dc.values):
+        ax2.text(
+            b.get_x() + b.get_width() / 2,
+            b.get_height() + 3,
+            str(v),
+            ha="center",
+            color="white",
+            fontweight="bold",
+            fontsize=11,
+        )
+    ax2.set_ylabel("Count", color="#aaaaaa")
+    ax2.tick_params(axis="x", rotation=15)
+
+    # 3. Risk score histogram
+    ax3 = sax(fig.add_subplot(4, 3, 3), "Risk Score Distribution by Tier")
+    for tier, grp in df.groupby("risk_tier_final"):
+        ax3.hist(
+            grp["risk_score"],
+            bins=25,
+            alpha=0.7,
+            label=tier,
+            color=palette.get(tier, "#888"),
+        )
+    ax3.axvline(30, color="white", ls="--", alpha=0.4, lw=1)
+    ax3.axvline(60, color="white", ls="--", alpha=0.4, lw=1)
+    ax3.set_xlabel("Risk Score", color="#aaaaaa")
+    ax3.legend(facecolor="#1a1d27", labelcolor="white", fontsize=9)
+
+    # 4. CV comparison
+    ax4 = sax(fig.add_subplot(4, 3, 4), "Model Comparison — CV F1-Macro")
+    names = list(cv_results.keys())
+    f1s = [cv_results[n]["f1_mean"] for n in names]
+    stds = [cv_results[n]["f1_std"] for n in names]
+    bar_c = ["#e74c3c" if n == best_model_name else "#3498db" for n in names]
+    bars = ax4.bar(
+        names,
+        f1s,
+        color=bar_c,
+        yerr=stds,
+        capsize=5,
+        error_kw={"color": "white", "linewidth": 1.5},
+    )
+    for b, v in zip(bars, f1s):
+        ax4.text(
+            b.get_x() + b.get_width() / 2,
+            b.get_height() + 0.005,
+            f"{v:.3f}",
+            ha="center",
+            color="white",
+            fontsize=9,
+            fontweight="bold",
+        )
+    ax4.set_ylim(max(0.0, min(f1s) - 0.05), min(1.02, max(f1s) + 0.06))
+    ax4.set_ylabel("F1-Macro (CV)", color="#aaaaaa")
+    ax4.tick_params(axis="x", rotation=20)
+
+    # 5. Confusion matrix (tuned predictions)
+    ax5 = sax(fig.add_subplot(4, 3, 5), f"Confusion Matrix — {best_model_name}")
+    cm = pd.crosstab(
+        pd.Series(y_test, name="Actual"),
+        pd.Series(y_pred_test_final, name="Predicted"),
+    )
+    cm = cm.reindex(
+        index=range(len(le.classes_)), columns=range(len(le.classes_)), fill_value=0
+    )
+    sns.heatmap(
+        cm.values,
+        annot=True,
+        fmt="d",
+        cmap="YlOrRd",
+        xticklabels=le.classes_,
+        yticklabels=le.classes_,
+        ax=ax5,
+        cbar=False,
+        annot_kws={"color": "white", "fontsize": 12},
+    )
+    ax5.set_xlabel("Predicted", color="#aaaaaa")
+    ax5.set_ylabel("Actual", color="#aaaaaa")
+    ax5.tick_params(colors="white")
+
+    # 6. Importance
+    ax6 = sax(fig.add_subplot(4, 3, 6), "Feature Importance — Model")
+    top10 = shap_df.head(10)
+    bar_c6 = [
+        (
+            "#e74c3c"
+            if any(k in f for k in ["sanction", "fraud", "pep"])
+            else (
+                "#f39c12"
+                if any(k in f for k in ["digital", "txn", "struct"])
+                else "#3498db"
+            )
+        )
+        for f in top10["feature"]
+    ]
+    ax6.barh(top10["feature"][::-1], top10["mean_shap"][::-1], color=bar_c6[::-1])
+    ax6.set_xlabel("Importance", color="#aaaaaa")
+
+    # 7. Filter scores by tier
+    ax7 = sax(fig.add_subplot(4, 3, 7), "Avg Filter Scores by Risk Tier")
+    flabels = [
+        "F1\nWatchlist",
+        "F2\nBehaviour",
+        "F3\nSuspicious",
+        "F4\nNoise",
+        "F5\nIdentity",
+    ]
+    x = np.arange(len(filters))
+    w = 0.25
+    for i, (tier, col) in enumerate(palette.items()):
+        vals = df[df["risk_tier_final"] == tier][filters].mean().values
+        ax7.bar(x + i * w, vals, w, label=tier, color=col, alpha=0.85)
+    ax7.set_xticks(x + w)
+    ax7.set_xticklabels(flabels, color="#aaaaaa", fontsize=8)
+    ax7.set_ylabel("Avg Score", color="#aaaaaa")
+    ax7.legend(facecolor="#1a1d27", labelcolor="white", fontsize=8)
+
+    # 8. Threshold tuning curve
+    ax8 = sax(fig.add_subplot(4, 3, 8), "HIGH-Tier Recall vs Threshold")
+    if hasattr(best_model, "predict_proba"):
+        proba_tst_all = best_model.predict_proba(X_test)
+        thresholds2 = np.arange(0.05, 0.90, 0.02)
+        recalls2, precisions2 = [], []
+        for t in thresholds2:
+            yp = _apply_high_threshold(proba_tst_all, float(t), high_idx)
+            recalls2.append(
+                recall_score(
+                    y_test, yp, labels=[high_idx], average="macro", zero_division=0
+                )
+            )
+            precisions2.append(
+                precision_score(
+                    y_test, yp, labels=[high_idx], average="macro", zero_division=0
+                )
+            )
+        ax8.plot(thresholds2, recalls2, color="#e74c3c", lw=2, label="Recall (HIGH)")
+        ax8.plot(
+            thresholds2, precisions2, color="#3498db", lw=2, label="Precision (HIGH)"
+        )
+        ax8.axvline(
+            best_thresh,
+            color="white",
+            ls="--",
+            lw=1,
+            alpha=0.7,
+            label=f"Selected t={best_thresh:.2f}",
+        )
+        ax8.axhline(
+            0.95, color="#2ecc71", ls=":", lw=1, alpha=0.6, label="Target recall=0.95"
+        )
+        ax8.set_xlabel("Classification Threshold", color="#aaaaaa")
+        ax8.set_ylabel("Score", color="#aaaaaa")
+        ax8.legend(facecolor="#1a1d27", labelcolor="white", fontsize=8)
+    else:
+        ax8.text(
+            0.5,
+            0.5,
+            "Probabilities not available",
+            ha="center",
+            va="center",
+            color="white",
+            transform=ax8.transAxes,
+        )
+
+    # 9. Occupation risk
+    ax9 = sax(fig.add_subplot(4, 3, 9), "Avg Risk Score by Occupation")
+    occ_avg = df.groupby("occupation")["risk_score"].mean().sort_values()
+    occ_c = [
+        "#e74c3c" if v > 35 else "#f39c12" if v > 25 else "#2ecc71"
+        for v in occ_avg.values
+    ]
+    ax9.barh(occ_avg.index, occ_avg.values, color=occ_c)
+    ax9.set_xlabel("Avg Risk Score", color="#aaaaaa")
+
+    # 10. RBA risk matrix scatter
+    ax10 = sax(fig.add_subplot(4, 3, 10), "RBA Risk Matrix — Flags vs Impact")
+    df_local = df.copy()
+    df_local["flag_count"] = df_local[
+        ["sanctions_flag", "pep_flag", "adverse_media_flag", "fraud_history_flag"]
+    ].sum(axis=1)
+    df_local["max_filter"] = df_local[filters].max(axis=1)
+    for tier, grp in df_local.groupby("risk_tier_final"):
+        ax10.scatter(
+            grp["flag_count"] + np.random.uniform(-0.12, 0.12, len(grp)),
+            grp["max_filter"],
+            c=palette.get(tier, "#888"),
+            alpha=0.4,
+            s=18,
+            label=tier,
+        )
+    ax10.set_xlabel("Hard Flags Triggered (Likelihood)", color="#aaaaaa")
+    ax10.set_ylabel("Max Filter Score (Impact)", color="#aaaaaa")
+    ax10.legend(facecolor="#1a1d27", labelcolor="white", fontsize=8)
+
+    # 11. Behavioural scatter
+    ax11 = sax(fig.add_subplot(4, 3, 11), "Behavioural: Txn Ratio vs Digital Risk")
+    for tier, grp in df.groupby("risk_tier_final"):
+        ax11.scatter(
+            grp["txn_ratio_score"],
+            grp["digital_score_norm"],
+            c=palette.get(tier, "#888"),
+            alpha=0.35,
+            s=15,
+            label=tier,
+        )
+    ax11.set_xlabel("Txn/Income Ratio Score", color="#aaaaaa")
+    ax11.set_ylabel("Digital Risk Score", color="#aaaaaa")
+    ax11.legend(facecolor="#1a1d27", labelcolor="white", fontsize=8)
+
+    # 12. Summary card
+    ax12 = fig.add_subplot(4, 3, 12)
+    ax12.set_facecolor("#1a1d27")
+    ax12.axis("off")
+    stats = [
+        ("Total Customers", len(df), "white"),
+        ("Auto-Approved", (df["decision"] == "APPROVE").sum(), "#2ecc71"),
+        ("Manual Review", (df["decision"] == "MANUAL_REVIEW").sum(), "#f39c12"),
+        ("EDD Required", (df["decision"] == "EDD").sum(), "#e67e22"),
+        ("Rejected", (df["decision"] == "REJECT").sum(), "#e74c3c"),
+        ("Sanctions Hits", int(df["sanctions_flag"].sum()), "#e74c3c"),
+        ("PEP Customers", int(df["pep_flag"].sum()), "#f39c12"),
+        ("Structuring Alerts", int(df["structuring_flag"].sum()), "#f39c12"),
+        ("Best ML Model", best_model_name, "white"),
+        ("Threshold Used", f"{best_thresh:.2f}", "white"),
+        (
+            "ROC-AUC (OvR)",
+            f"{roc_auc:.4f}" if not np.isnan(roc_auc) else "N/A",
+            "#2ecc71",
+        ),
+        ("CV F1-Macro", f"{cv_results[best_model_name]['f1_mean']:.4f}", "#2ecc71"),
+    ]
+    ax12.set_title(
+        "Summary Statistics", color="white", fontsize=12, fontweight="bold", pad=10
+    )
+    y_pos = 0.95
+    for label, val, col in stats:
+        ax12.text(
+            0.03,
+            y_pos,
+            f"{label}:",
+            color="#aaaaaa",
+            fontsize=10,
+            transform=ax12.transAxes,
+            va="top",
+        )
+        ax12.text(
+            0.62,
+            y_pos,
+            str(val),
+            color=col,
+            fontsize=10,
+            fontweight="bold",
+            transform=ax12.transAxes,
+            va="top",
+        )
+        y_pos -= 0.077
+
+    fig.suptitle(
+        "Smart KYC Risk Scoring Engine — v2 Dashboard\n"
+        "FATF RBA Framework | Parida & Kumar (2020) | Leak-Free Validation",
+        color="white",
+        fontsize=14,
+        fontweight="bold",
+        y=0.99,
+    )
+    plt.tight_layout(rect=[0, 0, 1, 0.98])
+    plt.savefig(out_path, dpi=150, bbox_inches="tight", facecolor="#0f1117")
+    plt.close(fig)
+
+
 def run_pipeline(
     dataset_path: Path, out_dir: Path, config: dict[str, Any] | None = None
 ) -> dict[str, Any]:
@@ -536,18 +882,21 @@ def run_pipeline(
     validation_csv = out_dir / "kyc_validation_summary.csv"
     validation_df.to_csv(validation_csv, index=False)
 
-    # Basic dashboard artifact
-    fig, axes = plt.subplots(1, 3, figsize=(14, 4))
-    df["risk_tier_final"].value_counts().plot(
-        kind="bar", ax=axes[0], title="Risk Tiers"
-    )
-    df["decision"].value_counts().plot(kind="bar", ax=axes[1], title="Decisions")
-    axes[2].hist(df["risk_score"], bins=25)
-    axes[2].set_title("Risk Score Distribution")
     dashboard_png = out_dir / "kyc_dashboard_v2.png"
-    fig.tight_layout()
-    fig.savefig(dashboard_png, dpi=120)
-    plt.close(fig)
+    _render_dashboard(
+        df=df,
+        cv_results=cv_results,
+        best_model_name=best_model_name,
+        best_model=best_model,
+        y_test=y_test,
+        X_test=X_test,
+        y_pred_test_final=y_pred_test_final,
+        le=le,
+        high_idx=high_idx,
+        best_thresh=best_thresh,
+        roc_auc=roc_auc,
+        out_path=dashboard_png,
+    )
 
     return {
         "dataset_rows": int(len(df)),
