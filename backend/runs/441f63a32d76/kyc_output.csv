@@ -1,0 +1,1001 @@
+customer_id,risk_score,risk_tier,decision,top_risk_factors,F1_list_match,F2_behaviour,F3_suspicious,F4_aml_noise,F5_identity,sanctions_flag,pep_flag,adverse_media_flag,fraud_history_flag,document_status,country_risk,structuring_flag,digital_risk_score
+C5000,22.9,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,22.740000000000002,40.0,16.5,47.0,0,0,0,1,Complete,High,0,31
+C5001,19.09,LOW,APPROVE,No significant risk factors identified,0,15.940000000000001,0.0,75.0,6.0,0,0,0,0,Complete,Low,0,22
+C5002,17.72,LOW,APPROVE,High-risk country of origin; KYC documents incomplete (partial),0,26.11,40.0,0.0,30.0,0,0,0,0,Partial,High,0,47
+C5003,27.79,LOW,APPROVE,High-risk country of origin; KYC documents incomplete (partial); Customer address unverified,0,24.44,70.0,25.0,26.0,0,0,0,0,Partial,High,0,41
+C5004,23.48,LOW,APPROVE,High digital / device fraud risk score; Customer address unverified,0,43.394999999999996,50.0,16.5,10.0,0,0,0,0,Complete,Medium,0,72
+C5005,7.51,LOW,APPROVE,KYC documents incomplete (partial),0,25.555,0.0,0.0,16.0,0,0,0,0,Partial,Low,0,49
+C5006,20.59,LOW,APPROVE,Prior fraud history on record,0,33.69,0.0,25.0,59.0,0,0,0,1,Complete,Low,0,66
+C5007,25.8,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,41.245,20.0,41.5,35.0,0,0,0,1,Complete,Medium,0,74
+C5008,32.02,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Customer address unverified,0,18.33,50.0,58.0,45.0,0,0,0,1,Complete,Medium,0,26
+C5009,26.35,LOW,APPROVE,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); KYC documents incomplete (partial),0,42.99,0.0,41.5,63.0,0,0,0,1,Partial,Low,1,65
+C5010,28.53,LOW,APPROVE,Politically Exposed Person (PEP); High-risk country of origin; KYC documents incomplete (partial),70,7.65,40.0,0.0,10.0,0,1,0,0,Partial,High,0,10
+C5011,16.23,LOW,APPROVE,High-risk country of origin,0,41.155,40.0,0.0,0.0,0,0,0,0,Complete,High,0,62
+C5012,16.91,LOW,APPROVE,High digital / device fraud risk score,0,38.565,0.0,41.5,6.0,0,0,0,0,Complete,Low,0,75
+C5013,31.2,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Customer address unverified,0,17.725,50.0,50.0,51.0,0,0,0,1,Complete,Medium,0,29
+C5014,20.83,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,53.394999999999996,20.0,0.0,41.0,0,0,0,1,Complete,Medium,0,80
+C5015,25.75,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; KYC documents incomplete (partial),0,37.980000000000004,40.0,12.5,51.0,0,0,0,1,Partial,High,0,63
+C5016,19.25,LOW,APPROVE,High-risk country of origin; KYC documents incomplete (partial),0,7.245,40.0,41.5,10.0,0,0,0,0,Partial,High,0,5
+C5017,23.56,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,0,67.795,0.0,50.0,0.0,0,0,0,0,Complete,Low,1,92
+C5018,8.21,LOW,APPROVE,No significant risk factors identified,0,12.07,20.0,0.0,12.0,0,0,0,0,Complete,Medium,0,15
+C5019,50.68,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); KYC documents missing; High-risk country of origin,70,39.415,40.0,58.0,38.0,0,1,0,0,Missing,High,0,61
+C5020,75.0,HIGH,REJECT,Sanctions watchlist hit detected; High digital / device fraud risk score; KYC documents incomplete (partial),100,43.4,20.0,16.5,10.0,1,0,0,0,Partial,Medium,0,79
+C5021,20.92,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,16.33,50.0,0.0,51.0,0,0,0,1,Complete,Medium,0,28
+C5022,16.3,LOW,APPROVE,High-risk country of origin,0,41.475,40.0,0.0,0.0,0,0,0,0,Complete,High,0,68
+C5023,38.44,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,50.965,40.0,75.0,35.0,0,0,0,1,Complete,High,0,93
+C5024,25.18,LOW,APPROVE,High digital / device fraud risk score; Customer address unverified,0,54.375,30.0,25.0,22.0,0,0,0,0,Complete,Low,0,95
+C5025,16.8,LOW,APPROVE,Prior fraud history on record,0,32.765,0.0,25.0,35.0,0,0,0,1,Complete,Low,0,64
+C5026,25.65,LOW,APPROVE,High-risk country of origin,0,17.265,40.0,66.5,6.0,0,0,0,0,Complete,High,0,34
+C5027,13.98,LOW,APPROVE,No significant risk factors identified,0,19.42,0.0,41.5,12.0,0,0,0,0,Complete,Low,0,22
+C5028,27.99,LOW,APPROVE,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly),0,59.195,0.0,50.0,41.0,0,0,0,1,Complete,Low,1,70
+C5029,33.88,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; Structuring pattern detected (txn/income ratio anomaly),0,30.655,50.0,25.0,85.0,0,0,0,1,Missing,Medium,1,40
+C5030,13.35,LOW,APPROVE,No significant risk factors identified,0,16.745,0.0,50.0,0.0,0,0,0,0,Complete,Low,0,25
+C5031,21.98,LOW,APPROVE,Prior fraud history on record,0,21.130000000000003,0.0,58.0,41.0,0,0,0,1,Complete,Low,0,26
+C5032,37.24,MEDIUM,MANUAL_REVIEW,KYC documents missing; Structuring pattern detected (txn/income ratio anomaly); High-risk country of origin,0,64.685,40.0,66.5,20.0,0,0,0,0,Missing,High,1,67
+C5033,17.29,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,36.21,0.0,16.5,45.0,0,0,0,1,Partial,Low,0,70
+C5034,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Prior fraud history on record,100,2.025,20.0,25.0,53.0,1,0,0,1,Complete,Medium,0,0
+C5035,19.94,LOW,APPROVE,No significant risk factors identified,0,28.205,0.0,62.5,12.0,0,0,0,0,Complete,Low,0,51
+C5036,9.27,LOW,APPROVE,KYC documents missing,0,18.835,0.0,12.5,20.0,0,0,0,0,Missing,Low,0,22
+C5037,8.53,LOW,APPROVE,No significant risk factors identified,0,18.145,20.0,0.0,6.0,0,0,0,0,Complete,Medium,0,17
+C5038,30.62,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); KYC documents incomplete (partial),70,27.365,0.0,0.0,51.0,0,1,0,1,Partial,Low,0,51
+C5039,18.01,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly); KYC documents incomplete (partial),0,37.53,20.0,25.0,10.0,0,0,0,0,Partial,Medium,1,14
+C5040,23.85,LOW,APPROVE,Prior fraud history on record,0,35.515,20.0,33.0,41.0,0,0,0,1,Complete,Medium,0,57
+C5041,21.2,LOW,APPROVE,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly),0,30.25,20.0,25.0,41.0,0,0,0,1,Complete,Medium,1,26
+C5042,18.18,LOW,APPROVE,Prior fraud history on record; KYC documents missing; Customer address unverified,0,7.655,30.0,0.0,71.0,0,0,0,1,Missing,Low,0,15
+C5043,34.96,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,49.525,40.0,50.0,47.0,0,0,0,1,Complete,High,0,85
+C5044,44.45,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); High-risk country of origin,70,40.99,40.0,12.5,55.0,0,1,0,1,Complete,High,0,76
+C5045,75.0,HIGH,REJECT,Sanctions watchlist hit detected,100,7.35,20.0,41.5,6.0,1,0,0,0,Complete,Medium,0,5
+C5046,29.69,MEDIUM,MANUAL_REVIEW,KYC documents incomplete (partial); Customer address unverified,0,36.45,30.0,58.0,32.0,0,0,0,0,Partial,Low,0,63
+C5047,24.8,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly); High-risk country of origin,0,59.0,40.0,25.0,0.0,0,0,0,0,Complete,High,1,18
+C5048,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Prior fraud history on record; Customer address unverified,100,36.185,30.0,58.0,51.0,1,0,0,1,Complete,Low,0,70
+C5049,15.08,LOW,APPROVE,High digital / device fraud risk score,0,45.91,0.0,25.0,6.0,0,0,0,0,Complete,Low,0,90
+C5050,21.93,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly),0,54.655,0.0,41.5,18.0,0,0,0,0,Complete,Low,1,65
+C5051,24.07,LOW,APPROVE,High-risk country of origin; KYC documents incomplete (partial); Customer address unverified,0,22.83,70.0,12.5,20.0,0,0,0,0,Partial,High,0,28
+C5052,17.49,LOW,APPROVE,No significant risk factors identified,0,28.94,20.0,25.0,18.0,0,0,0,0,Complete,Medium,0,49
+C5053,24.35,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,34.975,20.0,33.0,45.0,0,0,0,1,Partial,Medium,0,50
+C5054,44.14,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; KYC documents incomplete (partial),50,5.445,45.0,66.5,55.0,0,0,1,1,Partial,Low,0,1
+C5055,18.8,LOW,APPROVE,High-risk country of origin,0,28.48,40.0,16.5,12.0,0,0,0,0,Complete,High,0,50
+C5056,25.91,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,45.795,0.0,50.0,45.0,0,0,0,1,Partial,Low,0,87
+C5057,16.41,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,43.82,0.0,0.0,51.0,0,0,0,1,Partial,Low,0,74
+C5058,20.16,LOW,APPROVE,Prior fraud history on record,0,28.53,0.0,41.5,41.0,0,0,0,1,Complete,Low,0,55
+C5059,30.17,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High digital / device fraud risk score,0,50.09,20.0,50.0,41.0,0,0,0,1,Complete,Medium,0,94
+C5060,27.58,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,47.175,40.0,12.5,51.0,0,0,0,1,Partial,High,0,91
+C5061,27.39,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,50.685,40.0,12.5,45.0,0,0,0,1,Partial,High,0,99
+C5062,20.01,LOW,APPROVE,KYC documents incomplete (partial),0,35.03,20.0,33.0,16.0,0,0,0,0,Partial,Medium,0,70
+C5063,28.56,LOW,APPROVE,Adverse media / negative news detected,50,35.8,15.0,25.0,6.0,0,0,1,0,Complete,Low,0,65
+C5064,29.31,LOW,APPROVE,High digital / device fraud risk score; Customer address unverified,0,51.035,50.0,29.0,22.0,0,0,0,0,Complete,Medium,0,91
+C5065,16.64,LOW,APPROVE,High digital / device fraud risk score,0,49.19,0.0,25.0,12.0,0,0,0,0,Complete,Low,0,83
+C5066,41.73,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected,50,4.91,15.0,100.0,35.0,0,0,1,1,Complete,Low,0,3
+C5067,34.47,MEDIUM,MANUAL_REVIEW,KYC documents missing; High digital / device fraud risk score,0,62.35,20.0,75.0,20.0,0,0,0,0,Missing,Medium,0,88
+C5068,9.48,LOW,APPROVE,No significant risk factors identified,0,13.415,0.0,25.0,12.0,0,0,0,0,Complete,Low,0,21
+C5069,15.92,LOW,APPROVE,Prior fraud history on record,0,3.835,20.0,25.0,41.0,0,0,0,1,Complete,Medium,0,0
+C5070,19.89,LOW,APPROVE,Prior fraud history on record,0,24.18,20.0,29.0,35.0,0,0,0,1,Complete,Medium,0,28
+C5071,27.87,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,30.11,30.0,45.5,45.0,0,0,0,1,Complete,Low,0,31
+C5072,22.92,LOW,APPROVE,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly),0,23.35,0.0,50.0,55.0,0,0,0,1,Complete,Low,1,9
+C5073,21.58,LOW,APPROVE,High digital / device fraud risk score,0,46.38,20.0,41.5,0.0,0,0,0,0,Complete,Medium,0,84
+C5074,19.44,LOW,APPROVE,Prior fraud history on record,0,34.445,20.0,16.5,35.0,0,0,0,1,Complete,Medium,0,65
+C5075,24.24,LOW,APPROVE,Customer address unverified,0,33.69,30.0,50.0,10.0,0,0,0,0,Complete,Low,0,54
+C5076,27.6,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly); KYC documents incomplete (partial),0,80.5,0.0,50.0,10.0,0,0,0,0,Partial,Low,1,61
+C5077,34.8,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP),70,53.5,0.0,33.0,0.0,0,1,0,0,Complete,Low,0,7
+C5078,55.78,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,70,78.9,30.0,75.0,10.0,0,1,0,0,Complete,Low,1,93
+C5079,15.27,LOW,APPROVE,High-risk country of origin,0,11.344999999999999,40.0,25.0,0.0,0,0,0,0,Complete,High,0,14
+C5080,22.07,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,10.61,40.0,29.0,41.0,0,0,0,1,Complete,High,0,17
+C5081,27.64,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,42.475,40.0,25.0,41.0,0,0,0,1,Complete,High,0,77
+C5082,24.97,LOW,APPROVE,Prior fraud history on record,0,19.585,20.0,50.0,47.0,0,0,0,1,Complete,Medium,0,29
+C5083,24.87,LOW,APPROVE,High-risk country of origin,0,33.864999999999995,40.0,41.5,12.0,0,0,0,0,Complete,High,0,21
+C5084,10.14,LOW,APPROVE,Customer address unverified,0,13.195,30.0,0.0,10.0,0,0,0,0,Complete,Low,0,26
+C5085,33.38,MEDIUM,MANUAL_REVIEW,KYC documents missing; High digital / device fraud risk score,0,67.925,0.0,75.0,32.0,0,0,0,0,Missing,Low,0,99
+C5086,46.18,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin,0,40.635,40.0,100.0,67.0,0,0,0,1,Complete,High,0,68
+C5087,9.39,LOW,APPROVE,KYC documents incomplete (partial),0,10.425,0.0,29.0,10.0,0,0,0,0,Partial,Low,0,14
+C5088,39.83,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High-risk country of origin; KYC documents incomplete (partial),50,23.634999999999998,55.0,41.5,22.0,0,0,1,0,Partial,High,0,32
+C5089,34.35,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; High-risk country of origin,0,8.52,70.0,25.0,91.0,0,0,0,1,Missing,High,0,1
+C5090,33.74,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; Customer address unverified,0,43.47,70.0,12.5,57.0,0,0,0,1,Complete,High,0,62
+C5091,23.1,LOW,APPROVE,High-risk country of origin; High digital / device fraud risk score,0,50.480000000000004,40.0,25.0,0.0,0,0,0,0,Complete,High,0,91
+C5092,35.78,MEDIUM,MANUAL_REVIEW,KYC documents missing; Adverse media / negative news detected; High digital / device fraud risk score,50,53.915,35.0,12.5,20.0,0,0,1,0,Missing,Medium,0,96
+C5093,33.33,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP),70,41.644999999999996,0.0,33.0,6.0,0,1,0,0,Complete,Low,0,61
+C5094,31.23,LOW,APPROVE,High-risk country of origin; Customer address unverified,0,16.17,70.0,58.0,16.0,0,0,0,0,Complete,High,0,24
+C5095,13.57,LOW,APPROVE,KYC documents incomplete (partial),0,5.83,0.0,50.0,16.0,0,0,0,0,Partial,Low,0,7
+C5096,32.94,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; High-risk country of origin,0,45.975,70.0,0.0,65.0,0,0,0,1,Missing,High,0,85
+C5097,25.59,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,52.71,40.0,0.0,47.0,0,0,0,1,Complete,High,0,98
+C5098,30.94,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected,50,29.97,15.0,16.5,41.0,0,0,1,1,Complete,Low,0,54
+C5099,31.04,MEDIUM,MANUAL_REVIEW,Prior fraud history on record,0,4.455,20.0,100.0,41.0,0,0,0,1,Complete,Medium,0,8
+C5100,34.63,MEDIUM,MANUAL_REVIEW,High-risk country of origin; High digital / device fraud risk score; KYC documents incomplete (partial),0,45.13,70.0,25.0,44.0,0,0,0,0,Partial,High,0,84
+C5101,37.74,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP),70,20.925,20.0,25.0,47.0,0,1,0,1,Complete,Medium,0,39
+C5102,21.88,LOW,APPROVE,Prior fraud history on record,0,30.175,20.0,33.0,35.0,0,0,0,1,Complete,Medium,0,54
+C5103,29.55,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,30.005,0.0,75.0,57.0,0,0,0,1,Partial,Low,0,52
+C5104,26.8,LOW,APPROVE,High-risk country of origin; KYC documents incomplete (partial),0,36.515,40.0,50.0,10.0,0,0,0,0,Partial,High,0,65
+C5105,33.17,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,53.105000000000004,70.0,0.0,57.0,0,0,0,1,Complete,High,0,98
+C5106,18.0,LOW,APPROVE,No significant risk factors identified,0,11.985,20.0,58.0,0.0,0,0,0,0,Complete,Medium,0,21
+C5107,31.49,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin,0,24.185,40.0,58.0,47.0,0,0,0,1,Complete,High,0,4
+C5108,26.93,LOW,APPROVE,Prior fraud history on record,0,24.895,20.0,50.0,53.0,0,0,0,1,Complete,Medium,0,49
+C5109,14.01,LOW,APPROVE,Prior fraud history on record,0,31.305,0.0,12.5,35.0,0,0,0,1,Complete,Low,0,49
+C5110,15.55,LOW,APPROVE,High-risk country of origin,0,12.75,40.0,25.0,0.0,0,0,0,0,Complete,High,0,14
+C5111,20.77,LOW,APPROVE,High digital / device fraud risk score; KYC documents incomplete (partial),0,51.37,20.0,25.0,10.0,0,0,0,0,Partial,Medium,0,97
+C5112,18.4,LOW,APPROVE,High digital / device fraud risk score,0,50.519999999999996,0.0,41.5,0.0,0,0,0,0,Complete,Low,0,88
+C5113,19.84,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,6.465,50.0,0.0,57.0,0,0,0,1,Complete,Medium,0,7
+C5114,25.76,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,12.53,20.0,62.5,45.0,0,0,0,1,Partial,Medium,0,21
+C5115,18.74,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,46.445,0.0,16.5,41.0,0,0,0,1,Complete,Low,0,79
+C5116,25.72,LOW,APPROVE,High-risk country of origin,0,42.6,40.0,41.5,6.0,0,0,0,0,Complete,High,0,56
+C5117,46.17,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; Customer address unverified,50,20.86,65.0,75.0,10.0,0,0,1,0,Complete,Medium,0,31
+C5118,20.87,LOW,APPROVE,High-risk country of origin; Customer address unverified,0,1.87,70.0,25.0,10.0,0,0,0,0,Complete,High,0,2
+C5119,18.74,LOW,APPROVE,High-risk country of origin; High digital / device fraud risk score; KYC documents incomplete (partial),0,41.695,40.0,0.0,16.0,0,0,0,0,Partial,High,0,76
+C5120,23.28,LOW,APPROVE,High-risk country of origin,0,26.384999999999998,40.0,50.0,0.0,0,0,0,0,Complete,High,0,46
+C5121,18.22,LOW,APPROVE,Customer address unverified,0,8.61,50.0,25.0,10.0,0,0,0,0,Complete,Medium,0,11
+C5122,36.9,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); KYC documents incomplete (partial),0,38.255,30.0,75.0,55.0,0,0,0,1,Partial,Low,1,55
+C5123,17.23,LOW,APPROVE,High digital / device fraud risk score,0,49.125,20.0,12.5,6.0,0,0,0,0,Complete,Medium,0,81
+C5124,18.03,LOW,APPROVE,High-risk country of origin,0,33.625,40.0,16.5,0.0,0,0,0,0,Complete,High,0,49
+C5125,29.28,LOW,APPROVE,Prior fraud history on record; KYC documents missing; High-risk country of origin,0,31.175,40.0,25.0,67.0,0,0,0,1,Missing,High,0,56
+C5126,20.39,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,51.2,20.0,0.0,41.0,0,0,0,1,Complete,Medium,0,91
+C5127,38.38,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,0,69.655,0.0,75.0,63.0,0,0,0,1,Partial,Low,1,81
+C5128,23.17,LOW,APPROVE,Customer address unverified,0,15.865,30.0,58.0,16.0,0,0,0,0,Complete,Low,0,26
+C5129,17.86,LOW,APPROVE,Prior fraud history on record,0,9.045,20.0,25.0,47.0,0,0,0,1,Complete,Medium,0,14
+C5130,38.5,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); Structuring pattern detected (txn/income ratio anomaly),70,12.27,0.0,50.0,57.0,0,1,0,1,Partial,Low,1,4
+C5131,21.3,LOW,APPROVE,Prior fraud history on record,0,30.755,20.0,25.0,41.0,0,0,0,1,Complete,Medium,0,52
+C5132,15.67,LOW,APPROVE,Customer address unverified,0,11.37,30.0,25.0,16.0,0,0,0,0,Complete,Low,0,22
+C5133,16.39,LOW,APPROVE,High digital / device fraud risk score,0,52.45,0.0,25.0,6.0,0,0,0,0,Complete,Low,0,95
+C5134,15.47,LOW,APPROVE,No significant risk factors identified,0,22.835,0.0,50.0,6.0,0,0,0,0,Complete,Low,0,36
+C5135,8.8,LOW,APPROVE,Prior fraud history on record,0,17.76,0.0,0.0,35.0,0,0,0,1,Complete,Low,0,34
+C5136,12.23,LOW,APPROVE,Prior fraud history on record,0,30.38,0.0,0.0,41.0,0,0,0,1,Complete,Low,0,53
+C5137,20.17,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial); Customer address unverified,0,12.6,30.0,12.5,61.0,0,0,0,1,Partial,Low,0,24
+C5138,14.65,LOW,APPROVE,High-risk country of origin,0,33.235,40.0,0.0,0.0,0,0,0,0,Complete,High,0,51
+C5139,16.0,LOW,APPROVE,High digital / device fraud risk score,0,45.995,0.0,25.0,12.0,0,0,0,0,Complete,Low,0,91
+C5140,41.72,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); High digital / device fraud risk score,70,48.855,0.0,41.5,41.0,0,1,0,1,Complete,Low,0,96
+C5141,11.38,LOW,APPROVE,KYC documents missing,0,11.9,0.0,16.5,38.0,0,0,0,0,Missing,Low,0,16
+C5142,29.25,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,53.985,40.0,12.5,53.0,0,0,0,1,Complete,High,0,98
+C5143,16.28,LOW,APPROVE,High-risk country of origin,0,19.91,40.0,12.5,12.0,0,0,0,0,Complete,High,0,38
+C5144,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Prior fraud history on record; High digital / device fraud risk score,100,37.46,0.0,16.5,35.0,1,0,0,1,Complete,Low,0,73
+C5145,19.29,LOW,APPROVE,KYC documents incomplete (partial),0,13.955,0.0,75.0,10.0,0,0,0,0,Partial,Low,0,16
+C5146,8.42,LOW,APPROVE,No significant risk factors identified,0,29.605,0.0,12.5,0.0,0,0,0,0,Complete,Low,0,40
+C5147,27.04,LOW,APPROVE,Prior fraud history on record,0,42.93,20.0,41.5,41.0,0,0,0,1,Complete,Medium,0,56
+C5148,21.7,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,36.26,0.0,25.0,63.0,0,0,0,1,Partial,Low,0,58
+C5149,42.84,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; Customer address unverified,50,17.695,45.0,66.5,30.0,0,0,1,0,Complete,Low,0,32
+C5150,13.72,LOW,APPROVE,Customer address unverified,0,31.105,30.0,0.0,10.0,0,0,0,0,Complete,Low,0,62
+C5151,40.89,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP),70,11.68,20.0,45.5,53.0,0,1,0,1,Complete,Medium,0,12
+C5152,2.89,LOW,APPROVE,No significant risk factors identified,0,14.445,0.0,0.0,0.0,0,0,0,0,Complete,Low,0,9
+C5153,32.92,MEDIUM,MANUAL_REVIEW,High digital / device fraud risk score; Customer address unverified,0,47.62,30.0,75.0,16.0,0,0,0,0,Complete,Low,0,94
+C5154,38.91,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High-risk country of origin,50,22.56,55.0,45.5,12.0,0,0,1,0,Complete,High,0,36
+C5155,24.56,LOW,APPROVE,Politically Exposed Person (PEP),70,13.785,0.0,12.5,12.0,0,1,0,0,Complete,Low,0,1
+C5156,16.77,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,57.585,0.0,0.0,35.0,0,0,0,1,Complete,Low,0,100
+C5157,17.85,LOW,APPROVE,KYC documents incomplete (partial),0,19.265,20.0,29.0,28.0,0,0,0,0,Partial,Medium,0,33
+C5158,15.41,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,3.3,20.0,12.5,55.0,0,0,0,1,Missing,Medium,0,0
+C5159,24.88,LOW,APPROVE,High-risk country of origin,0,8.895,40.0,66.5,12.0,0,0,0,0,Complete,High,0,11
+C5160,20.45,LOW,APPROVE,No significant risk factors identified,0,7.26,20.0,75.0,0.0,0,0,0,0,Complete,Medium,0,13
+C5161,25.78,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,45.665,20.0,25.0,51.0,0,0,0,1,Partial,Medium,0,88
+C5162,18.32,LOW,APPROVE,No significant risk factors identified,0,12.120000000000001,0.0,75.0,6.0,0,0,0,0,Complete,Low,0,14
+C5163,27.95,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; Customer address unverified,0,2.015,70.0,25.0,57.0,0,0,0,1,Complete,High,0,0
+C5164,24.89,LOW,APPROVE,High digital / device fraud risk score,0,40.945,20.0,50.0,18.0,0,0,0,0,Complete,Medium,0,77
+C5165,8.09,LOW,APPROVE,KYC documents incomplete (partial),0,15.96,0.0,12.5,16.0,0,0,0,0,Partial,Low,0,30
+C5166,34.84,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High digital / device fraud risk score,0,44.95,20.0,83.0,35.0,0,0,0,1,Complete,Medium,0,88
+C5167,30.31,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected,50,26.814999999999998,15.0,16.5,41.0,0,0,1,1,Complete,Low,0,34
+C5168,27.84,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,44.435,20.0,29.0,61.0,0,0,0,1,Complete,Medium,0,85
+C5169,25.45,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,38.51,30.0,25.0,45.0,0,0,0,1,Complete,Low,0,68
+C5170,32.44,MEDIUM,MANUAL_REVIEW,High-risk country of origin,0,42.69,40.0,75.0,6.0,0,0,0,0,Complete,High,0,50
+C5171,7.61,LOW,APPROVE,KYC documents incomplete (partial),0,9.545,0.0,16.5,16.0,0,0,0,0,Partial,Low,0,12
+C5172,25.53,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,51.395,0.0,50.0,35.0,0,0,0,1,Complete,Low,0,97
+C5173,19.78,LOW,APPROVE,High digital / device fraud risk score; KYC documents incomplete (partial),0,41.415,0.0,50.0,10.0,0,0,0,0,Partial,Low,0,76
+C5174,10.97,LOW,APPROVE,KYC documents incomplete (partial),0,5.855,0.0,41.5,10.0,0,0,0,0,Partial,Low,0,2
+C5175,25.86,LOW,APPROVE,High digital / device fraud risk score; Customer address unverified,0,42.32,50.0,25.0,16.0,0,0,0,0,Complete,Medium,0,71
+C5176,19.98,LOW,APPROVE,Prior fraud history on record,0,28.665,20.0,25.0,35.0,0,0,0,1,Complete,Medium,0,37
+C5177,10.82,LOW,APPROVE,High digital / device fraud risk score,0,39.1,0.0,0.0,20.0,0,0,0,0,Complete,Low,0,77
+C5178,21.32,LOW,APPROVE,Customer address unverified,0,25.085,50.0,0.0,42.0,0,0,0,0,Complete,Medium,0,45
+C5179,16.8,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,41.25,0.0,16.5,35.0,0,0,0,1,Complete,Low,0,80
+C5180,12.14,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,2.4699999999999998,20.0,0.0,51.0,0,0,0,1,Partial,Medium,0,4
+C5181,22.47,LOW,APPROVE,High-risk country of origin,0,17.845,40.0,50.0,6.0,0,0,0,0,Complete,High,0,22
+C5182,14.78,LOW,APPROVE,No significant risk factors identified,0,24.384999999999998,20.0,25.0,6.0,0,0,0,0,Complete,Medium,0,41
+C5183,34.62,MEDIUM,MANUAL_REVIEW,High-risk country of origin,0,33.075,40.0,100.0,0.0,0,0,0,0,Complete,High,0,56
+C5184,20.28,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,41.625,0.0,29.0,41.0,0,0,0,1,Complete,Low,0,76
+C5185,28.0,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,44.730000000000004,20.0,41.5,45.0,0,0,0,1,Partial,Medium,0,45
+C5186,10.35,LOW,APPROVE,Prior fraud history on record,0,12.99,0.0,12.5,35.0,0,0,0,1,Complete,Low,0,25
+C5187,33.16,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin,0,15.525,40.0,75.0,47.0,0,0,0,1,Complete,High,0,14
+C5188,19.46,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,14.06,20.0,25.0,51.0,0,0,0,1,Partial,Medium,0,27
+C5189,12.44,LOW,APPROVE,No significant risk factors identified,0,12.675,20.0,25.0,6.0,0,0,0,0,Complete,Medium,0,17
+C5190,21.8,LOW,APPROVE,Prior fraud history on record,0,8.254999999999999,20.0,50.0,41.0,0,0,0,1,Complete,Medium,0,12
+C5191,40.83,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High digital / device fraud risk score,50,50.655,15.0,62.5,18.0,0,0,1,0,Complete,Low,0,94
+C5192,29.62,LOW,APPROVE,Politically Exposed Person (PEP),70,22.095,0.0,25.0,18.0,0,1,0,0,Complete,Low,0,41
+C5193,16.08,LOW,APPROVE,KYC documents incomplete (partial),0,27.92,20.0,25.0,10.0,0,0,0,0,Partial,Medium,0,48
+C5194,26.75,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,24.0,0.0,62.5,63.0,0,0,0,1,Partial,Low,0,46
+C5195,35.94,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected,50,34.44,35.0,12.5,47.0,0,0,1,1,Complete,Medium,0,58
+C5196,20.35,LOW,APPROVE,Customer address unverified,0,23.259999999999998,50.0,16.5,16.0,0,0,0,0,Complete,Medium,0,35
+C5197,7.45,LOW,APPROVE,KYC documents incomplete (partial),0,29.75,0.0,0.0,10.0,0,0,0,0,Partial,Low,0,56
+C5198,14.79,LOW,APPROVE,High digital / device fraud risk score,0,37.43,20.0,16.5,0.0,0,0,0,0,Complete,Medium,0,72
+C5199,26.13,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,49.895,0.0,50.0,41.0,0,0,0,1,Complete,Low,0,97
+C5200,19.71,LOW,APPROVE,Prior fraud history on record,0,14.315,0.0,58.0,35.0,0,0,0,1,Complete,Low,0,27
+C5201,14.96,LOW,APPROVE,No significant risk factors identified,0,33.295,0.0,41.5,0.0,0,0,0,0,Complete,Low,0,58
+C5202,19.59,LOW,APPROVE,Customer address unverified,0,40.465,50.0,0.0,10.0,0,0,0,0,Complete,Medium,0,45
+C5203,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Prior fraud history on record; High-risk country of origin,100,3.295,70.0,25.0,51.0,1,0,0,1,Complete,High,0,4
+C5204,24.06,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,29.07,40.0,25.0,35.0,0,0,0,1,Complete,High,0,51
+C5205,43.44,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; Structuring pattern detected (txn/income ratio anomaly); KYC documents incomplete (partial),50,32.68,35.0,75.0,16.0,0,0,1,0,Partial,Medium,1,38
+C5206,35.99,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Customer address unverified,0,54.2,50.0,33.0,57.0,0,0,0,1,Complete,Medium,0,42
+C5207,45.89,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; Adverse media / negative news detected,50,11.684999999999999,65.0,41.5,65.0,0,0,1,1,Missing,Medium,0,14
+C5208,33.6,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High digital / device fraud risk score,50,43.24,15.0,16.5,41.0,0,0,1,1,Complete,Low,0,85
+C5209,7.2,LOW,APPROVE,No significant risk factors identified,0,35.985,0.0,0.0,0.0,0,0,0,0,Complete,Low,0,57
+C5210,25.78,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,20.665,20.0,50.0,51.0,0,0,0,1,Partial,Medium,0,29
+C5211,75.0,HIGH,REJECT,Sanctions watchlist hit detected,100,34.43,20.0,41.5,6.0,1,0,0,0,Complete,Medium,0,59
+C5212,15.17,LOW,APPROVE,High digital / device fraud risk score; KYC documents incomplete (partial),0,48.33,20.0,0.0,10.0,0,0,0,0,Partial,Medium,0,83
+C5213,9.81,LOW,APPROVE,No significant risk factors identified,0,7.54,20.0,12.5,12.0,0,0,0,0,Complete,Medium,0,7
+C5214,22.2,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; KYC documents incomplete (partial),0,16.23,40.0,16.5,51.0,0,0,0,1,Partial,High,0,22
+C5215,14.36,LOW,APPROVE,High-risk country of origin,0,22.775,40.0,0.0,12.0,0,0,0,0,Complete,High,0,36
+C5216,31.75,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,47.005,40.0,45.5,35.0,0,0,0,1,Complete,High,0,93
+C5217,17.54,LOW,APPROVE,High digital / device fraud risk score,0,63.19,20.0,0.0,6.0,0,0,0,0,Complete,Medium,0,98
+C5218,35.29,MEDIUM,MANUAL_REVIEW,KYC documents missing; High-risk country of origin,0,33.945,40.0,83.0,26.0,0,0,0,0,Missing,High,0,58
+C5219,30.43,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,42.905,0.0,83.0,35.0,0,0,0,1,Complete,Low,0,79
+C5220,17.47,LOW,APPROVE,KYC documents incomplete (partial),0,29.355,0.0,41.5,22.0,0,0,0,0,Partial,Low,0,48
+C5221,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Prior fraud history on record; High-risk country of origin,100,15.940000000000001,40.0,0.0,41.0,1,0,0,1,Complete,High,0,18
+C5222,29.28,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,53.65,20.0,33.0,53.0,0,0,0,1,Complete,Medium,0,96
+C5223,32.3,MEDIUM,MANUAL_REVIEW,KYC documents missing; Structuring pattern detected (txn/income ratio anomaly),0,55.5,20.0,66.5,26.0,0,0,0,0,Missing,Medium,1,11
+C5224,23.34,LOW,APPROVE,High-risk country of origin,0,18.69,40.0,58.0,0.0,0,0,0,0,Complete,High,0,34
+C5225,36.53,MEDIUM,MANUAL_REVIEW,High-risk country of origin; Customer address unverified,0,22.17,70.0,83.0,10.0,0,0,0,0,Complete,High,0,43
+C5226,21.86,LOW,APPROVE,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly),0,28.55,0.0,50.0,41.0,0,0,0,1,Complete,Low,1,12
+C5227,19.38,LOW,APPROVE,No significant risk factors identified,0,61.875,20.0,0.0,20.0,0,0,0,0,Complete,Medium,0,46
+C5228,11.86,LOW,APPROVE,Prior fraud history on record,0,20.535,0.0,12.5,35.0,0,0,0,1,Complete,Low,0,40
+C5229,30.79,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; KYC documents incomplete (partial),50,43.95,15.0,25.0,10.0,0,0,1,0,Partial,Low,0,49
+C5230,22.58,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,3.65,30.0,45.5,45.0,0,0,0,1,Complete,Low,0,0
+C5231,30.32,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); High-risk country of origin,0,55.845,40.0,25.0,41.0,0,0,0,1,Complete,High,1,88
+C5232,10.83,LOW,APPROVE,No significant risk factors identified,0,28.17,0.0,12.5,18.0,0,0,0,0,Complete,Low,0,54
+C5233,22.5,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,14.735,30.0,25.0,57.0,0,0,0,1,Complete,Low,0,26
+C5234,34.06,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,62.545,40.0,41.5,35.0,0,0,0,1,Complete,High,0,81
+C5235,39.15,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High digital / device fraud risk score,50,39.02,15.0,45.5,45.0,0,0,1,1,Partial,Low,0,74
+C5236,15.62,LOW,APPROVE,No significant risk factors identified,0,23.59,0.0,50.0,6.0,0,0,0,0,Complete,Low,0,32
+C5237,22.45,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,40.0,0.0,41.5,41.0,0,0,0,1,Complete,Low,0,72
+C5238,25.3,LOW,APPROVE,High digital / device fraud risk score,0,47.505,20.0,50.0,12.0,0,0,0,0,Complete,Medium,0,94
+C5239,13.6,LOW,APPROVE,No significant risk factors identified,0,51.510000000000005,0.0,16.5,0.0,0,0,0,0,Complete,Low,0,63
+C5240,16.95,LOW,APPROVE,No significant risk factors identified,0,17.75,0.0,62.5,6.0,0,0,0,0,Complete,Low,0,29
+C5241,19.94,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,15.434999999999999,0.0,41.5,57.0,0,0,0,1,Partial,Low,0,21
+C5242,23.05,LOW,APPROVE,High-risk country of origin; High digital / device fraud risk score,0,46.25,40.0,29.0,0.0,0,0,0,0,Complete,High,0,84
+C5243,44.4,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High digital / device fraud risk score; Customer address unverified,0,50.77,50.0,83.0,51.0,0,0,0,1,Complete,Medium,0,98
+C5244,20.52,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,35.864999999999995,0.0,16.5,67.0,0,0,0,1,Missing,Low,0,30
+C5245,21.9,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,0,68.01,0.0,41.5,0.0,0,0,0,0,Complete,Low,1,85
+C5246,15.33,LOW,APPROVE,Prior fraud history on record,0,16.395,0.0,25.0,47.0,0,0,0,1,Complete,Low,0,27
+C5247,30.69,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; KYC documents incomplete (partial),0,8.205,70.0,25.0,67.0,0,0,0,1,Partial,High,0,0
+C5248,21.26,LOW,APPROVE,Prior fraud history on record,0,50.55,0.0,25.0,41.0,0,0,0,1,Complete,Low,0,55
+C5249,36.04,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Customer address unverified,0,50.425,50.0,41.5,51.0,0,0,0,1,Complete,Medium,0,46
+C5250,10.03,LOW,APPROVE,No significant risk factors identified,0,5.17,20.0,25.0,0.0,0,0,0,0,Complete,Medium,0,8
+C5251,7.06,LOW,APPROVE,Prior fraud history on record,0,9.055,0.0,0.0,35.0,0,0,0,1,Complete,Low,0,12
+C5252,15.66,LOW,APPROVE,Prior fraud history on record,0,18.545,0.0,29.0,41.0,0,0,0,1,Complete,Low,0,30
+C5253,25.82,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,21.825,20.0,41.5,61.0,0,0,0,1,Missing,Medium,0,33
+C5254,27.61,LOW,APPROVE,Prior fraud history on record,0,3.315,20.0,75.0,53.0,0,0,0,1,Complete,Medium,0,6
+C5255,38.03,MEDIUM,MANUAL_REVIEW,KYC documents missing; High-risk country of origin; High digital / device fraud risk score,0,51.66,70.0,41.5,36.0,0,0,0,0,Missing,High,0,99
+C5256,16.02,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,13.870000000000001,40.0,0.0,35.0,0,0,0,1,Complete,High,0,20
+C5257,37.78,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); KYC documents incomplete (partial); Customer address unverified,70,11.375,50.0,25.0,20.0,0,1,0,0,Partial,Medium,0,15
+C5258,16.32,LOW,APPROVE,Prior fraud history on record,0,18.845,20.0,16.5,35.0,0,0,0,1,Complete,Medium,0,0
+C5259,31.09,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP),70,8.93,0.0,50.0,12.0,0,1,0,0,Complete,Low,0,8
+C5260,14.29,LOW,APPROVE,KYC documents missing; Customer address unverified,0,14.475,30.0,0.0,36.0,0,0,0,0,Missing,Low,0,17
+C5261,26.19,LOW,APPROVE,High-risk country of origin; Customer address unverified,0,36.455,70.0,12.5,16.0,0,0,0,0,Complete,High,0,70
+C5262,26.2,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,30.735,40.0,25.0,47.0,0,0,0,1,Complete,High,0,58
+C5263,10.74,LOW,APPROVE,No significant risk factors identified,0,3.705,0.0,50.0,0.0,0,0,0,0,Complete,Low,0,2
+C5264,31.06,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High digital / device fraud risk score; Customer address unverified,0,53.03,30.0,25.0,63.0,0,0,0,1,Complete,Low,0,90
+C5265,13.4,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,25.775,0.0,0.0,55.0,0,0,0,1,Missing,Low,0,42
+C5266,28.19,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,53.205,20.0,41.5,35.0,0,0,0,1,Complete,Medium,0,98
+C5267,25.7,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; Customer address unverified,0,48.23,30.0,16.5,45.0,0,0,0,1,Complete,Low,0,93
+C5268,20.91,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,36.28,30.0,0.0,51.0,0,0,0,1,Complete,Low,0,35
+C5269,22.81,LOW,APPROVE,KYC documents incomplete (partial); Customer address unverified,0,19.535,50.0,25.0,26.0,0,0,0,0,Partial,Medium,0,23
+C5270,14.95,LOW,APPROVE,High digital / device fraud risk score,0,49.735,0.0,25.0,0.0,0,0,0,0,Complete,Low,0,92
+C5271,12.68,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly),0,18.384999999999998,20.0,25.0,0.0,0,0,0,0,Complete,Medium,1,10
+C5272,41.69,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; High digital / device fraud risk score,0,45.69,30.0,75.0,77.0,0,0,0,1,Missing,Low,0,76
+C5273,22.63,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,26.9,20.0,25.0,55.0,0,0,0,1,Missing,Medium,0,35
+C5274,16.84,LOW,APPROVE,High digital / device fraud risk score; KYC documents incomplete (partial); Customer address unverified,0,39.195,30.0,0.0,20.0,0,0,0,0,Partial,Low,0,71
+C5275,20.32,LOW,APPROVE,Prior fraud history on record,0,41.325,0.0,25.0,47.0,0,0,0,1,Complete,Low,0,69
+C5276,16.52,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,44.365,0.0,0.0,51.0,0,0,0,1,Partial,Low,0,84
+C5277,26.3,LOW,APPROVE,Prior fraud history on record; Adverse media / negative news detected; KYC documents incomplete (partial),50,15.754999999999999,15.0,0.0,51.0,0,0,1,1,Partial,Low,0,25
+C5278,18.88,LOW,APPROVE,High digital / device fraud risk score; KYC documents incomplete (partial),0,48.41,0.0,25.0,28.0,0,0,0,0,Partial,Low,0,92
+C5279,30.56,MEDIUM,MANUAL_REVIEW,KYC documents missing; High-risk country of origin; High digital / device fraud risk score,0,53.275,40.0,25.0,46.0,0,0,0,0,Missing,High,0,92
+C5280,29.74,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; Customer address unverified,0,15.435,70.0,25.0,51.0,0,0,0,1,Complete,High,0,23
+C5281,31.02,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; High digital / device fraud risk score,0,48.83,0.0,50.0,75.0,0,0,0,1,Missing,Low,0,87
+C5282,31.4,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Customer address unverified,0,34.25,30.0,45.5,63.0,0,0,0,1,Complete,Low,0,63
+C5283,17.18,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,22.165,30.0,0.0,45.0,0,0,0,1,Complete,Low,0,39
+C5284,30.85,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,42.0,40.0,41.5,41.0,0,0,0,1,Complete,High,0,80
+C5285,16.78,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly),0,29.42,0.0,50.0,6.0,0,0,0,0,Complete,Low,1,34
+C5286,40.36,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP),70,21.54,0.0,66.5,35.0,0,1,0,1,Complete,Low,0,38
+C5287,28.48,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,38.665,50.0,12.5,55.0,0,0,0,1,Partial,Medium,0,77
+C5288,24.4,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,40.730000000000004,0.0,41.5,53.0,0,0,0,1,Complete,Low,0,73
+C5289,9.79,LOW,APPROVE,High digital / device fraud risk score,0,48.955,0.0,0.0,0.0,0,0,0,0,Complete,Low,0,96
+C5290,45.92,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; Customer address unverified,50,42.83,65.0,16.5,57.0,0,0,1,1,Complete,Medium,0,70
+C5291,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Prior fraud history on record; High-risk country of origin,100,25.165,40.0,16.5,47.0,1,0,0,1,Complete,High,0,42
+C5292,15.87,LOW,APPROVE,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly),0,28.12,0.0,25.0,35.0,0,0,0,1,Complete,Low,1,19
+C5293,16.84,LOW,APPROVE,Prior fraud history on record,0,12.955,20.0,25.0,35.0,0,0,0,1,Complete,Medium,0,19
+C5294,15.36,LOW,APPROVE,Customer address unverified,0,13.815,30.0,16.5,22.0,0,0,0,0,Complete,Low,0,6
+C5295,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Adverse media / negative news detected,100,30.57,15.0,0.0,6.0,1,0,1,0,Complete,Low,0,53
+C5296,18.85,LOW,APPROVE,KYC documents incomplete (partial),0,16.759999999999998,20.0,50.0,10.0,0,0,0,0,Partial,Medium,0,18
+C5297,13.17,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,24.615000000000002,0.0,0.0,55.0,0,0,0,1,Missing,Low,0,36
+C5298,30.6,MEDIUM,MANUAL_REVIEW,High-risk country of origin,0,28.975,40.0,75.0,12.0,0,0,0,0,Complete,High,0,57
+C5299,7.12,LOW,APPROVE,No significant risk factors identified,0,1.58,0.0,25.0,12.0,0,0,0,0,Complete,Low,0,1
+C5300,9.67,LOW,APPROVE,High digital / device fraud risk score,0,39.365,0.0,0.0,12.0,0,0,0,0,Complete,Low,0,71
+C5301,28.98,LOW,APPROVE,High-risk country of origin,0,33.9,40.0,66.5,6.0,0,0,0,0,Complete,High,0,52
+C5302,38.77,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,41.08,70.0,41.5,55.0,0,0,0,1,Partial,High,0,73
+C5303,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Politically Exposed Person (PEP); Adverse media / negative news detected,100,54.69,55.0,25.0,12.0,1,1,1,0,Complete,High,0,81
+C5304,27.04,LOW,APPROVE,KYC documents missing; High digital / device fraud risk score,0,95.68,20.0,0.0,26.0,0,0,0,0,Missing,Medium,0,94
+C5305,25.93,LOW,APPROVE,High digital / device fraud risk score,0,55.14,20.0,50.0,6.0,0,0,0,0,Complete,Medium,0,97
+C5306,16.11,LOW,APPROVE,High digital / device fraud risk score,0,55.07,0.0,16.5,12.0,0,0,0,0,Complete,Low,0,96
+C5307,18.43,LOW,APPROVE,Prior fraud history on record,0,36.41,0.0,25.0,41.0,0,0,0,1,Complete,Low,0,68
+C5308,18.04,LOW,APPROVE,Prior fraud history on record,0,29.97,0.0,25.0,47.0,0,0,0,1,Complete,Low,0,46
+C5309,19.3,LOW,APPROVE,Customer address unverified,0,24.98,30.0,25.0,22.0,0,0,0,0,Complete,Low,0,44
+C5310,42.89,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; Structuring pattern detected (txn/income ratio anomaly),50,56.185,15.0,50.0,41.0,0,0,1,1,Complete,Low,1,45
+C5311,30.4,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP),70,39.475,0.0,25.0,0.0,0,1,0,0,Complete,Low,0,65
+C5312,31.94,MEDIUM,MANUAL_REVIEW,KYC documents incomplete (partial); Customer address unverified,0,39.215,30.0,66.5,32.0,0,0,0,0,Partial,Low,0,67
+C5313,8.61,LOW,APPROVE,No significant risk factors identified,0,13.53,0.0,25.0,6.0,0,0,0,0,Complete,Low,0,23
+C5314,19.59,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,9.69,50.0,0.0,51.0,0,0,0,1,Complete,Medium,0,18
+C5315,24.44,LOW,APPROVE,Prior fraud history on record,0,38.45,20.0,33.0,41.0,0,0,0,1,Complete,Medium,0,30
+C5316,5.07,LOW,APPROVE,No significant risk factors identified,0,8.825,0.0,16.5,0.0,0,0,0,0,Complete,Low,0,5
+C5317,14.4,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,13.24,0.0,25.0,45.0,0,0,0,1,Partial,Low,0,20
+C5318,14.3,LOW,APPROVE,Prior fraud history on record,0,24.240000000000002,0.0,16.5,41.0,0,0,0,1,Complete,Low,0,43
+C5319,8.06,LOW,APPROVE,No significant risk factors identified,0,15.805,20.0,0.0,6.0,0,0,0,0,Complete,Medium,0,7
+C5320,24.38,LOW,APPROVE,Customer address unverified,0,29.895,30.0,50.0,16.0,0,0,0,0,Complete,Low,0,58
+C5321,28.53,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,34.905,40.0,41.5,35.0,0,0,0,1,Complete,High,0,58
+C5322,34.71,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,0,93.81,0.0,41.5,51.0,0,0,0,1,Partial,Low,1,88
+C5323,19.96,LOW,APPROVE,Prior fraud history on record,0,29.545,0.0,29.0,55.0,0,0,0,1,Complete,Low,0,59
+C5324,17.29,LOW,APPROVE,Prior fraud history on record,0,35.19,0.0,25.0,35.0,0,0,0,1,Complete,Low,0,64
+C5325,37.59,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; KYC documents incomplete (partial),0,34.705,40.0,75.0,51.0,0,0,0,1,Partial,High,0,67
+C5326,22.85,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,47.0,20.0,16.5,41.0,0,0,0,1,Complete,Medium,0,93
+C5327,43.25,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP),70,26.015,20.0,41.5,55.0,0,1,0,1,Complete,Medium,0,35
+C5328,14.56,LOW,APPROVE,High-risk country of origin,0,32.805,40.0,0.0,0.0,0,0,0,0,Complete,High,0,62
+C5329,44.53,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; Adverse media / negative news detected,50,38.894999999999996,15.0,50.0,75.0,0,0,1,1,Missing,Low,0,59
+C5330,27.52,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,39.86,40.0,16.5,55.0,0,0,0,1,Complete,High,0,74
+C5331,25.12,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,49.37,0.0,45.5,41.0,0,0,0,1,Complete,Low,0,79
+C5332,35.42,MEDIUM,MANUAL_REVIEW,High-risk country of origin; High digital / device fraud risk score; Customer address unverified,0,45.12,70.0,50.0,16.0,0,0,0,0,Complete,High,0,79
+C5333,54.42,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); High digital / device fraud risk score; KYC documents incomplete (partial),70,48.62,50.0,66.5,26.0,0,1,0,0,Partial,Medium,0,84
+C5334,23.97,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial); Customer address unverified,0,19.09,30.0,25.0,61.0,0,0,0,1,Partial,Low,0,29
+C5335,19.91,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly),0,25.04,20.0,50.0,6.0,0,0,0,0,Complete,Medium,1,27
+C5336,24.5,LOW,APPROVE,High digital / device fraud risk score; KYC documents incomplete (partial),0,47.01,0.0,50.0,34.0,0,0,0,0,Partial,Low,0,90
+C5337,43.0,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High-risk country of origin; Customer address unverified,50,32.519999999999996,85.0,12.5,30.0,0,0,1,0,Complete,High,0,53
+C5338,11.49,LOW,APPROVE,Prior fraud history on record,0,31.21,0.0,0.0,35.0,0,0,0,1,Complete,Low,0,60
+C5339,16.69,LOW,APPROVE,High-risk country of origin,0,10.455,40.0,33.0,0.0,0,0,0,0,Complete,High,0,3
+C5340,34.52,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High-risk country of origin; High digital / device fraud risk score,50,50.585,55.0,0.0,6.0,0,0,1,0,Complete,High,0,92
+C5341,30.8,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected,50,41.235,15.0,0.0,47.0,0,0,1,1,Complete,Low,0,63
+C5342,14.18,LOW,APPROVE,No significant risk factors identified,0,16.415,0.0,50.0,6.0,0,0,0,0,Complete,Low,0,30
+C5343,16.57,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,43.1,0.0,0.0,53.0,0,0,0,1,Complete,Low,0,86
+C5344,22.42,LOW,APPROVE,Prior fraud history on record,0,38.33,20.0,12.5,55.0,0,0,0,1,Complete,Medium,0,66
+C5345,18.54,LOW,APPROVE,KYC documents incomplete (partial),0,35.21,0.0,50.0,10.0,0,0,0,0,Partial,Low,0,70
+C5346,8.64,LOW,APPROVE,No significant risk factors identified,0,9.18,0.0,25.0,12.0,0,0,0,0,Complete,Low,0,10
+C5347,26.42,LOW,APPROVE,KYC documents incomplete (partial); Customer address unverified,0,54.120000000000005,30.0,33.0,20.0,0,0,0,0,Partial,Low,0,65
+C5348,11.57,LOW,APPROVE,No significant risk factors identified,0,32.835,0.0,25.0,0.0,0,0,0,0,Complete,Low,0,65
+C5349,15.23,LOW,APPROVE,Prior fraud history on record,0,12.4,0.0,33.0,41.0,0,0,0,1,Complete,Low,0,24
+C5350,24.28,LOW,APPROVE,KYC documents missing; Customer address unverified,0,14.905,50.0,25.0,42.0,0,0,0,0,Missing,Medium,0,22
+C5351,15.64,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,2.96,0.0,25.0,67.0,0,0,0,1,Missing,Low,0,3
+C5352,32.34,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; Customer address unverified,0,36.97,30.0,41.5,71.0,0,0,0,1,Missing,Low,0,64
+C5353,27.01,LOW,APPROVE,Prior fraud history on record,0,20.8,20.0,50.0,59.0,0,0,0,1,Complete,Medium,0,35
+C5354,11.52,LOW,APPROVE,No significant risk factors identified,0,28.115000000000002,0.0,25.0,6.0,0,0,0,0,Complete,Low,0,50
+C5355,26.24,LOW,APPROVE,Prior fraud history on record; Adverse media / negative news detected,50,6.475,15.0,16.5,41.0,0,0,1,1,Complete,Low,0,9
+C5356,20.7,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,28.755,20.0,16.5,51.0,0,0,0,1,Partial,Medium,0,53
+C5357,14.96,LOW,APPROVE,High-risk country of origin,0,18.31,40.0,16.5,0.0,0,0,0,0,Complete,High,0,27
+C5358,27.81,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,37.82,30.0,33.0,51.0,0,0,0,1,Complete,Low,0,45
+C5359,21.92,LOW,APPROVE,High digital / device fraud risk score; Customer address unverified,0,51.12,30.0,16.5,16.0,0,0,0,0,Complete,Low,0,96
+C5360,24.61,LOW,APPROVE,Prior fraud history on record; KYC documents missing; Customer address unverified,0,19.285,30.0,25.0,65.0,0,0,0,1,Missing,Low,0,30
+C5361,9.32,LOW,APPROVE,KYC documents incomplete (partial),0,34.585,0.0,0.0,16.0,0,0,0,0,Partial,Low,0,65
+C5362,20.11,LOW,APPROVE,Politically Exposed Person (PEP); KYC documents incomplete (partial),70,5.535,0.0,0.0,10.0,0,1,0,0,Partial,Low,0,8
+C5363,15.61,LOW,APPROVE,No significant risk factors identified,0,11.03,0.0,58.0,12.0,0,0,0,0,Complete,Low,0,22
+C5364,12.94,LOW,APPROVE,High digital / device fraud risk score,0,43.21,0.0,12.5,12.0,0,0,0,0,Complete,Low,0,85
+C5365,28.85,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,47.5,20.0,41.5,47.0,0,0,0,1,Complete,Medium,0,94
+C5366,37.74,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,55.47,40.0,62.5,41.0,0,0,0,1,Complete,High,0,88
+C5367,28.28,LOW,APPROVE,High-risk country of origin,0,17.375,40.0,75.0,12.0,0,0,0,0,Complete,High,0,30
+C5368,34.65,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; High-risk country of origin,0,26.990000000000002,70.0,12.5,85.0,0,0,0,1,Missing,High,0,46
+C5369,25.47,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly),0,48.33,20.0,50.0,12.0,0,0,0,0,Complete,Medium,1,20
+C5370,46.18,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); High-risk country of origin; High digital / device fraud risk score,70,37.915,40.0,58.0,10.0,0,1,0,0,Partial,High,0,71
+C5371,37.95,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,48.015,50.0,41.5,67.0,0,0,0,1,Partial,Medium,0,87
+C5372,15.52,LOW,APPROVE,High-risk country of origin; KYC documents incomplete (partial),0,17.59,40.0,12.5,10.0,0,0,0,0,Partial,High,0,17
+C5373,23.32,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,42.86,0.0,25.0,65.0,0,0,0,1,Partial,Low,0,74
+C5374,24.51,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,21.815,0.0,58.0,57.0,0,0,0,1,Partial,Low,0,38
+C5375,11.98,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,18.635,0.0,0.0,55.0,0,0,0,1,Missing,Low,0,36
+C5376,40.57,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; Customer address unverified,50,7.08,45.0,50.0,51.0,0,0,1,1,Complete,Low,0,9
+C5377,45.75,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); High digital / device fraud risk score,70,65.485,0.0,33.0,57.0,0,1,0,1,Partial,Low,0,85
+C5378,14.79,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,23.69,0.0,16.5,45.0,0,0,0,1,Partial,Low,0,39
+C5379,16.8,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly),0,41.005,0.0,25.0,24.0,0,0,0,0,Complete,Low,1,55
+C5380,25.64,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,10.455,0.0,75.0,57.0,0,0,0,1,Partial,Low,0,15
+C5381,25.19,LOW,APPROVE,KYC documents missing; High digital / device fraud risk score; Customer address unverified,0,48.46,30.0,25.0,30.0,0,0,0,0,Missing,Low,0,87
+C5382,19.09,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,41.68,20.0,0.0,45.0,0,0,0,1,Partial,Medium,0,57
+C5383,60.35,HIGH,REJECT,Prior fraud history on record; Politically Exposed Person (PEP); Structuring pattern detected (txn/income ratio anomaly),70,57.475,40.0,83.0,45.0,0,1,0,1,Partial,High,1,86
+C5384,54.87,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High-risk country of origin; High digital / device fraud risk score,50,39.855,85.0,75.0,16.0,0,0,1,0,Complete,High,0,76
+C5385,36.1,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; Customer address unverified,0,26.73,70.0,50.0,45.0,0,0,0,1,Complete,High,0,50
+C5386,15.12,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,37.34,0.0,0.0,51.0,0,0,0,1,Partial,Low,0,64
+C5387,13.94,LOW,APPROVE,No significant risk factors identified,0,20.2,20.0,25.0,6.0,0,0,0,0,Complete,Medium,0,33
+C5388,16.92,LOW,APPROVE,Prior fraud history on record,0,58.335,0.0,0.0,35.0,0,0,0,1,Complete,Low,0,43
+C5389,75.0,HIGH,REJECT,Sanctions watchlist hit detected; High digital / device fraud risk score,100,47.61,0.0,41.5,6.0,1,0,0,0,Complete,Low,0,91
+C5390,24.95,LOW,APPROVE,Prior fraud history on record,0,74.0,20.0,0.0,41.0,0,0,0,1,Complete,Medium,0,48
+C5391,31.12,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); Customer address unverified,0,30.325,50.0,41.5,45.0,0,0,0,1,Complete,Medium,1,31
+C5392,38.62,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP),70,13.365,20.0,41.5,41.0,0,1,0,1,Complete,Medium,0,20
+C5393,18.59,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,46.69,0.0,12.5,45.0,0,0,0,1,Partial,Low,0,75
+C5394,27.96,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,47.53,20.0,25.0,63.0,0,0,0,1,Partial,Medium,0,88
+C5395,29.19,LOW,APPROVE,Customer address unverified,0,37.955,50.0,41.5,22.0,0,0,0,0,Complete,Medium,0,66
+C5396,41.29,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High digital / device fraud risk score,50,48.205,15.0,50.0,41.0,0,0,1,1,Complete,Low,0,91
+C5397,25.31,LOW,APPROVE,Customer address unverified,0,11.035,50.0,58.0,10.0,0,0,0,0,Complete,Medium,0,16
+C5398,37.29,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; High digital / device fraud risk score,0,50.715,0.0,75.0,81.0,0,0,0,1,Missing,Low,0,100
+C5399,14.86,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,3.54,0.0,25.0,61.0,0,0,0,1,Missing,Low,0,5
+C5400,43.65,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; Structuring pattern detected (txn/income ratio anomaly),50,55.5,15.0,50.0,47.0,0,0,1,1,Complete,Low,1,11
+C5401,30.85,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents incomplete (partial),0,36.515,0.0,75.0,57.0,0,0,0,1,Partial,Low,0,63
+C5402,43.52,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; Structuring pattern detected (txn/income ratio anomaly),50,33.865,15.0,66.5,53.0,0,0,1,1,Complete,Low,1,41
+C5403,35.19,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High digital / device fraud risk score,50,48.46,15.0,50.0,0.0,0,0,1,0,Complete,Low,0,87
+C5404,24.9,LOW,APPROVE,Prior fraud history on record,0,26.765,0.0,58.0,53.0,0,0,0,1,Complete,Low,0,47
+C5405,4.28,LOW,APPROVE,No significant risk factors identified,0,16.91,0.0,0.0,6.0,0,0,0,0,Complete,Low,0,28
+C5406,18.45,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,28.509999999999998,30.0,0.0,45.0,0,0,0,1,Complete,Low,0,33
+C5407,34.38,MEDIUM,MANUAL_REVIEW,KYC documents incomplete (partial),0,35.405,20.0,100.0,22.0,0,0,0,0,Partial,Medium,0,62
+C5408,24.23,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,62.41,0.0,25.0,45.0,0,0,0,1,Partial,Low,0,98
+C5409,39.17,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); High-risk country of origin,0,58.59,40.0,66.5,41.0,0,0,0,1,Complete,High,1,75
+C5410,15.84,LOW,APPROVE,KYC documents incomplete (partial),0,42.175,0.0,25.0,16.0,0,0,0,0,Partial,Low,0,18
+C5411,21.57,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,16.1,0.0,58.0,45.0,0,0,0,1,Partial,Low,0,14
+C5412,30.52,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected,50,4.375,15.0,25.0,61.0,0,0,1,1,Complete,Low,0,4
+C5413,34.64,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); High-risk country of origin,0,27.445,40.0,75.0,41.0,0,0,0,1,Complete,High,1,33
+C5414,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Prior fraud history on record; Politically Exposed Person (PEP),100,33.805,40.0,0.0,35.0,1,1,0,1,Complete,High,0,32
+C5415,20.1,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,9.27,40.0,25.0,35.0,0,0,0,1,Complete,High,0,10
+C5416,17.59,LOW,APPROVE,Prior fraud history on record,0,24.18,0.0,33.0,41.0,0,0,0,1,Complete,Low,0,34
+C5417,22.57,LOW,APPROVE,Politically Exposed Person (PEP),70,20.865,0.0,0.0,6.0,0,1,0,0,Complete,Low,0,5
+C5418,35.7,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Customer address unverified,0,31.244999999999997,50.0,50.0,63.0,0,0,0,1,Complete,Medium,0,33
+C5419,30.58,MEDIUM,MANUAL_REVIEW,KYC documents missing; Adverse media / negative news detected; High digital / device fraud risk score,50,43.875,15.0,16.5,20.0,0,0,1,0,Missing,Low,0,74
+C5420,32.5,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,83.75,20.0,25.0,45.0,0,0,0,1,Partial,Medium,0,94
+C5421,34.64,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High digital / device fraud risk score,50,44.425,15.0,25.0,35.0,0,0,1,1,Complete,Low,0,74
+C5422,28.29,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly),0,71.44,20.0,50.0,0.0,0,0,0,0,Complete,Medium,1,69
+C5423,15.31,LOW,APPROVE,High digital / device fraud risk score,0,43.055,0.0,29.0,6.0,0,0,0,0,Complete,Low,0,78
+C5424,31.88,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected,50,22.675,15.0,33.0,35.0,0,0,1,1,Complete,Low,0,40
+C5425,21.04,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,46.955,20.0,0.0,51.0,0,0,0,1,Partial,Medium,0,80
+C5426,24.04,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; Customer address unverified,0,11.965,70.0,0.0,51.0,0,0,0,1,Complete,High,0,15
+C5427,39.31,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin,0,30.31,40.0,100.0,35.0,0,0,0,1,Complete,High,0,58
+C5428,32.45,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,49.98,40.0,41.5,41.0,0,0,0,1,Complete,High,0,99
+C5429,23.58,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,55.15,0.0,29.0,45.0,0,0,0,1,Partial,Low,0,93
+C5430,28.85,LOW,APPROVE,KYC documents missing; Adverse media / negative news detected; High-risk country of origin,50,7.25,55.0,0.0,26.0,0,0,1,0,Missing,High,0,6
+C5431,16.05,LOW,APPROVE,KYC documents missing,0,32.225,0.0,33.0,20.0,0,0,0,0,Missing,Low,0,24
+C5432,24.71,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,51.3,0.0,41.5,41.0,0,0,0,1,Complete,Low,0,96
+C5433,20.43,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,43.39,0.0,25.0,45.0,0,0,0,1,Partial,Low,0,80
+C5434,33.72,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,0,76.84,0.0,58.0,45.0,0,0,0,1,Partial,Low,1,96
+C5435,30.18,MEDIUM,MANUAL_REVIEW,High digital / device fraud risk score; KYC documents incomplete (partial); Customer address unverified,0,59.88,30.0,41.5,26.0,0,0,0,0,Partial,Low,0,96
+C5436,20.76,LOW,APPROVE,KYC documents incomplete (partial),0,32.81,0.0,45.5,34.0,0,0,0,0,Partial,Low,0,55
+C5437,21.71,LOW,APPROVE,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); KYC documents incomplete (partial),0,12.29,0.0,58.0,51.0,0,0,0,1,Partial,Low,1,4
+C5438,18.64,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,37.97,0.0,29.0,35.0,0,0,0,1,Complete,Low,0,75
+C5439,53.35,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High digital / device fraud risk score,50,51.005,45.0,62.5,61.0,0,0,1,1,Partial,Low,0,91
+C5440,16.99,LOW,APPROVE,High digital / device fraud risk score,0,51.935,0.0,33.0,0.0,0,0,0,0,Complete,Low,0,99
+C5441,29.04,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,24.44,40.0,50.0,41.0,0,0,0,1,Complete,High,0,40
+C5442,30.87,MEDIUM,MANUAL_REVIEW,Prior fraud history on record,0,8.09,20.0,100.0,35.0,0,0,0,1,Complete,Medium,0,13
+C5443,33.3,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High digital / device fraud risk score; Customer address unverified,0,43.74,30.0,50.0,57.0,0,0,0,1,Complete,Low,0,76
+C5444,17.04,LOW,APPROVE,No significant risk factors identified,0,19.705,20.0,45.5,0.0,0,0,0,0,Complete,Medium,0,39
+C5445,38.48,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); KYC documents missing; High digital / device fraud risk score,70,49.875,0.0,25.0,40.0,0,1,0,0,Missing,Low,0,99
+C5446,14.14,LOW,APPROVE,No significant risk factors identified,0,33.675,20.0,12.5,6.0,0,0,0,0,Complete,Medium,0,61
+C5447,23.29,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,24.705,0.0,58.0,45.0,0,0,0,1,Partial,Low,0,43
+C5448,21.0,LOW,APPROVE,Prior fraud history on record,0,11.75,0.0,62.5,41.0,0,0,0,1,Complete,Low,0,8
+C5449,22.93,LOW,APPROVE,Prior fraud history on record,0,33.9,0.0,50.0,41.0,0,0,0,1,Complete,Low,0,63
+C5450,8.45,LOW,APPROVE,KYC documents incomplete (partial),0,10.74,0.0,0.0,42.0,0,0,0,0,Partial,Low,0,17
+C5451,45.27,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,50,62.345,35.0,66.5,0.0,0,0,1,0,Complete,Medium,1,75
+C5452,56.78,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High-risk country of origin,50,57.64,85.0,33.0,61.0,0,0,1,1,Partial,High,0,82
+C5453,23.91,LOW,APPROVE,Customer address unverified,0,32.045,30.0,50.0,10.0,0,0,0,0,Complete,Low,0,61
+C5454,55.64,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); Structuring pattern detected (txn/income ratio anomaly); High-risk country of origin,70,54.225,40.0,83.0,18.0,0,1,0,0,Complete,High,1,87
+C5455,9.75,LOW,APPROVE,No significant risk factors identified,0,27.73,0.0,16.5,6.0,0,0,0,0,Complete,Low,0,50
+C5456,21.65,LOW,APPROVE,No significant risk factors identified,0,38.255,20.0,50.0,0.0,0,0,0,0,Complete,Medium,0,69
+C5457,37.7,MEDIUM,MANUAL_REVIEW,High digital / device fraud risk score; KYC documents incomplete (partial),0,97.5,20.0,50.0,28.0,0,0,0,0,Partial,Medium,0,95
+C5458,36.14,MEDIUM,MANUAL_REVIEW,High-risk country of origin; High digital / device fraud risk score; Customer address unverified,0,44.175,70.0,50.0,22.0,0,0,0,0,Complete,High,0,88
+C5459,27.02,LOW,APPROVE,Prior fraud history on record,0,8.825,0.0,100.0,35.0,0,0,0,1,Complete,Low,0,7
+C5460,14.62,LOW,APPROVE,No significant risk factors identified,0,27.115000000000002,0.0,41.5,6.0,0,0,0,0,Complete,Low,0,42
+C5461,36.8,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Customer address unverified,0,25.225,50.0,75.0,45.0,0,0,0,1,Complete,Medium,0,34
+C5462,14.53,LOW,APPROVE,No significant risk factors identified,0,36.17,20.0,16.5,0.0,0,0,0,0,Complete,Medium,0,68
+C5463,36.52,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); Adverse media / negative news detected,70,26.365000000000002,35.0,0.0,45.0,0,1,1,1,Partial,Medium,0,45
+C5464,22.06,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,21.53,30.0,25.0,45.0,0,0,0,1,Complete,Low,0,18
+C5465,26.76,LOW,APPROVE,KYC documents incomplete (partial); Customer address unverified,0,13.775,30.0,75.0,20.0,0,0,0,0,Partial,Low,0,26
+C5466,6.2,LOW,APPROVE,No significant risk factors identified,0,26.485,0.0,0.0,6.0,0,0,0,0,Complete,Low,0,50
+C5467,36.29,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); High-risk country of origin,70,32.945,40.0,16.5,6.0,0,1,0,0,Complete,High,0,57
+C5468,9.9,LOW,APPROVE,Prior fraud history on record,0,10.754999999999999,0.0,12.5,35.0,0,0,0,1,Complete,Low,0,13
+C5469,36.4,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Customer address unverified,0,63.225,30.0,41.5,63.0,0,0,0,1,Complete,Low,0,48
+C5470,22.96,LOW,APPROVE,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); KYC documents incomplete (partial),0,36.04,20.0,25.0,45.0,0,0,0,1,Partial,Medium,1,22
+C5471,33.92,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; Customer address unverified,50,38.105000000000004,45.0,16.5,10.0,0,0,1,0,Complete,Low,0,63
+C5472,4.94,LOW,APPROVE,No significant risk factors identified,0,4.68,20.0,0.0,0.0,0,0,0,0,Complete,Medium,0,5
+C5473,19.58,LOW,APPROVE,Prior fraud history on record,0,17.634999999999998,20.0,25.0,47.0,0,0,0,1,Complete,Medium,0,10
+C5474,13.61,LOW,APPROVE,No significant risk factors identified,0,31.03,20.0,12.5,6.0,0,0,0,0,Complete,Medium,0,60
+C5475,7.99,LOW,APPROVE,KYC documents incomplete (partial),0,12.46,20.0,0.0,10.0,0,0,0,0,Partial,Medium,0,14
+C5476,30.97,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,0,59.58,20.0,25.0,67.0,0,0,0,1,Complete,Medium,1,97
+C5477,58.35,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); High-risk country of origin,70,46.015,70.0,50.0,51.0,0,1,0,1,Complete,High,0,87
+C5478,19.44,LOW,APPROVE,High-risk country of origin; Customer address unverified,0,19.72,70.0,0.0,10.0,0,0,0,0,Complete,High,0,33
+C5479,16.93,LOW,APPROVE,No significant risk factors identified,0,14.64,20.0,50.0,0.0,0,0,0,0,Complete,Medium,0,22
+C5480,36.66,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High digital / device fraud risk score,0,82.03,0.0,75.0,35.0,0,0,0,1,Complete,Low,0,90
+C5481,22.49,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,27.705,30.0,16.5,51.0,0,0,0,1,Complete,Low,0,52
+C5482,37.35,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP),70,15.01,0.0,58.0,35.0,0,1,0,1,Complete,Low,0,19
+C5483,16.18,LOW,APPROVE,Customer address unverified,0,9.885,30.0,29.0,16.0,0,0,0,0,Complete,Low,0,14
+C5484,41.25,MEDIUM,MANUAL_REVIEW,Structuring pattern detected (txn/income ratio anomaly); Customer address unverified,0,59.735,30.0,100.0,22.0,0,0,0,0,Complete,Low,1,60
+C5485,14.34,LOW,APPROVE,No significant risk factors identified,0,30.175,0.0,41.5,0.0,0,0,0,0,Complete,Low,0,59
+C5486,75.0,HIGH,REJECT,Sanctions watchlist hit detected; High digital / device fraud risk score,100,46.27,20.0,66.5,6.0,1,0,0,0,Complete,Medium,0,91
+C5487,24.87,LOW,APPROVE,KYC documents incomplete (partial),0,12.85,20.0,75.0,22.0,0,0,0,0,Partial,Medium,0,7
+C5488,34.02,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents incomplete (partial),0,27.35,0.0,100.0,57.0,0,0,0,1,Partial,Low,0,45
+C5489,21.18,LOW,APPROVE,High digital / device fraud risk score,0,47.385,20.0,25.0,18.0,0,0,0,0,Complete,Medium,0,88
+C5490,28.36,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; Customer address unverified,0,45.045,30.0,33.0,45.0,0,0,0,1,Complete,Low,0,90
+C5491,38.03,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; High-risk country of origin,0,45.92,70.0,16.5,77.0,0,0,0,1,Missing,High,0,90
+C5492,28.29,LOW,APPROVE,KYC documents missing; Adverse media / negative news detected,50,23.945,15.0,25.0,20.0,0,0,1,0,Missing,Low,0,40
+C5493,40.6,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High-risk country of origin,50,20.27,55.0,16.5,65.0,0,0,1,1,Partial,High,0,23
+C5494,16.2,LOW,APPROVE,Customer address unverified,0,14.02,30.0,25.0,16.0,0,0,0,0,Complete,Low,0,27
+C5495,14.14,LOW,APPROVE,Prior fraud history on record,0,19.445,0.0,25.0,35.0,0,0,0,1,Complete,Low,0,25
+C5496,23.52,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial); Customer address unverified,0,29.325,30.0,12.5,61.0,0,0,0,1,Partial,Low,0,48
+C5497,18.3,LOW,APPROVE,High-risk country of origin; KYC documents incomplete (partial),0,27.0,40.0,12.5,16.0,0,0,0,0,Partial,High,0,13
+C5498,31.65,MEDIUM,MANUAL_REVIEW,High digital / device fraud risk score; KYC documents incomplete (partial),0,36.245,20.0,75.0,36.0,0,0,0,0,Partial,Medium,0,71
+C5499,75.0,HIGH,REJECT,Sanctions watchlist hit detected; KYC documents missing,100,15.855,0.0,50.0,26.0,1,0,0,0,Missing,Low,0,21
+C5500,31.02,MEDIUM,MANUAL_REVIEW,Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,0,93.6,20.0,41.5,0.0,0,0,0,0,Complete,Medium,1,90
+C5501,21.99,LOW,APPROVE,High digital / device fraud risk score,0,43.96,20.0,41.5,6.0,0,0,0,0,Complete,Medium,0,85
+C5502,33.66,MEDIUM,MANUAL_REVIEW,High-risk country of origin; High digital / device fraud risk score; Customer address unverified,0,40.795,70.0,50.0,10.0,0,0,0,0,Complete,High,0,75
+C5503,14.1,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,39.765,0.0,0.0,41.0,0,0,0,1,Complete,Low,0,76
+C5504,15.73,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly),0,53.64,0.0,25.0,0.0,0,0,0,0,Complete,Low,1,67
+C5505,12.54,LOW,APPROVE,KYC documents incomplete (partial),0,13.675,0.0,41.5,10.0,0,0,0,0,Partial,Low,0,25
+C5506,35.91,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High-risk country of origin; Customer address unverified,50,12.03,85.0,12.5,10.0,0,0,1,0,Complete,High,0,22
+C5507,20.7,LOW,APPROVE,High digital / device fraud risk score,0,44.48,0.0,50.0,12.0,0,0,0,0,Complete,Low,0,81
+C5508,28.17,LOW,APPROVE,Prior fraud history on record; Adverse media / negative news detected,50,37.12,15.0,0.0,35.0,0,0,1,1,Complete,Low,0,60
+C5509,11.67,LOW,APPROVE,High digital / device fraud risk score,0,41.84,0.0,16.5,0.0,0,0,0,0,Complete,Low,0,83
+C5510,21.87,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,0,58.84,0.0,41.5,12.0,0,0,0,0,Complete,Low,1,81
+C5511,32.02,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected,50,14.85,15.0,41.5,35.0,0,0,1,1,Complete,Low,0,25
+C5512,20.36,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,50.56,0.0,25.0,35.0,0,0,0,1,Complete,Low,0,99
+C5513,15.72,LOW,APPROVE,Prior fraud history on record,0,19.335,0.0,33.0,35.0,0,0,0,1,Complete,Low,0,32
+C5514,12.74,LOW,APPROVE,No significant risk factors identified,0,38.685,0.0,25.0,0.0,0,0,0,0,Complete,Low,0,68
+C5515,17.51,LOW,APPROVE,Prior fraud history on record,0,40.32,0.0,16.5,41.0,0,0,0,1,Complete,Low,0,62
+C5516,18.94,LOW,APPROVE,Customer address unverified,0,28.22,30.0,29.0,10.0,0,0,0,0,Complete,Low,0,42
+C5517,36.6,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; Structuring pattern detected (txn/income ratio anomaly),0,22.240000000000002,40.0,75.0,61.0,0,0,0,1,Missing,High,1,22
+C5518,18.13,LOW,APPROVE,High digital / device fraud risk score,0,44.635,0.0,41.5,6.0,0,0,0,0,Complete,Low,0,79
+C5519,18.51,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,21.79,20.0,12.5,51.0,0,0,0,1,Partial,Medium,0,39
+C5520,28.49,LOW,APPROVE,KYC documents incomplete (partial),0,35.465,20.0,75.0,16.0,0,0,0,0,Partial,Medium,0,62
+C5521,19.7,LOW,APPROVE,Prior fraud history on record,0,22.765,20.0,25.0,41.0,0,0,0,1,Complete,Medium,0,45
+C5522,25.72,LOW,APPROVE,High digital / device fraud risk score; Customer address unverified,0,54.615,50.0,16.5,10.0,0,0,0,0,Complete,Medium,0,96
+C5523,22.44,LOW,APPROVE,Prior fraud history on record,0,65.96000000000001,20.0,0.0,35.0,0,0,0,1,Complete,Medium,0,62
+C5524,22.35,LOW,APPROVE,High-risk country of origin,0,42.275,40.0,25.0,6.0,0,0,0,0,Complete,High,0,69
+C5525,18.67,LOW,APPROVE,No significant risk factors identified,0,18.855,20.0,50.0,6.0,0,0,0,0,Complete,Medium,0,24
+C5526,34.45,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,56.01,40.0,50.0,35.0,0,0,0,1,Complete,High,0,100
+C5527,36.91,MEDIUM,MANUAL_REVIEW,KYC documents missing; High digital / device fraud risk score; Customer address unverified,0,45.035,50.0,62.5,36.0,0,0,0,0,Missing,Medium,0,79
+C5528,47.62,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); Adverse media / negative news detected; Structuring pattern detected (txn/income ratio anomaly),70,56.585,35.0,50.0,12.0,0,1,1,0,Complete,Medium,1,89
+C5529,22.64,LOW,APPROVE,No significant risk factors identified,0,10.190000000000001,20.0,83.0,0.0,0,0,0,0,Complete,Medium,0,6
+C5530,24.65,LOW,APPROVE,Prior fraud history on record,0,21.990000000000002,0.0,75.0,35.0,0,0,0,1,Complete,Low,0,37
+C5531,42.38,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High-risk country of origin,50,29.66,55.0,25.0,53.0,0,0,1,1,Complete,High,0,58
+C5532,37.34,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); KYC documents missing,70,17.19,0.0,58.0,32.0,0,1,0,0,Missing,Low,0,0
+C5533,25.14,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly),0,25.68,20.0,66.5,18.0,0,0,0,0,Complete,Medium,1,2
+C5534,25.78,LOW,APPROVE,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly),0,52.64,0.0,50.0,35.0,0,0,0,1,Complete,Low,1,61
+C5535,25.77,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,56.585,0.0,41.5,41.0,0,0,0,1,Complete,Low,0,95
+C5536,44.33,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; Customer address unverified,50,25.88,45.0,50.0,51.0,0,0,1,1,Complete,Low,0,47
+C5537,17.83,LOW,APPROVE,High digital / device fraud risk score; KYC documents incomplete (partial),0,69.145,0.0,12.5,10.0,0,0,0,0,Partial,Low,0,77
+C5538,32.82,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,0,75.35,30.0,25.0,45.0,0,0,0,1,Complete,Low,1,93
+C5539,37.17,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,40.605000000000004,70.0,41.5,45.0,0,0,0,1,Complete,High,0,71
+C5540,17.18,LOW,APPROVE,Prior fraud history on record,0,21.634999999999998,0.0,29.0,47.0,0,0,0,1,Complete,Low,0,33
+C5541,33.95,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); KYC documents missing; High digital / device fraud risk score,70,45.74,0.0,12.5,32.0,0,1,0,0,Missing,Low,0,87
+C5542,34.61,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High digital / device fraud risk score,50,36.575,15.0,50.0,12.0,0,0,1,0,Complete,Low,0,72
+C5543,17.95,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,5.98,50.0,0.0,45.0,0,0,0,1,Complete,Medium,0,8
+C5544,11.62,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,16.865000000000002,0.0,0.0,55.0,0,0,0,1,Missing,Low,0,28
+C5545,22.89,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,18.68,40.0,25.0,41.0,0,0,0,1,Complete,High,0,33
+C5546,19.22,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,16.365000000000002,0.0,41.5,51.0,0,0,0,1,Partial,Low,0,27
+C5547,22.59,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,39.185,20.0,12.5,55.0,0,0,0,1,Complete,Medium,0,73
+C5548,38.53,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High-risk country of origin; Customer address unverified,50,6.155,85.0,16.5,30.0,0,0,1,0,Complete,High,0,3
+C5549,16.11,LOW,APPROVE,High-risk country of origin,0,36.045,40.0,0.0,6.0,0,0,0,0,Complete,High,0,48
+C5550,6.53,LOW,APPROVE,No significant risk factors identified,0,28.155,0.0,0.0,6.0,0,0,0,0,Complete,Low,0,40
+C5551,10.58,LOW,APPROVE,High digital / device fraud risk score,0,48.385,0.0,0.0,6.0,0,0,0,0,Complete,Low,0,79
+C5552,20.33,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,35.385,20.0,12.5,45.0,0,0,0,1,Partial,Medium,0,64
+C5553,22.66,LOW,APPROVE,No significant risk factors identified,0,15.815,20.0,58.0,26.0,0,0,0,0,Complete,Medium,0,9
+C5554,23.32,LOW,APPROVE,High digital / device fraud risk score,0,46.62,20.0,50.0,0.0,0,0,0,0,Complete,Medium,0,88
+C5555,40.62,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); KYC documents incomplete (partial),70,26.865000000000002,0.0,41.5,63.0,0,1,0,1,Partial,Low,0,44
+C5556,13.77,LOW,APPROVE,KYC documents incomplete (partial),0,5.359999999999999,20.0,16.5,36.0,0,0,0,0,Partial,Medium,0,5
+C5557,28.65,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected,50,49.265,15.0,16.5,0.0,0,0,1,0,Complete,Low,0,65
+C5558,38.54,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected,50,29.96,15.0,50.0,47.0,0,0,1,1,Complete,Low,0,48
+C5559,17.15,LOW,APPROVE,No significant risk factors identified,0,23.259999999999998,0.0,62.5,0.0,0,0,0,0,Complete,Low,0,34
+C5560,13.32,LOW,APPROVE,High digital / device fraud risk score,0,50.085,0.0,16.5,0.0,0,0,0,0,Complete,Low,0,92
+C5561,48.21,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High-risk country of origin,50,43.78,55.0,41.5,51.0,0,0,1,1,Partial,High,0,76
+C5562,38.01,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); Customer address unverified,70,35.535,30.0,25.0,16.0,0,1,0,0,Complete,Low,0,68
+C5563,28.3,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial); Customer address unverified,0,8.74,50.0,41.5,55.0,0,0,0,1,Partial,Medium,0,8
+C5564,18.96,LOW,APPROVE,Prior fraud history on record,0,10.525,0.0,58.0,35.0,0,0,0,1,Complete,Low,0,9
+C5565,20.47,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,9.105,30.0,25.0,51.0,0,0,0,1,Complete,Low,0,12
+C5566,29.99,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,46.18,20.0,50.0,45.0,0,0,0,1,Partial,Medium,0,78
+C5567,17.45,LOW,APPROVE,High-risk country of origin,0,13.25,40.0,25.0,12.0,0,0,0,0,Complete,High,0,19
+C5568,12.18,LOW,APPROVE,No significant risk factors identified,0,1.88,0.0,50.0,12.0,0,0,0,0,Complete,Low,0,1
+C5569,25.09,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,22.195,0.0,50.0,71.0,0,0,0,1,Partial,Low,0,27
+C5570,27.11,LOW,APPROVE,Prior fraud history on record,0,14.295,20.0,75.0,35.0,0,0,0,1,Complete,Medium,0,27
+C5571,49.24,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); High-risk country of origin,70,39.935,70.0,0.0,65.0,0,1,0,1,Complete,High,0,78
+C5572,37.5,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; KYC documents incomplete (partial),0,73.72999999999999,40.0,25.0,65.0,0,0,0,1,Partial,High,0,57
+C5573,21.33,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,13.39,30.0,25.0,51.0,0,0,0,1,Complete,Low,0,17
+C5574,48.38,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); High-risk country of origin,70,29.165,40.0,50.0,47.0,0,1,0,1,Complete,High,0,47
+C5575,17.17,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,18.09,0.0,25.0,57.0,0,0,0,1,Partial,Low,0,24
+C5576,38.64,MEDIUM,MANUAL_REVIEW,High-risk country of origin; High digital / device fraud risk score,0,48.71,40.0,100.0,6.0,0,0,0,0,Complete,High,0,87
+C5577,17.38,LOW,APPROVE,Prior fraud history on record,0,6.13,0.0,50.0,41.0,0,0,0,1,Complete,Low,0,7
+C5578,19.96,LOW,APPROVE,High digital / device fraud risk score,0,53.82,0.0,41.5,6.0,0,0,0,0,Complete,Low,0,84
+C5579,26.24,LOW,APPROVE,High-risk country of origin; High digital / device fraud risk score; KYC documents incomplete (partial),0,54.19,40.0,25.0,16.0,0,0,0,0,Partial,High,0,78
+C5580,35.36,MEDIUM,MANUAL_REVIEW,High-risk country of origin; High digital / device fraud risk score; Customer address unverified,0,41.32,70.0,58.0,10.0,0,0,0,0,Complete,High,0,82
+C5581,20.01,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,49.28,20.0,0.0,41.0,0,0,0,1,Complete,Medium,0,94
+C5582,6.44,LOW,APPROVE,No significant risk factors identified,0,19.715,0.0,12.5,0.0,0,0,0,0,Complete,Low,0,39
+C5583,15.77,LOW,APPROVE,Prior fraud history on record,0,43.615,0.0,0.0,47.0,0,0,0,1,Complete,Low,0,63
+C5584,24.84,LOW,APPROVE,KYC documents missing,0,5.22,20.0,75.0,32.0,0,0,0,0,Missing,Medium,0,2
+C5585,20.21,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,46.28,0.0,16.5,51.0,0,0,0,1,Partial,Low,0,92
+C5586,38.19,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,53.22,70.0,25.0,57.0,0,0,0,1,Complete,High,0,88
+C5587,26.06,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,42.525,20.0,41.5,35.0,0,0,0,1,Complete,Medium,0,77
+C5588,25.34,LOW,APPROVE,Adverse media / negative news detected; KYC documents incomplete (partial),50,16.685,15.0,25.0,10.0,0,0,1,0,Partial,Low,0,25
+C5589,23.3,LOW,APPROVE,Prior fraud history on record,0,28.76,20.0,41.5,35.0,0,0,0,1,Complete,Medium,0,56
+C5590,19.65,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,31.99,40.0,0.0,35.0,0,0,0,1,Complete,High,0,61
+C5591,23.57,LOW,APPROVE,Adverse media / negative news detected; Structuring pattern detected (txn/income ratio anomaly),50,15.37,15.0,25.0,0.0,0,0,1,0,Complete,Low,1,2
+C5592,17.13,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; KYC documents incomplete (partial),0,7.415,40.0,0.0,51.0,0,0,0,1,Partial,High,0,9
+C5593,31.11,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; Customer address unverified,0,26.815,70.0,25.0,45.0,0,0,0,1,Complete,High,0,40
+C5594,19.86,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,7.535,40.0,16.5,47.0,0,0,0,1,Complete,High,0,14
+C5595,16.12,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,10.34,20.0,16.5,45.0,0,0,0,1,Partial,Medium,0,19
+C5596,23.75,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,39.019999999999996,0.0,25.0,73.0,0,0,0,1,Missing,Low,0,50
+C5597,24.68,LOW,APPROVE,High digital / device fraud risk score,0,45.375,20.0,58.0,0.0,0,0,0,0,Complete,Medium,0,87
+C5598,26.66,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,53.06,20.0,25.0,47.0,0,0,0,1,Complete,Medium,0,99
+C5599,25.23,LOW,APPROVE,High-risk country of origin; High digital / device fraud risk score,0,44.655,40.0,41.5,0.0,0,0,0,0,Complete,High,0,82
+C5600,10.44,LOW,APPROVE,KYC documents incomplete (partial),0,44.71,0.0,0.0,10.0,0,0,0,0,Partial,Low,0,59
+C5601,27.41,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,56.795,20.0,25.0,47.0,0,0,0,1,Complete,Medium,0,100
+C5602,25.38,LOW,APPROVE,High digital / device fraud risk score,0,48.885,20.0,58.0,0.0,0,0,0,0,Complete,Medium,0,92
+C5603,23.22,LOW,APPROVE,High-risk country of origin; High digital / device fraud risk score; KYC documents incomplete (partial),0,39.11,40.0,25.0,16.0,0,0,0,0,Partial,High,0,72
+C5604,14.94,LOW,APPROVE,No significant risk factors identified,0,20.705,20.0,25.0,12.0,0,0,0,0,Complete,Medium,0,36
+C5605,20.7,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,44.755,0.0,25.0,45.0,0,0,0,1,Partial,Low,0,66
+C5606,20.01,LOW,APPROVE,KYC documents missing,0,35.065,0.0,50.0,20.0,0,0,0,0,Missing,Low,0,66
+C5607,27.7,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,20.245,30.0,50.0,51.0,0,0,0,1,Complete,Low,0,39
+C5608,38.83,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); High-risk country of origin; High digital / device fraud risk score,70,45.66,40.0,16.5,6.0,0,1,0,0,Complete,High,0,75
+C5609,18.78,LOW,APPROVE,No significant risk factors identified,0,18.88,0.0,75.0,0.0,0,0,0,0,Complete,Low,0,34
+C5610,36.92,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; Customer address unverified,0,5.845,30.0,100.0,65.0,0,0,0,1,Missing,Low,0,0
+C5611,26.32,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,43.34,0.0,50.0,51.0,0,0,0,1,Partial,Low,0,86
+C5612,25.77,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly); KYC documents incomplete (partial),0,41.855000000000004,0.0,75.0,16.0,0,0,0,0,Partial,Low,1,56
+C5613,14.58,LOW,APPROVE,No significant risk factors identified,0,23.42,20.0,25.0,6.0,0,0,0,0,Complete,Medium,0,42
+C5614,20.8,LOW,APPROVE,High-risk country of origin,0,30.015,40.0,25.0,12.0,0,0,0,0,Complete,High,0,56
+C5615,35.44,MEDIUM,MANUAL_REVIEW,KYC documents incomplete (partial); Customer address unverified,0,3.18,50.0,100.0,32.0,0,0,0,0,Partial,Medium,0,0
+C5616,35.02,MEDIUM,MANUAL_REVIEW,KYC documents missing; Adverse media / negative news detected; High-risk country of origin,50,21.61,55.0,16.5,26.0,0,0,1,0,Missing,High,0,31
+C5617,35.02,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected,50,17.835,35.0,29.0,41.0,0,0,1,1,Complete,Medium,0,29
+C5618,13.07,LOW,APPROVE,KYC documents incomplete (partial),0,3.37,0.0,50.0,16.0,0,0,0,0,Partial,Low,0,0
+C5619,75.0,HIGH,REJECT,Sanctions watchlist hit detected,100,1.56,0.0,66.5,0.0,1,0,0,0,Complete,Low,0,0
+C5620,19.4,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,18.26,20.0,25.0,45.0,0,0,0,1,Partial,Medium,0,36
+C5621,22.36,LOW,APPROVE,High-risk country of origin,0,8.28,40.0,50.0,18.0,0,0,0,0,Complete,High,0,14
+C5622,35.91,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; Customer address unverified,0,34.31,70.0,41.5,45.0,0,0,0,1,Complete,High,0,60
+C5623,17.6,LOW,APPROVE,KYC documents incomplete (partial),0,22.98,20.0,33.0,16.0,0,0,0,0,Partial,Medium,0,11
+C5624,29.92,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,56.36,0.0,58.0,47.0,0,0,0,1,Complete,Low,0,89
+C5625,32.27,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,49.115,40.0,41.5,41.0,0,0,0,1,Complete,High,0,98
+C5626,11.95,LOW,APPROVE,KYC documents incomplete (partial),0,18.240000000000002,0.0,25.0,22.0,0,0,0,0,Partial,Low,0,28
+C5627,36.48,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); High-risk country of origin,0,51.15,40.0,50.0,55.0,0,0,0,1,Complete,High,1,70
+C5628,44.89,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP),70,44.93,0.0,83.0,12.0,0,1,0,0,Complete,Low,0,70
+C5629,16.03,LOW,APPROVE,High digital / device fraud risk score; KYC documents incomplete (partial),0,56.125,0.0,16.5,10.0,0,0,0,0,Partial,Low,0,78
+C5630,20.7,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,14.735,30.0,25.0,45.0,0,0,0,1,Complete,Low,0,23
+C5631,27.64,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,41.97,20.0,50.0,35.0,0,0,0,1,Complete,Medium,0,78
+C5632,11.74,LOW,APPROVE,High digital / device fraud risk score; KYC documents incomplete (partial),0,42.19,0.0,0.0,22.0,0,0,0,0,Partial,Low,0,79
+C5633,28.33,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,56.42,0.0,50.0,47.0,0,0,0,1,Complete,Low,0,94
+C5634,36.79,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; KYC documents incomplete (partial),50,39.715,15.0,33.0,45.0,0,0,1,1,Partial,Low,0,36
+C5635,31.36,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected,50,28.78,15.0,41.5,12.0,0,0,1,0,Complete,Low,0,56
+C5636,22.05,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,35.015,40.0,0.0,47.0,0,0,0,1,Complete,High,0,62
+C5637,19.62,LOW,APPROVE,High-risk country of origin; High digital / device fraud risk score,0,45.605,40.0,12.5,0.0,0,0,0,0,Complete,High,0,91
+C5638,23.87,LOW,APPROVE,Prior fraud history on record,0,6.62,20.0,66.5,35.0,0,0,0,1,Complete,Medium,0,13
+C5639,19.46,LOW,APPROVE,High digital / device fraud risk score; Customer address unverified,0,38.29,30.0,12.5,22.0,0,0,0,0,Complete,Low,0,75
+C5640,46.96,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High-risk country of origin; High digital / device fraud risk score,50,42.305,55.0,75.0,0.0,0,0,1,0,Complete,High,0,72
+C5641,26.89,LOW,APPROVE,Customer address unverified,0,26.935000000000002,50.0,50.0,10.0,0,0,0,0,Complete,Medium,0,36
+C5642,18.94,LOW,APPROVE,No significant risk factors identified,0,32.215,0.0,62.5,0.0,0,0,0,0,Complete,Low,0,62
+C5643,17.41,LOW,APPROVE,High digital / device fraud risk score,0,37.065,0.0,50.0,0.0,0,0,0,0,Complete,Low,0,72
+C5644,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly),100,22.61,0.0,75.0,41.0,1,0,0,1,Complete,Low,1,8
+C5645,5.8,LOW,APPROVE,No significant risk factors identified,0,12.475,0.0,16.5,0.0,0,0,0,0,Complete,Low,0,20
+C5646,16.64,LOW,APPROVE,Customer address unverified,0,25.675,50.0,0.0,10.0,0,0,0,0,Complete,Medium,0,47
+C5647,15.92,LOW,APPROVE,Prior fraud history on record,0,7.37,0.0,41.5,41.0,0,0,0,1,Complete,Low,0,6
+C5648,35.74,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); High-risk country of origin,0,37.425,40.0,75.0,35.0,0,0,0,1,Complete,High,1,34
+C5649,34.75,MEDIUM,MANUAL_REVIEW,Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score; KYC documents incomplete (partial),0,58.74,50.0,50.0,20.0,0,0,0,0,Partial,Medium,1,94
+C5650,11.76,LOW,APPROVE,No significant risk factors identified,0,24.775,0.0,25.0,12.0,0,0,0,0,Complete,Low,0,34
+C5651,10.54,LOW,APPROVE,No significant risk factors identified,0,32.675,20.0,0.0,0.0,0,0,0,0,Complete,Medium,0,59
+C5652,15.93,LOW,APPROVE,No significant risk factors identified,0,14.17,20.0,45.5,0.0,0,0,0,0,Complete,Medium,0,15
+C5653,23.67,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,25.095,30.0,25.0,51.0,0,0,0,1,Complete,Low,0,39
+C5654,6.62,LOW,APPROVE,KYC documents incomplete (partial),0,1.625,0.0,0.0,42.0,0,0,0,0,Partial,Low,0,2
+C5655,20.65,LOW,APPROVE,KYC documents missing; High digital / device fraud risk score; Customer address unverified,0,50.74,30.0,0.0,30.0,0,0,0,0,Missing,Low,0,87
+C5656,14.33,LOW,APPROVE,KYC documents incomplete (partial),0,59.64,0.0,0.0,16.0,0,0,0,0,Partial,Low,0,20
+C5657,26.33,LOW,APPROVE,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); KYC documents incomplete (partial),0,18.91,30.0,41.5,55.0,0,0,0,1,Partial,Low,1,10
+C5658,32.76,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,51.565,40.0,41.5,41.0,0,0,0,1,Complete,High,0,85
+C5659,41.82,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); Customer address unverified,70,12.825,50.0,25.0,45.0,0,1,0,1,Complete,Medium,0,22
+C5660,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Prior fraud history on record; KYC documents incomplete (partial),100,30.34,30.0,25.0,61.0,1,0,0,1,Partial,Low,0,31
+C5661,24.48,LOW,APPROVE,High-risk country of origin; KYC documents incomplete (partial),0,28.9,40.0,41.5,16.0,0,0,0,0,Partial,High,0,45
+C5662,25.41,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,43.315,0.0,50.0,45.0,0,0,0,1,Partial,Low,0,85
+C5663,17.1,LOW,APPROVE,KYC documents incomplete (partial),0,15.98,20.0,33.0,22.0,0,0,0,0,Partial,Medium,0,29
+C5664,26.76,LOW,APPROVE,KYC documents missing; Adverse media / negative news detected,50,24.825,15.0,16.5,20.0,0,0,1,0,Missing,Low,0,46
+C5665,17.07,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,7.08,20.0,12.5,61.0,0,0,0,1,Missing,Medium,0,13
+C5666,21.03,LOW,APPROVE,High-risk country of origin,0,19.17,40.0,41.5,6.0,0,0,0,0,Complete,High,0,29
+C5667,38.44,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents incomplete (partial); Customer address unverified,0,25.935,50.0,75.0,55.0,0,0,0,1,Partial,Medium,0,47
+C5668,36.57,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected,50,37.1,15.0,33.0,47.0,0,0,1,1,Complete,Low,0,60
+C5669,4.31,LOW,APPROVE,No significant risk factors identified,0,21.555,0.0,0.0,0.0,0,0,0,0,Complete,Low,0,38
+C5670,16.75,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,24.995,0.0,25.0,45.0,0,0,0,1,Partial,Low,0,49
+C5671,28.69,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; Customer address unverified,0,50.705,30.0,29.0,45.0,0,0,0,1,Complete,Low,0,89
+C5672,35.03,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected,50,26.915,15.0,25.0,61.0,0,0,1,1,Complete,Low,0,44
+C5673,41.28,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; Structuring pattern detected (txn/income ratio anomaly); KYC documents incomplete (partial),50,41.885000000000005,15.0,75.0,16.0,0,0,1,0,Partial,Low,1,34
+C5674,16.55,LOW,APPROVE,Prior fraud history on record,0,27.48,20.0,0.0,47.0,0,0,0,1,Complete,Medium,0,48
+C5675,25.56,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,48.065,40.0,0.0,53.0,0,0,0,1,Complete,High,0,95
+C5676,43.65,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; Customer address unverified,0,15.015,50.0,100.0,71.0,0,0,0,1,Missing,Medium,0,15
+C5677,41.02,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); High digital / device fraud risk score,70,44.59,0.0,58.0,20.0,0,1,0,0,Complete,Low,0,78
+C5678,19.74,LOW,APPROVE,Prior fraud history on record,0,23.43,20.0,29.0,35.0,0,0,0,1,Complete,Medium,0,5
+C5679,29.18,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,25.175,40.0,50.0,41.0,0,0,0,1,Complete,High,0,49
+C5680,26.81,LOW,APPROVE,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,0,78.285,0.0,25.0,41.0,0,0,0,1,Complete,Low,1,97
+C5681,17.69,LOW,APPROVE,High-risk country of origin,0,27.445,40.0,16.5,6.0,0,0,0,0,Complete,High,0,37
+C5682,33.58,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin,0,34.64,40.0,62.5,41.0,0,0,0,1,Complete,High,0,54
+C5683,10.9,LOW,APPROVE,No significant risk factors identified,0,37.48,0.0,12.5,6.0,0,0,0,0,Complete,Low,0,70
+C5684,75.0,HIGH,REJECT,Sanctions watchlist hit detected; High digital / device fraud risk score,100,43.93,0.0,62.5,12.0,1,0,0,0,Complete,Low,0,73
+C5685,16.62,LOW,APPROVE,Prior fraud history on record,0,7.845,20.0,29.0,35.0,0,0,0,1,Complete,Medium,0,15
+C5686,41.11,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; Customer address unverified,50,23.54,45.0,58.0,22.0,0,0,1,0,Complete,Low,0,39
+C5687,15.84,LOW,APPROVE,No significant risk factors identified,0,21.19,20.0,29.0,12.0,0,0,0,0,Complete,Medium,0,40
+C5688,15.04,LOW,APPROVE,Prior fraud history on record,0,14.96,0.0,25.0,47.0,0,0,0,1,Complete,Low,0,4
+C5689,24.63,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,36.88,40.0,12.5,45.0,0,0,0,1,Partial,High,0,73
+C5690,22.57,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,15.1,30.0,25.0,57.0,0,0,0,1,Complete,Low,0,30
+C5691,25.66,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,53.06,40.0,0.0,47.0,0,0,0,1,Complete,High,0,100
+C5692,16.52,LOW,APPROVE,High digital / device fraud risk score,0,48.585,0.0,25.0,12.0,0,0,0,0,Complete,Low,0,84
+C5693,34.85,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); KYC documents incomplete (partial),0,73.5,30.0,25.0,61.0,0,0,0,1,Partial,Low,1,47
+C5694,7.4,LOW,APPROVE,No significant risk factors identified,0,11.475,0.0,16.5,12.0,0,0,0,0,Complete,Low,0,5
+C5695,36.32,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High-risk country of origin; Customer address unverified,50,22.115000000000002,85.0,0.0,16.0,0,0,1,0,Complete,High,0,29
+C5696,13.6,LOW,APPROVE,No significant risk factors identified,0,18.525,20.0,25.0,6.0,0,0,0,0,Complete,Medium,0,30
+C5697,19.51,LOW,APPROVE,No significant risk factors identified,0,27.025,20.0,41.5,12.0,0,0,0,0,Complete,Medium,0,49
+C5698,10.74,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,12.465,0.0,0.0,55.0,0,0,0,1,Missing,Low,0,9
+C5699,14.76,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly),0,24.325,20.0,25.0,6.0,0,0,0,0,Complete,Medium,1,22
+C5700,25.15,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,74.50999999999999,0.0,25.0,35.0,0,0,0,1,Complete,Low,0,84
+C5701,13.76,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly),0,39.295,0.0,25.0,6.0,0,0,0,0,Complete,Low,1,43
+C5702,38.5,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP),70,24.24,0.0,50.0,41.0,0,1,0,1,Complete,Low,0,45
+C5703,41.02,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High digital / device fraud risk score,0,45.335,20.0,100.0,53.0,0,0,0,1,Complete,Medium,0,81
+C5704,40.6,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High digital / device fraud risk score; KYC documents incomplete (partial),50,81.005,35.0,12.5,16.0,0,0,1,0,Partial,Medium,0,73
+C5705,18.13,LOW,APPROVE,High digital / device fraud risk score,0,41.155,20.0,25.0,6.0,0,0,0,0,Complete,Medium,0,81
+C5706,20.77,LOW,APPROVE,KYC documents missing; High-risk country of origin,0,23.83,40.0,25.0,20.0,0,0,0,0,Missing,High,0,37
+C5707,5.3,LOW,APPROVE,No significant risk factors identified,0,26.48,0.0,0.0,0.0,0,0,0,0,Complete,Low,0,45
+C5708,30.92,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents incomplete (partial); Customer address unverified,0,38.355000000000004,50.0,25.0,55.0,0,0,0,1,Partial,Medium,0,40
+C5709,14.9,LOW,APPROVE,High-risk country of origin,0,21.975,40.0,12.5,0.0,0,0,0,0,Complete,High,0,36
+C5710,38.95,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected,50,42.765,35.0,50.0,6.0,0,0,1,0,Complete,Medium,0,43
+C5711,12.58,LOW,APPROVE,KYC documents incomplete (partial),0,5.385,0.0,50.0,10.0,0,0,0,0,Partial,Low,0,10
+C5712,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Prior fraud history on record; KYC documents incomplete (partial),100,39.57,20.0,25.0,65.0,1,0,0,1,Partial,Medium,0,70
+C5713,18.05,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,11.48,40.0,12.5,35.0,0,0,0,1,Complete,High,0,11
+C5714,37.92,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High digital / device fraud risk score,50,52.84,15.0,33.0,35.0,0,0,1,1,Complete,Low,0,90
+C5715,53.95,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); KYC documents missing,70,38.515,40.0,62.5,55.0,0,1,0,1,Missing,High,0,66
+C5716,13.71,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,17.78,0.0,12.5,51.0,0,0,0,1,Partial,Low,0,22
+C5717,27.8,LOW,APPROVE,Adverse media / negative news detected,50,16.509999999999998,35.0,25.0,0.0,0,0,1,0,Complete,Medium,0,22
+C5718,14.83,LOW,APPROVE,High digital / device fraud risk score,0,49.17,0.0,25.0,0.0,0,0,0,0,Complete,Low,0,93
+C5719,29.07,MEDIUM,MANUAL_REVIEW,KYC documents incomplete (partial); Customer address unverified,0,37.835,30.0,58.0,26.0,0,0,0,0,Partial,Low,0,66
+C5720,18.6,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,45.265,0.0,12.5,47.0,0,0,0,1,Complete,Low,0,84
+C5721,52.17,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High digital / device fraud risk score,50,40.6,65.0,50.0,57.0,0,0,1,1,Complete,Medium,0,77
+C5722,26.86,LOW,APPROVE,High digital / device fraud risk score; Customer address unverified,0,47.775,50.0,29.0,10.0,0,0,0,0,Complete,Medium,0,88
+C5723,13.11,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,27.31,0.0,0.0,51.0,0,0,0,1,Partial,Low,0,40
+C5724,4.89,LOW,APPROVE,KYC documents incomplete (partial),0,16.955,0.0,0.0,10.0,0,0,0,0,Partial,Low,0,27
+C5725,29.28,LOW,APPROVE,Adverse media / negative news detected; KYC documents incomplete (partial),50,6.895,15.0,45.5,22.0,0,0,1,0,Partial,Low,0,3
+C5726,22.54,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,44.94,0.0,41.5,35.0,0,0,0,1,Complete,Low,0,89
+C5727,39.68,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High-risk country of origin,50,54.67,55.0,0.0,35.0,0,0,1,1,Complete,High,0,85
+C5728,18.92,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,3.87,20.0,25.0,61.0,0,0,0,1,Missing,Medium,0,5
+C5729,25.63,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,52.4,20.0,25.0,41.0,0,0,0,1,Complete,Medium,0,100
+C5730,31.17,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; Customer address unverified,0,35.11,70.0,12.5,51.0,0,0,0,1,Complete,High,0,65
+C5731,29.93,LOW,APPROVE,High digital / device fraud risk score; KYC documents incomplete (partial),0,75.155,0.0,58.0,22.0,0,0,0,0,Partial,Low,0,92
+C5732,46.39,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,70,53.465,20.0,66.5,6.0,0,1,0,0,Complete,Medium,1,86
+C5733,23.42,LOW,APPROVE,High-risk country of origin; High digital / device fraud risk score,0,52.095,40.0,25.0,0.0,0,0,0,0,Complete,High,0,99
+C5734,37.32,MEDIUM,MANUAL_REVIEW,High digital / device fraud risk score; Customer address unverified,0,40.115,30.0,100.0,22.0,0,0,0,0,Complete,Low,0,71
+C5735,21.95,LOW,APPROVE,High digital / device fraud risk score,0,38.73,0.0,66.5,6.0,0,0,0,0,Complete,Low,0,71
+C5736,25.55,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,22.495,30.0,41.5,45.0,0,0,0,1,Complete,Low,0,32
+C5737,23.11,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,7.8,30.0,29.0,65.0,0,0,0,1,Complete,Low,0,5
+C5738,21.31,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,14.285,40.0,12.5,53.0,0,0,0,1,Complete,High,0,18
+C5739,33.28,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High-risk country of origin,50,32.425,55.0,16.5,0.0,0,0,1,0,Complete,High,0,63
+C5740,24.55,LOW,APPROVE,Prior fraud history on record; KYC documents missing; High-risk country of origin,0,11.98,40.0,25.0,61.0,0,0,0,1,Missing,High,0,22
+C5741,24.76,LOW,APPROVE,Prior fraud history on record; KYC documents missing; Customer address unverified,0,32.535,30.0,12.5,65.0,0,0,0,1,Missing,Low,0,62
+C5742,28.14,LOW,APPROVE,Prior fraud history on record; Adverse media / negative news detected,50,11.94,15.0,25.0,35.0,0,0,1,1,Complete,Low,0,16
+C5743,21.46,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,19.57,20.0,25.0,57.0,0,0,0,1,Partial,Medium,0,37
+C5744,12.34,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,18.96,0.0,0.0,57.0,0,0,0,1,Partial,Low,0,26
+C5745,35.11,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High digital / device fraud risk score; KYC documents incomplete (partial),50,54.04,35.0,16.5,10.0,0,0,1,0,Partial,Medium,0,99
+C5746,15.81,LOW,APPROVE,Customer address unverified,0,16.57,30.0,25.0,10.0,0,0,0,0,Complete,Low,0,15
+C5747,16.91,LOW,APPROVE,No significant risk factors identified,0,22.04,0.0,62.5,0.0,0,0,0,0,Complete,Low,0,42
+C5748,31.32,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP),70,13.35,0.0,25.0,41.0,0,1,0,1,Complete,Low,0,0
+C5749,24.04,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,52.475,0.0,25.0,57.0,0,0,0,1,Partial,Low,0,98
+C5750,11.22,LOW,APPROVE,Prior fraud history on record,0,13.365,0.0,16.5,35.0,0,0,0,1,Complete,Low,0,23
+C5751,14.52,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,17.345,0.0,12.5,57.0,0,0,0,1,Partial,Low,0,32
+C5752,17.21,LOW,APPROVE,No significant risk factors identified,0,21.055,0.0,50.0,20.0,0,0,0,0,Complete,Low,0,25
+C5753,23.96,LOW,APPROVE,High digital / device fraud risk score; KYC documents incomplete (partial),0,48.31,20.0,29.0,30.0,0,0,0,0,Partial,Medium,0,90
+C5754,17.97,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,39.115,20.0,0.0,41.0,0,0,0,1,Complete,Medium,0,74
+C5755,24.56,LOW,APPROVE,Prior fraud history on record,0,17.065,0.0,75.0,41.0,0,0,0,1,Complete,Low,0,28
+C5756,39.72,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected,50,26.83,15.0,50.0,59.0,0,0,1,1,Complete,Low,0,47
+C5757,25.2,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial); Customer address unverified,0,4.234999999999999,30.0,41.5,67.0,0,0,0,1,Partial,Low,0,1
+C5758,34.39,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; KYC documents incomplete (partial); Customer address unverified,50,20.46,45.0,29.0,20.0,0,0,1,0,Partial,Low,0,27
+C5759,37.36,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High digital / device fraud risk score; KYC documents incomplete (partial),50,39.3,45.0,25.0,20.0,0,0,1,0,Partial,Low,0,75
+C5760,24.95,LOW,APPROVE,High-risk country of origin,0,13.754999999999999,40.0,66.5,6.0,0,0,0,0,Complete,High,0,13
+C5761,18.77,LOW,APPROVE,Customer address unverified,0,1.86,30.0,50.0,16.0,0,0,0,0,Complete,Low,0,0
+C5762,48.7,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); KYC documents incomplete (partial),70,11.735,30.0,58.0,75.0,0,1,0,1,Partial,Low,0,11
+C5763,32.05,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High digital / device fraud risk score,50,48.745,15.0,25.0,12.0,0,0,1,0,Complete,Low,0,82
+C5764,25.94,LOW,APPROVE,High digital / device fraud risk score,0,46.675,0.0,83.0,0.0,0,0,0,0,Complete,Low,0,88
+C5765,16.27,LOW,APPROVE,KYC documents incomplete (partial),0,37.37,20.0,16.5,10.0,0,0,0,0,Partial,Medium,0,45
+C5766,37.99,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP),70,21.725,0.0,50.0,41.0,0,1,0,1,Complete,Low,0,43
+C5767,9.53,LOW,APPROVE,No significant risk factors identified,0,6.15,0.0,41.5,0.0,0,0,0,0,Complete,Low,0,9
+C5768,35.72,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); KYC documents incomplete (partial),70,12.365,20.0,25.0,45.0,0,1,0,1,Partial,Medium,0,24
+C5769,29.32,LOW,APPROVE,Prior fraud history on record; Politically Exposed Person (PEP),70,32.86,0.0,0.0,35.0,0,1,0,1,Complete,Low,0,57
+C5770,23.43,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,44.885,0.0,41.5,41.0,0,0,0,1,Complete,Low,0,72
+C5771,37.46,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; KYC documents incomplete (partial); Customer address unverified,50,35.32,45.0,25.0,26.0,0,0,1,0,Partial,Low,0,66
+C5772,31.07,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents incomplete (partial),0,12.615,0.0,100.0,57.0,0,0,0,1,Partial,Low,0,24
+C5773,21.19,LOW,APPROVE,KYC documents incomplete (partial); Customer address unverified,0,7.455,50.0,29.0,26.0,0,0,0,0,Partial,Medium,0,11
+C5774,30.59,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High-risk country of origin,50,9.19,55.0,0.0,35.0,0,0,1,1,Complete,High,0,2
+C5775,32.43,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; KYC documents incomplete (partial); Customer address unverified,50,19.65,65.0,0.0,20.0,0,0,1,0,Partial,Medium,0,36
+C5776,36.38,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing,0,36.135,0.0,100.0,61.0,0,0,0,1,Missing,Low,0,63
+C5777,17.06,LOW,APPROVE,No significant risk factors identified,0,31.32,20.0,25.0,12.0,0,0,0,0,Complete,Medium,0,53
+C5778,33.72,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); KYC documents incomplete (partial),70,28.605,20.0,25.0,10.0,0,1,0,0,Partial,Medium,0,51
+C5779,32.6,MEDIUM,MANUAL_REVIEW,High-risk country of origin; High digital / device fraud risk score; KYC documents incomplete (partial),0,65.49,40.0,45.5,16.0,0,0,0,0,Partial,High,0,80
+C5780,30.7,MEDIUM,MANUAL_REVIEW,High digital / device fraud risk score; KYC documents incomplete (partial); Customer address unverified,0,42.485,50.0,41.5,26.0,0,0,0,0,Partial,Medium,0,84
+C5781,9.72,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,14.84,0.0,0.0,45.0,0,0,0,1,Partial,Low,0,22
+C5782,30.65,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; Customer address unverified,0,40.989999999999995,30.0,29.0,71.0,0,0,0,1,Missing,Low,0,43
+C5783,21.15,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,35.0,40.0,0.0,41.0,0,0,0,1,Complete,High,0,68
+C5784,19.78,LOW,APPROVE,Prior fraud history on record,0,31.155,0.0,41.5,35.0,0,0,0,1,Complete,Low,0,61
+C5785,33.29,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; KYC documents incomplete (partial),0,38.18,40.0,50.0,51.0,0,0,0,1,Partial,High,0,61
+C5786,35.32,MEDIUM,MANUAL_REVIEW,Prior fraud history on record,0,55.36,20.0,75.0,35.0,0,0,0,1,Complete,Medium,0,53
+C5787,58.48,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High-risk country of origin,50,44.125,55.0,100.0,41.0,0,0,1,1,Complete,High,0,80
+C5788,33.11,MEDIUM,MANUAL_REVIEW,High digital / device fraud risk score; Customer address unverified,0,53.54,50.0,50.0,16.0,0,0,0,0,Complete,Medium,0,100
+C5789,32.26,MEDIUM,MANUAL_REVIEW,KYC documents missing; High-risk country of origin; Customer address unverified,0,43.315,70.0,16.5,42.0,0,0,0,0,Missing,High,0,62
+C5790,27.65,LOW,APPROVE,Prior fraud history on record; KYC documents missing; High digital / device fraud risk score,0,42.99,20.0,25.0,67.0,0,0,0,1,Missing,Medium,0,80
+C5791,8.6,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,9.24,0.0,0.0,45.0,0,0,0,1,Partial,Low,0,12
+C5792,19.77,LOW,APPROVE,Customer address unverified,0,36.37,30.0,25.0,10.0,0,0,0,0,Complete,Low,0,55
+C5793,34.63,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; High digital / device fraud risk score,0,39.915,30.0,45.5,77.0,0,0,0,1,Missing,Low,0,73
+C5794,14.54,LOW,APPROVE,KYC documents missing,0,16.2,0.0,41.5,20.0,0,0,0,0,Missing,Low,0,31
+C5795,40.24,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High-risk country of origin,50,27.94,55.0,25.0,41.0,0,0,1,1,Complete,High,0,48
+C5796,22.08,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,15.15,20.0,25.0,67.0,0,0,0,1,Missing,Medium,0,27
+C5797,39.88,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,0,69.17,20.0,75.0,47.0,0,0,0,1,Complete,Medium,1,95
+C5798,17.37,LOW,APPROVE,Prior fraud history on record,0,40.585,20.0,0.0,35.0,0,0,0,1,Complete,Medium,0,34
+C5799,21.16,LOW,APPROVE,No significant risk factors identified,0,14.805,20.0,66.5,6.0,0,0,0,0,Complete,Medium,0,18
+C5800,34.07,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High digital / device fraud risk score; Customer address unverified,0,45.08,50.0,41.5,45.0,0,0,0,1,Complete,Medium,0,83
+C5801,28.23,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; KYC documents incomplete (partial),0,10.89,40.0,41.5,65.0,0,0,0,1,Partial,High,0,17
+C5802,41.6,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High digital / device fraud risk score,50,50.019999999999996,35.0,45.5,20.0,0,0,1,0,Complete,Medium,0,92
+C5803,31.64,MEDIUM,MANUAL_REVIEW,KYC documents incomplete (partial); Customer address unverified,0,4.22,30.0,100.0,32.0,0,0,0,0,Partial,Low,0,8
+C5804,25.49,LOW,APPROVE,High-risk country of origin; KYC documents incomplete (partial),0,13.46,40.0,66.5,10.0,0,0,0,0,Partial,High,0,22
+C5805,28.6,LOW,APPROVE,High-risk country of origin; High digital / device fraud risk score; Customer address unverified,0,47.475,70.0,0.0,34.0,0,0,0,0,Complete,High,0,87
+C5806,22.46,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,16.525,40.0,25.0,41.0,0,0,0,1,Complete,High,0,31
+C5807,12.47,LOW,APPROVE,No significant risk factors identified,0,12.345,0.0,50.0,0.0,0,0,0,0,Complete,Low,0,20
+C5808,29.4,LOW,APPROVE,Customer address unverified,0,44.5,30.0,50.0,30.0,0,0,0,0,Complete,Low,0,62
+C5809,27.76,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,39.065,20.0,41.5,51.0,0,0,0,1,Partial,Medium,0,66
+C5810,15.94,LOW,APPROVE,KYC documents incomplete (partial),0,21.725,0.0,41.5,22.0,0,0,0,0,Partial,Low,0,32
+C5811,15.46,LOW,APPROVE,High digital / device fraud risk score,0,40.8,20.0,16.5,0.0,0,0,0,0,Complete,Medium,0,78
+C5812,19.9,LOW,APPROVE,Prior fraud history on record,0,59.775,0.0,0.0,53.0,0,0,0,1,Complete,Low,0,53
+C5813,28.74,LOW,APPROVE,KYC documents incomplete (partial); Customer address unverified,0,19.675,50.0,50.0,32.0,0,0,0,0,Partial,Medium,0,25
+C5814,38.98,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; High digital / device fraud risk score,50,48.9,35.0,29.0,26.0,0,0,1,0,Complete,Medium,0,93
+C5815,32.25,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP),70,26.494999999999997,0.0,16.5,41.0,0,1,0,1,Complete,Low,0,32
+C5816,45.68,MEDIUM,MANUAL_REVIEW,High-risk country of origin; High digital / device fraud risk score; Customer address unverified,0,50.9,70.0,100.0,10.0,0,0,0,0,Complete,High,0,92
+C5817,24.88,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,43.155,0.0,41.5,53.0,0,0,0,1,Complete,Low,0,85
+C5818,19.69,LOW,APPROVE,Prior fraud history on record; KYC documents missing; High digital / device fraud risk score,0,44.685,0.0,12.5,55.0,0,0,0,1,Missing,Low,0,87
+C5819,24.78,LOW,APPROVE,KYC documents incomplete (partial),0,36.905,0.0,75.0,16.0,0,0,0,0,Partial,Low,0,14
+C5820,16.69,LOW,APPROVE,Prior fraud history on record,0,28.185,0.0,29.0,35.0,0,0,0,1,Complete,Low,0,56
+C5821,15.49,LOW,APPROVE,KYC documents missing,0,33.455,0.0,29.0,20.0,0,0,0,0,Missing,Low,0,66
+C5822,23.4,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,18.275,0.0,50.0,65.0,0,0,0,1,Partial,Low,0,36
+C5823,11.08,LOW,APPROVE,Prior fraud history on record,0,9.145,20.0,0.0,35.0,0,0,0,1,Complete,Medium,0,3
+C5824,7.28,LOW,APPROVE,No significant risk factors identified,0,11.379999999999999,0.0,25.0,0.0,0,0,0,0,Complete,Low,0,14
+C5825,34.63,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Customer address unverified,0,42.39,30.0,58.0,57.0,0,0,0,1,Complete,Low,0,69
+C5826,14.66,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,2.565,0.0,25.0,61.0,0,0,0,1,Missing,Low,0,1
+C5827,14.46,LOW,APPROVE,No significant risk factors identified,0,35.815,20.0,16.5,0.0,0,0,0,0,Complete,Medium,0,62
+C5828,31.32,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected,50,54.095,15.0,25.0,0.0,0,0,1,0,Complete,Low,0,65
+C5829,21.2,LOW,APPROVE,No significant risk factors identified,0,18.505,0.0,83.0,6.0,0,0,0,0,Complete,Low,0,32
+C5830,25.96,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,30.045,40.0,29.0,41.0,0,0,0,1,Complete,High,0,52
+C5831,48.36,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; Adverse media / negative news detected,50,44.54,65.0,16.5,71.0,0,0,1,1,Missing,Medium,0,80
+C5832,40.73,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; Structuring pattern detected (txn/income ratio anomaly); High-risk country of origin,50,27.17,55.0,50.0,12.0,0,0,1,0,Complete,High,1,27
+C5833,11.84,LOW,APPROVE,No significant risk factors identified,0,21.2,0.0,29.0,12.0,0,0,0,0,Complete,Low,0,36
+C5834,46.68,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP),70,15.64,20.0,75.0,47.0,0,1,0,1,Complete,Medium,0,10
+C5835,28.01,LOW,APPROVE,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly),0,34.32,0.0,75.0,41.0,0,0,0,1,Complete,Low,1,30
+C5836,17.55,LOW,APPROVE,High-risk country of origin; Customer address unverified,0,10.24,70.0,0.0,10.0,0,0,0,0,Complete,High,0,15
+C5837,15.56,LOW,APPROVE,Prior fraud history on record,0,31.55,20.0,0.0,35.0,0,0,0,1,Complete,Medium,0,57
+C5838,23.53,LOW,APPROVE,High-risk country of origin; High digital / device fraud risk score; KYC documents incomplete (partial),0,53.66,40.0,16.5,10.0,0,0,0,0,Partial,High,0,100
+C5839,22.4,LOW,APPROVE,High-risk country of origin; High digital / device fraud risk score; KYC documents incomplete (partial),0,48.01,40.0,16.5,10.0,0,0,0,0,Partial,High,0,80
+C5840,28.95,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; Customer address unverified,0,51.485,30.0,25.0,51.0,0,0,0,1,Complete,Low,0,76
+C5841,34.2,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin,0,20.77,40.0,75.0,47.0,0,0,0,1,Complete,High,0,37
+C5842,32.8,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP),70,10.51,20.0,41.5,6.0,0,1,0,0,Complete,Medium,0,18
+C5843,12.8,LOW,APPROVE,No significant risk factors identified,0,14.0,0.0,50.0,0.0,0,0,0,0,Complete,Low,0,26
+C5844,51.42,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); High-risk country of origin,70,51.33,40.0,25.0,71.0,0,1,0,1,Partial,High,0,96
+C5845,9.2,LOW,APPROVE,KYC documents incomplete (partial),0,21.48,0.0,12.5,16.0,0,0,0,0,Partial,Low,0,35
+C5846,31.34,MEDIUM,MANUAL_REVIEW,KYC documents missing; Structuring pattern detected (txn/income ratio anomaly),0,41.69,0.0,100.0,20.0,0,0,0,0,Missing,Low,1,37
+C5847,24.39,LOW,APPROVE,High-risk country of origin; KYC documents incomplete (partial),0,24.45,40.0,50.0,10.0,0,0,0,0,Partial,High,0,35
+C5848,42.0,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); High digital / device fraud risk score,70,39.025,20.0,50.0,18.0,0,1,0,0,Complete,Medium,0,73
+C5849,23.27,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,50.12,0.0,25.0,55.0,0,0,0,1,Complete,Low,0,92
+C5850,24.98,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial); Customer address unverified,0,24.65,30.0,29.0,55.0,0,0,0,1,Partial,Low,0,44
+C5851,20.89,LOW,APPROVE,High-risk country of origin,0,22.95,40.0,41.5,0.0,0,0,0,0,Complete,High,0,41
+C5852,31.18,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents incomplete (partial),0,30.67,20.0,62.5,57.0,0,0,0,1,Partial,Medium,0,52
+C5853,18.39,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,28.21,30.0,0.0,45.0,0,0,0,1,Complete,Low,0,51
+C5854,40.48,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); High digital / device fraud risk score,70,51.15,0.0,33.0,41.0,0,1,0,1,Complete,Low,0,91
+C5855,23.47,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,17.1,40.0,25.0,47.0,0,0,0,1,Complete,High,0,28
+C5856,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Prior fraud history on record,100,33.81,0.0,12.5,35.0,1,0,0,1,Complete,Low,0,56
+C5857,37.34,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); KYC documents missing,70,57.97,0.0,0.0,55.0,0,1,0,1,Missing,Low,0,89
+C5858,33.7,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; Customer address unverified,50,14.73,45.0,12.5,45.0,0,0,1,1,Complete,Low,0,12
+C5859,13.6,LOW,APPROVE,No significant risk factors identified,0,38.975,20.0,0.0,12.0,0,0,0,0,Complete,Medium,0,60
+C5860,45.54,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); High digital / device fraud risk score,70,46.94,30.0,25.0,51.0,0,1,0,1,Complete,Low,0,87
+C5861,31.54,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); High-risk country of origin,70,30.2,40.0,0.0,0.0,0,1,0,0,Complete,High,0,40
+C5862,14.55,LOW,APPROVE,Customer address unverified,0,18.259999999999998,30.0,12.5,16.0,0,0,0,0,Complete,Low,0,27
+C5863,21.53,LOW,APPROVE,High digital / device fraud risk score; KYC documents incomplete (partial),0,50.14,0.0,50.0,10.0,0,0,0,0,Partial,Low,0,88
+C5864,33.4,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; Customer address unverified,0,8.745000000000001,70.0,50.0,51.0,0,0,0,1,Complete,High,0,7
+C5865,11.12,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,21.86,0.0,0.0,45.0,0,0,0,1,Partial,Low,0,23
+C5866,19.52,LOW,APPROVE,Prior fraud history on record; KYC documents missing; Customer address unverified,0,18.855,30.0,0.0,65.0,0,0,0,1,Missing,Low,0,11
+C5867,18.68,LOW,APPROVE,No significant risk factors identified,0,10.91,20.0,58.0,6.0,0,0,0,0,Complete,Medium,0,14
+C5868,14.89,LOW,APPROVE,No significant risk factors identified,0,11.965,0.0,58.0,6.0,0,0,0,0,Complete,Low,0,11
+C5869,17.96,LOW,APPROVE,No significant risk factors identified,0,30.825,0.0,50.0,12.0,0,0,0,0,Complete,Low,0,59
+C5870,25.47,LOW,APPROVE,Prior fraud history on record; High-risk country of origin,0,21.11,40.0,25.0,55.0,0,0,0,1,Complete,High,0,34
+C5871,12.69,LOW,APPROVE,KYC documents incomplete (partial),0,31.465,20.0,0.0,16.0,0,0,0,0,Partial,Medium,0,57
+C5872,13.98,LOW,APPROVE,Prior fraud history on record,0,31.125,0.0,12.5,35.0,0,0,0,1,Complete,Low,0,55
+C5873,33.3,MEDIUM,MANUAL_REVIEW,Structuring pattern detected (txn/income ratio anomaly); Customer address unverified,0,79.5,50.0,25.0,16.0,0,0,0,0,Complete,Medium,1,59
+C5874,39.14,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; High digital / device fraud risk score,0,54.95,20.0,75.0,61.0,0,0,0,1,Missing,Medium,0,91
+C5875,47.34,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; Customer address unverified,50,3.965,65.0,62.5,57.0,0,0,1,1,Complete,Medium,0,7
+C5876,13.63,LOW,APPROVE,Prior fraud history on record,0,11.4,0.0,12.5,59.0,0,0,0,1,Complete,Low,0,11
+C5877,17.7,LOW,APPROVE,KYC documents missing,0,7.49,20.0,41.5,26.0,0,0,0,0,Missing,Medium,0,11
+C5878,17.3,LOW,APPROVE,KYC documents incomplete (partial),0,36.980000000000004,0.0,33.0,22.0,0,0,0,0,Partial,Low,0,65
+C5879,16.58,LOW,APPROVE,Prior fraud history on record,0,27.65,20.0,0.0,47.0,0,0,0,1,Complete,Medium,0,49
+C5880,16.6,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,47.77,0.0,0.0,47.0,0,0,0,1,Complete,Low,0,88
+C5881,21.63,LOW,APPROVE,Prior fraud history on record,0,2.4050000000000002,0.0,75.0,41.0,0,0,0,1,Complete,Low,0,2
+C5882,32.12,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP),70,23.585,20.0,25.0,6.0,0,1,0,0,Complete,Medium,0,45
+C5883,15.38,LOW,APPROVE,No significant risk factors identified,0,26.885,0.0,50.0,0.0,0,0,0,0,Complete,Low,0,50
+C5884,30.22,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; KYC documents incomplete (partial),0,10.370000000000001,40.0,58.0,57.0,0,0,0,1,Partial,High,0,18
+C5885,15.67,LOW,APPROVE,KYC documents incomplete (partial); Customer address unverified,0,13.34,50.0,0.0,20.0,0,0,0,0,Partial,Medium,0,24
+C5886,18.76,LOW,APPROVE,No significant risk factors identified,0,34.825,0.0,50.0,12.0,0,0,0,0,Complete,Low,0,63
+C5887,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Prior fraud history on record,100,32.01,0.0,33.0,41.0,1,0,0,1,Complete,Low,0,57
+C5888,33.79,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); KYC documents incomplete (partial); Customer address unverified,70,27.445,30.0,0.0,32.0,0,1,0,0,Partial,Low,0,52
+C5889,19.23,LOW,APPROVE,Prior fraud history on record; Customer address unverified,0,27.915,30.0,0.0,51.0,0,0,0,1,Complete,Low,0,31
+C5890,38.11,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); High digital / device fraud risk score,70,44.315,0.0,25.0,45.0,0,1,0,1,Partial,Low,0,86
+C5891,17.06,LOW,APPROVE,Customer address unverified,0,9.32,30.0,25.0,28.0,0,0,0,0,Complete,Low,0,12
+C5892,38.18,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; High digital / device fraud risk score,0,62.144999999999996,30.0,50.0,65.0,0,0,0,1,Missing,Low,0,86
+C5893,38.4,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); Customer address unverified,0,49.245,50.0,50.0,57.0,0,0,0,1,Complete,Medium,1,34
+C5894,17.02,LOW,APPROVE,No significant risk factors identified,0,10.125,0.0,75.0,0.0,0,0,0,0,Complete,Low,0,19
+C5895,18.4,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,40.730000000000004,0.0,25.0,35.0,0,0,0,1,Complete,Low,0,72
+C5896,56.94,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); High-risk country of origin,70,43.945,40.0,75.0,51.0,0,1,0,1,Partial,High,0,41
+C5897,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Prior fraud history on record; KYC documents incomplete (partial),100,48.735,0.0,0.0,63.0,1,0,0,1,Partial,Low,0,58
+C5898,14.7,LOW,APPROVE,High digital / device fraud risk score,0,44.01,0.0,25.0,6.0,0,0,0,0,Complete,Low,0,77
+C5899,32.14,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); Customer address unverified,0,30.96,50.0,41.5,51.0,0,0,0,1,Complete,Medium,1,33
+C5900,27.54,LOW,APPROVE,High-risk country of origin; High digital / device fraud risk score; KYC documents incomplete (partial),0,40.22,40.0,50.0,10.0,0,0,0,0,Partial,High,0,80
+C5901,18.46,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,41.07,0.0,25.0,35.0,0,0,0,1,Complete,Low,0,77
+C5902,10.42,LOW,APPROVE,KYC documents incomplete (partial),0,11.615,0.0,33.0,10.0,0,0,0,0,Partial,Low,0,20
+C5903,13.14,LOW,APPROVE,No significant risk factors identified,0,11.675,20.0,25.0,12.0,0,0,0,0,Complete,Medium,0,9
+C5904,36.07,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; Customer address unverified,50,28.345,65.0,12.5,16.0,0,0,1,0,Complete,Medium,0,52
+C5905,29.68,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin,0,32.14,40.0,50.0,35.0,0,0,0,1,Complete,High,0,60
+C5906,24.85,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; KYC documents incomplete (partial),0,41.495,40.0,0.0,57.0,0,0,0,1,Partial,High,0,66
+C5907,28.07,LOW,APPROVE,Adverse media / negative news detected; KYC documents incomplete (partial),50,10.370000000000001,35.0,25.0,10.0,0,0,1,0,Partial,Medium,0,15
+C5908,17.86,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly),0,64.295,0.0,25.0,0.0,0,0,0,0,Complete,Low,1,54
+C5909,44.42,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); Adverse media / negative news detected; Structuring pattern detected (txn/income ratio anomaly),70,37.58,35.0,50.0,16.0,0,1,1,0,Partial,Medium,1,51
+C5910,10.16,LOW,APPROVE,No significant risk factors identified,0,38.32,0.0,12.5,0.0,0,0,0,0,Complete,Low,0,64
+C5911,26.22,LOW,APPROVE,Prior fraud history on record,0,24.33,20.0,45.5,55.0,0,0,0,1,Complete,Medium,0,26
+C5912,23.42,LOW,APPROVE,KYC documents incomplete (partial),0,21.09,0.0,75.0,28.0,0,0,0,0,Partial,Low,0,38
+C5913,54.6,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); Structuring pattern detected (txn/income ratio anomaly); KYC documents incomplete (partial),70,64.5,0.0,100.0,28.0,0,1,0,0,Partial,Low,1,29
+C5914,35.87,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); High digital / device fraud risk score,70,45.59,0.0,12.5,45.0,0,1,0,1,Partial,Low,0,90
+C5915,28.57,LOW,APPROVE,High-risk country of origin; KYC documents incomplete (partial),0,11.34,40.0,75.0,22.0,0,0,0,0,Partial,High,0,21
+C5916,24.71,LOW,APPROVE,No significant risk factors identified,0,28.03,20.0,66.5,12.0,0,0,0,0,Complete,Medium,0,42
+C5917,10.91,LOW,APPROVE,KYC documents incomplete (partial),0,10.07,20.0,12.5,16.0,0,0,0,0,Partial,Medium,0,11
+C5918,11.68,LOW,APPROVE,Prior fraud history on record,0,32.17,0.0,0.0,35.0,0,0,0,1,Complete,Low,0,46
+C5919,35.1,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); High digital / device fraud risk score,70,45.23,0.0,16.5,35.0,0,1,0,1,Complete,Low,0,84
+C5920,32.95,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP),70,56.269999999999996,0.0,16.5,6.0,0,1,0,0,Complete,Low,0,70
+C5921,23.84,LOW,APPROVE,High digital / device fraud risk score; Customer address unverified,0,52.205,30.0,25.0,16.0,0,0,0,0,Complete,Low,0,92
+C5922,39.34,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; KYC documents incomplete (partial),50,22.96,15.0,58.0,51.0,0,0,1,1,Partial,Low,0,37
+C5923,20.38,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,18.175,0.0,50.0,45.0,0,0,0,1,Partial,Low,0,29
+C5924,75.0,HIGH,REJECT,Sanctions watchlist hit detected; Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly),100,63.275,30.0,25.0,65.0,1,0,0,1,Complete,Low,1,97
+C5925,28.62,LOW,APPROVE,High digital / device fraud risk score; KYC documents incomplete (partial); Customer address unverified,0,44.11,50.0,25.0,32.0,0,0,0,0,Partial,Medium,0,75
+C5926,10.04,LOW,APPROVE,Prior fraud history on record,0,14.945,0.0,0.0,47.0,0,0,0,1,Complete,Low,0,28
+C5927,53.55,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP); KYC documents incomplete (partial),70,38.485,50.0,41.5,67.0,0,1,0,1,Partial,Medium,0,43
+C5928,16.71,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; KYC documents incomplete (partial),0,5.32,40.0,0.0,51.0,0,0,0,1,Partial,High,0,10
+C5929,27.06,LOW,APPROVE,High-risk country of origin; High digital / device fraud risk score; Customer address unverified,0,41.285,70.0,16.5,10.0,0,0,0,0,Complete,High,0,74
+C5930,24.33,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,55.879999999999995,20.0,0.0,61.0,0,0,0,1,Missing,Medium,0,61
+C5931,34.11,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly); High-risk country of origin,0,79.305,40.0,25.0,35.0,0,0,0,1,Complete,High,1,90
+C5932,20.54,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,19.955,20.0,29.0,45.0,0,0,0,1,Partial,Medium,0,30
+C5933,39.33,MEDIUM,MANUAL_REVIEW,KYC documents missing; Adverse media / negative news detected; High digital / device fraud risk score,50,49.66,15.0,50.0,26.0,0,0,1,0,Missing,Low,0,87
+C5934,21.61,LOW,APPROVE,KYC documents missing; High digital / device fraud risk score,0,43.57,20.0,25.0,26.0,0,0,0,0,Missing,Medium,0,85
+C5935,33.8,MEDIUM,MANUAL_REVIEW,Adverse media / negative news detected; Customer address unverified,50,29.51,65.0,0.0,16.0,0,0,1,0,Complete,Medium,0,22
+C5936,17.86,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,14.065000000000001,0.0,25.0,67.0,0,0,0,1,Missing,Low,0,13
+C5937,37.51,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High digital / device fraud risk score,50,42.315,15.0,41.5,35.0,0,0,1,1,Complete,Low,0,83
+C5938,21.94,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,41.945,0.0,41.5,35.0,0,0,0,1,Complete,Low,0,79
+C5939,43.87,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High-risk country of origin,50,30.585,55.0,33.0,51.0,0,0,1,1,Partial,High,0,51
+C5940,27.42,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,25.83,20.0,50.0,55.0,0,0,0,1,Missing,Medium,0,49
+C5941,22.73,LOW,APPROVE,No significant risk factors identified,0,26.66,20.0,62.5,6.0,0,0,0,0,Complete,Medium,0,24
+C5942,33.03,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,57.91,40.0,29.0,51.0,0,0,0,1,Partial,High,0,87
+C5943,27.06,LOW,APPROVE,Structuring pattern detected (txn/income ratio anomaly); High digital / device fraud risk score,0,57.285,20.0,58.0,0.0,0,0,0,0,Complete,Medium,1,84
+C5944,33.16,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High digital / device fraud risk score,0,40.05,20.0,75.0,41.0,0,0,0,1,Complete,Medium,0,72
+C5945,27.39,LOW,APPROVE,Prior fraud history on record,0,28.215,20.0,62.5,35.0,0,0,0,1,Complete,Medium,0,54
+C5946,27.42,LOW,APPROVE,Prior fraud history on record; KYC documents missing; High-risk country of origin,0,46.865,40.0,0.0,67.0,0,0,0,1,Missing,High,0,91
+C5947,32.25,MEDIUM,MANUAL_REVIEW,Structuring pattern detected (txn/income ratio anomaly); Customer address unverified,0,37.230000000000004,50.0,66.5,10.0,0,0,0,0,Complete,Medium,1,46
+C5948,10.05,LOW,APPROVE,No significant risk factors identified,0,29.27,0.0,16.5,6.0,0,0,0,0,Complete,Low,0,38
+C5949,37.08,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; Structuring pattern detected (txn/income ratio anomaly),0,54.165,40.0,50.0,55.0,0,0,0,1,Missing,High,1,21
+C5950,20.26,LOW,APPROVE,High digital / device fraud risk score; Customer address unverified,0,43.825,50.0,0.0,10.0,0,0,0,0,Complete,Medium,0,80
+C5951,17.35,LOW,APPROVE,KYC documents incomplete (partial),0,29.745,20.0,25.0,16.0,0,0,0,0,Partial,Medium,0,52
+C5952,25.37,LOW,APPROVE,High-risk country of origin; KYC documents incomplete (partial); Customer address unverified,0,28.345,70.0,0.0,38.0,0,0,0,0,Partial,High,0,47
+C5953,5.0,LOW,APPROVE,No significant risk factors identified,0,8.48,0.0,16.5,0.0,0,0,0,0,Complete,Low,0,9
+C5954,27.76,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,43.03,0.0,50.0,61.0,0,0,0,1,Complete,Low,0,82
+C5955,49.92,MEDIUM,MANUAL_REVIEW,KYC documents missing; Adverse media / negative news detected; Structuring pattern detected (txn/income ratio anomaly),50,54.095,35.0,83.0,20.0,0,0,1,0,Missing,Medium,1,80
+C5956,33.76,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected,50,32.545,35.0,12.5,35.0,0,0,1,1,Complete,Medium,0,63
+C5957,11.61,LOW,APPROVE,No significant risk factors identified,0,7.535,0.0,41.5,12.0,0,0,0,0,Complete,Low,0,12
+C5958,12.06,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,6.5649999999999995,20.0,0.0,45.0,0,0,0,1,Partial,Medium,0,6
+C5959,19.51,LOW,APPROVE,No significant risk factors identified,0,13.535,0.0,75.0,12.0,0,0,0,0,Complete,Low,0,24
+C5960,30.14,MEDIUM,MANUAL_REVIEW,No significant risk factors identified,0,26.185000000000002,20.0,100.0,6.0,0,0,0,0,Complete,Medium,0,33
+C5961,25.45,LOW,APPROVE,High-risk country of origin; KYC documents incomplete (partial),0,39.245,40.0,16.5,42.0,0,0,0,0,Partial,High,0,69
+C5962,19.94,LOW,APPROVE,High-risk country of origin,0,18.22,40.0,41.5,0.0,0,0,0,0,Complete,High,0,28
+C5963,31.25,MEDIUM,MANUAL_REVIEW,Customer address unverified,0,64.25,30.0,50.0,16.0,0,0,0,0,Complete,Low,0,69
+C5964,25.43,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,6.390000000000001,20.0,58.0,57.0,0,0,0,1,Partial,Medium,0,5
+C5965,39.18,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP),70,28.13,20.0,25.0,47.0,0,1,0,1,Complete,Medium,0,49
+C5966,35.48,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Customer address unverified,0,18.65,50.0,75.0,45.0,0,0,0,1,Complete,Medium,0,32
+C5967,27.88,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; Customer address unverified,0,41.675,30.0,25.0,57.0,0,0,0,1,Complete,Low,0,74
+C5968,43.12,MEDIUM,MANUAL_REVIEW,KYC documents missing; Adverse media / negative news detected; Customer address unverified,50,31.12,45.0,50.0,36.0,0,0,1,0,Missing,Low,0,53
+C5969,8.36,LOW,APPROVE,No significant risk factors identified,0,29.295,0.0,12.5,0.0,0,0,0,0,Complete,Low,0,57
+C5970,22.06,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,42.55,0.0,41.5,35.0,0,0,0,1,Complete,Low,0,80
+C5971,36.98,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,52.135,40.0,50.0,57.0,0,0,0,1,Partial,High,0,96
+C5972,15.19,LOW,APPROVE,High digital / device fraud risk score,0,50.94,0.0,25.0,0.0,0,0,0,0,Complete,Low,0,97
+C5973,34.97,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; Customer address unverified,50,14.11,45.0,0.0,71.0,0,0,1,1,Complete,Low,0,11
+C5974,26.13,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,58.405,0.0,41.5,41.0,0,0,0,1,Complete,Low,0,97
+C5975,50.76,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High-risk country of origin,50,2.55,85.0,58.0,61.0,0,0,1,1,Partial,High,0,3
+C5976,25.82,LOW,APPROVE,Prior fraud history on record; High-risk country of origin; High digital / device fraud risk score,0,37.86,40.0,25.0,35.0,0,0,0,1,Complete,High,0,72
+C5977,21.52,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score; KYC documents incomplete (partial),0,49.345,20.0,0.0,51.0,0,0,0,1,Partial,Medium,0,84
+C5978,34.69,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; High-risk country of origin; KYC documents incomplete (partial),0,32.71,40.0,62.5,51.0,0,0,0,1,Partial,High,0,31
+C5979,22.97,LOW,APPROVE,Prior fraud history on record; KYC documents missing,0,28.085,20.0,16.5,67.0,0,0,0,1,Missing,Medium,0,55
+C5980,18.5,LOW,APPROVE,Prior fraud history on record,0,16.765,20.0,25.0,41.0,0,0,0,1,Complete,Medium,0,17
+C5981,14.33,LOW,APPROVE,High-risk country of origin,0,27.165,40.0,0.0,6.0,0,0,0,0,Complete,High,0,51
+C5982,43.14,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Politically Exposed Person (PEP),70,40.43,20.0,41.5,35.0,0,1,0,1,Complete,Medium,0,55
+C5983,23.11,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,76.795,0.0,12.5,35.0,0,0,0,1,Complete,Low,0,88
+C5984,18.12,LOW,APPROVE,No significant risk factors identified,0,30.61,20.0,25.0,20.0,0,0,0,0,Complete,Medium,0,52
+C5985,50.23,MEDIUM,MANUAL_REVIEW,Politically Exposed Person (PEP); KYC documents missing; High digital / device fraud risk score,70,44.67,20.0,75.0,32.0,0,1,0,0,Missing,Medium,0,71
+C5986,51.56,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; High-risk country of origin,50,35.56,85.0,29.0,61.0,0,0,1,1,Partial,High,0,68
+C5987,38.05,MEDIUM,MANUAL_REVIEW,High-risk country of origin; High digital / device fraud risk score; Customer address unverified,0,50.25,70.0,58.0,16.0,0,0,0,0,Complete,High,0,98
+C5988,24.68,LOW,APPROVE,Prior fraud history on record; KYC documents missing; High-risk country of origin,0,17.145,40.0,25.0,55.0,0,0,0,1,Missing,High,0,32
+C5989,42.14,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; KYC documents incomplete (partial),50,10.965,15.0,75.0,63.0,0,0,1,1,Partial,Low,0,11
+C5990,31.62,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; KYC documents missing; High digital / device fraud risk score,0,46.87,20.0,45.5,61.0,0,0,0,1,Missing,Medium,0,76
+C5991,13.74,LOW,APPROVE,No significant risk factors identified,0,36.195,20.0,12.5,0.0,0,0,0,0,Complete,Medium,0,62
+C5992,28.27,LOW,APPROVE,High-risk country of origin; Customer address unverified,0,22.34,70.0,41.5,10.0,0,0,0,0,Complete,High,0,39
+C5993,19.85,LOW,APPROVE,Prior fraud history on record; High digital / device fraud risk score,0,47.995,0.0,25.0,35.0,0,0,0,1,Complete,Low,0,88
+C5994,24.67,LOW,APPROVE,Prior fraud history on record; Structuring pattern detected (txn/income ratio anomaly),0,38.114999999999995,0.0,50.0,47.0,0,0,0,1,Complete,Low,1,28
+C5995,24.14,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,29.425,20.0,33.0,51.0,0,0,0,1,Partial,Medium,0,49
+C5996,27.9,LOW,APPROVE,High digital / device fraud risk score,0,58.485,20.0,41.5,26.0,0,0,0,0,Complete,Medium,0,98
+C5997,27.96,LOW,APPROVE,Prior fraud history on record; KYC documents incomplete (partial),0,19.545,20.0,66.5,45.0,0,0,0,1,Partial,Medium,0,39
+C5998,50.25,MEDIUM,MANUAL_REVIEW,Prior fraud history on record; Adverse media / negative news detected; KYC documents incomplete (partial),50,81.5,45.0,16.5,61.0,0,0,1,1,Partial,Low,0,63
+C5999,20.47,LOW,APPROVE,Customer address unverified,0,26.835,30.0,29.0,22.0,0,0,0,0,Complete,Low,0,44
